@@ -32,6 +32,9 @@
     <string name="no_data_title">No data connection available</string>
     <string name="error_reading_title">Cannot read MahdiOTA properties</string>
     <string name="update_file_title">Update:</string>
+    <string name="reboot">All done! Reboot your device now.</string>
+    <string name="reboot_ok">Reboot now</string>
+    <string name="reboot_cancel">Don\'t reboot</string>
 
     <!-- MahdiOTA settings -->
     <string name="settings_title">OTA Settings</string>    
@@ -123,7 +126,7 @@
     <string name="source_title">Mahdi Source</string>
     <string name="source_summary">Mahdi-Rom is fully open source.\nSource at github.com/mahdi-rom</string>
     <string name="no_irc">MahdiIRC App not found.</string>
-    <string name="center_summary"><b>OTACenter</b> provides tools &amp; information to help make your experience with Mahdi-Rom even better. Upgrade automatically to the newest version of our ROM with <b>OTACenter</b></string>
+    <string name="center_summary"><b>OTACenter</b> provides tools &amp; information to help make your experience with Mahdi-Rom even better. Upgrade automatically to the newest version of our ROM with <b>OTACenter</b>.</string>
     <string name="bugreport">Bugreport</string>
     <string name="bugreport_summary">Create a complete Bugreport.</string>
     <string name="report_infosuccess">Created Systemreport, provide it to Mahdi-Rom by attaching it to your Bugreport! You can find the Zip file on your SD-Card in a directory called \"Mahdi\".</string>
