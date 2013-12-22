@@ -20,7 +20,7 @@ import java.util.Locale;
 import com.slim.ota.MahdiOTA;
 import com.slim.ota.R;
 import com.slim.ota.settings.About;
-import com.slim.sizer.SlimSizer;
+import com.slim.sizer.MahdiSizer;
 
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
@@ -129,11 +129,11 @@ ActionBar.TabListener{
         public android.support.v4.app.Fragment getItem(int page) {
             switch (page) {
             case 0:
-                return new AboutSlim();
+                return new AboutMahdi();
             case 1:
                 return new MahdiOTA();
             case 2:
-                return new SlimSizer();
+                return new MahdiSizer();
             }
             return null;
         }

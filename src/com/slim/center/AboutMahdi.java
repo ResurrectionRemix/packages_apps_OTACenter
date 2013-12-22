@@ -16,7 +16,7 @@
 package com.slim.center;
 
 import com.slim.ota.R;
-import com.slim.sizer.SlimSizer;
+import com.slim.sizer.MahdiSizer;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -51,7 +51,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-public class AboutSlim extends Fragment{
+public class AboutMahdi extends Fragment{
 
     private LinearLayout website;
     private LinearLayout source;
@@ -173,7 +173,7 @@ public class AboutSlim extends Fragment{
          }
         String kernel=getFormattedKernelVersion();
         //check if sdcard is available
-        SlimSizer sizer=new SlimSizer();
+        MahdiSizer sizer=new MahdiSizer();
         short state = sizer.sdAvailable();
         //initialize logfiles
         File extdir = Environment.getExternalStorageDirectory();

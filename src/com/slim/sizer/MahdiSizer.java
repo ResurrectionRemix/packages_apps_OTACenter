@@ -46,7 +46,7 @@ import android.widget.Toast;
 
 import com.slim.ota.R;
 
-public class SlimSizer extends Fragment {
+public class MahdiSizer extends Fragment {
     private final int STARTUP_DIALOG = 1;
     private final int DELETE_DIALOG = 2;
     private final int DELETE_MULTIPLE_DIALOG = 3;
@@ -204,7 +204,7 @@ public class SlimSizer extends Fragment {
                                         int id) {
                                     // action for ok
                                     // call delete
-                                    new SlimSizer.SlimDeleter().execute(item);
+                                    new MahdiSizer.SlimDeleter().execute(item);
                                     // remove list entry
                                     adapter.remove(item);
                                     adapter.notifyDataSetChanged();
@@ -243,7 +243,7 @@ public class SlimSizer extends Fragment {
                                         }
                                     }
                                     adapter.notifyDataSetChanged();
-                                    new SlimSizer.SlimDeleter().execute(itemsList.toArray(new String[itemsList.size()]));
+                                    new MahdiSizer.SlimDeleter().execute(itemsList.toArray(new String[itemsList.size()]));
                                 }
                             })
                     .setNegativeButton(R.string.cancel,
@@ -299,7 +299,7 @@ public class SlimSizer extends Fragment {
                                         adapter.remove(item);
                                     }
                                     adapter.notifyDataSetChanged();
-                                    new SlimSizer.SlimDeleter().execute(itemsList.toArray(new String[itemsList.size()]));
+                                    new MahdiSizer.SlimDeleter().execute(itemsList.toArray(new String[itemsList.size()]));
                                 } catch (FileNotFoundException e) {
                                     // TODO Auto-generated catch block
                                     e.printStackTrace();

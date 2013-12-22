@@ -54,12 +54,12 @@
             android:parentActivityName="com.slim.center.SlimCenter" >
         </activity>
         <activity
-            android:name="com.slim.sizer.SlimSizer"
+            android:name="com.slim.sizer.MahdiSizer"
             android:label="@string/sizer_title"
             android:parentActivityName="com.slim.center.SlimCenter" >
         </activity>
         <activity
-            android:name="com.slim.center.AboutSlim"
+            android:name="com.slim.center.AboutMahdi"
             android:label="@string/aboutslim_title"
             android:parentActivityName="com.slim.center.SlimCenter" >
         </activity>
