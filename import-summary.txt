@@ -1,0 +1,253 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .git
+* .gitattributes
+* .gitignore
+* .idea
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries
+* .idea\libraries\android_support_v4.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* Android.mk
+* build.gradle
+* gradle
+* gradle\wrapper
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* out
+* out\production
+* out\production\packages_apps_MahdiCenter
+* out\production\packages_apps_MahdiCenter-kk4.4
+* out\production\packages_apps_MahdiCenter-kk4.4\com
+* out\production\packages_apps_MahdiCenter-kk4.4\com\commonsware
+* out\production\packages_apps_MahdiCenter-kk4.4\com\commonsware\cwac
+* out\production\packages_apps_MahdiCenter-kk4.4\com\commonsware\cwac\wakeful
+* out\production\packages_apps_MahdiCenter-kk4.4\com\commonsware\cwac\wakeful\AlarmReceiver.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\commonsware\cwac\wakeful\WakefulIntentService$AlarmListener.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\commonsware\cwac\wakeful\WakefulIntentService.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\center
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\center\AboutSlim$1.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\center\AboutSlim$2.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\center\AboutSlim$3.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\center\AboutSlim.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\center\MahdiCenter$1.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\center\MahdiCenter$SectionsPagerAdapter.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\center\MahdiCenter.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\BuildConfig.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\MahdiLinks$1.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\MahdiLinks.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\MahdiOTA$1.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\MahdiOTA$2.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\MahdiOTA.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\R$array.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\R$attr.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\R$drawable.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\R$id.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\R$layout.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\R$menu.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\R$mipmap.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\R$string.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\R$style.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\R$xml.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\R.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\settings
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\settings\About.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\settings\Settings.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\updater
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\updater\ConnectivityReceiver.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\updater\UpdateChecker$1.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\updater\UpdateChecker$2.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\updater\UpdateChecker.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\updater\UpdateListener.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\ota\updater\UpdateService.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer\SlimSizer$1.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer\SlimSizer$2.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer\SlimSizer$3.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer\SlimSizer$4.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer\SlimSizer$5.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer\SlimSizer$6.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer\SlimSizer$7.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer\SlimSizer$8.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer\SlimSizer$9.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer\SlimSizer$SlimDeleter.class
+* out\production\packages_apps_MahdiCenter-kk4.4\com\slim\sizer\SlimSizer.class
+* out\production\packages_apps_MahdiCenter-kk4.4\packages_apps_MahdiCenter-kk4.4.apk
+* out\production\packages_apps_MahdiCenter-kk4.4\packages_apps_MahdiCenter-kk4.4.unaligned.apk
+* out\production\packages_apps_MahdiCenter\com
+* out\production\packages_apps_MahdiCenter\com\commonsware
+* out\production\packages_apps_MahdiCenter\com\commonsware\cwac
+* out\production\packages_apps_MahdiCenter\com\commonsware\cwac\wakeful
+* out\production\packages_apps_MahdiCenter\com\commonsware\cwac\wakeful\AlarmReceiver.class
+* out\production\packages_apps_MahdiCenter\com\commonsware\cwac\wakeful\WakefulIntentService$AlarmListener.class
+* out\production\packages_apps_MahdiCenter\com\commonsware\cwac\wakeful\WakefulIntentService.class
+* out\production\packages_apps_MahdiCenter\com\mahdi
+* out\production\packages_apps_MahdiCenter\com\mahdi\center
+* out\production\packages_apps_MahdiCenter\com\mahdi\center\AboutMahdi$1.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\center\AboutMahdi$2.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\center\AboutMahdi$3.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\center\AboutMahdi.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\center\MahdiCenter$1.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\center\MahdiCenter$SectionsPagerAdapter.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\center\MahdiCenter.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\BuildConfig.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\MahdiLinks$1.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\MahdiLinks.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\MahdiOTA$1.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\MahdiOTA$2.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\MahdiOTA.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\R$array.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\R$attr.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\R$drawable.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\R$id.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\R$layout.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\R$menu.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\R$mipmap.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\R$string.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\R$style.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\R$xml.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\R.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\settings
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\settings\About.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\settings\Settings.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\updater
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\updater\ConnectivityReceiver.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\updater\UpdateChecker$1.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\updater\UpdateChecker$2.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\updater\UpdateChecker.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\updater\UpdateListener.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\ota\updater\UpdateService.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer\MahdiSizer$1.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer\MahdiSizer$2.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer\MahdiSizer$3.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer\MahdiSizer$4.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer\MahdiSizer$5.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer\MahdiSizer$6.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer\MahdiSizer$7.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer\MahdiSizer$8.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer\MahdiSizer$9.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer\MahdiSizer$SlimDeleter.class
+* out\production\packages_apps_MahdiCenter\com\mahdi\sizer\MahdiSizer.class
+* out\production\packages_apps_MahdiCenter\packages_apps_MahdiCenter.apk
+* out\production\packages_apps_MahdiCenter\packages_apps_MahdiCenter.unaligned.apk
+* out\production\packages_apps_SlimCenter-kk4.4
+* out\production\packages_apps_SlimCenter-kk4.4\com
+* out\production\packages_apps_SlimCenter-kk4.4\com\commonsware
+* out\production\packages_apps_SlimCenter-kk4.4\com\commonsware\cwac
+* out\production\packages_apps_SlimCenter-kk4.4\com\commonsware\cwac\wakeful
+* out\production\packages_apps_SlimCenter-kk4.4\com\commonsware\cwac\wakeful\AlarmReceiver.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\commonsware\cwac\wakeful\WakefulIntentService$AlarmListener.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\commonsware\cwac\wakeful\WakefulIntentService.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\center
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\center\AboutSlim$1.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\center\AboutSlim$2.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\center\AboutSlim$3.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\center\AboutSlim.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\center\SlimCenter$1.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\center\SlimCenter$SectionsPagerAdapter.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\center\SlimCenter.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\BuildConfig.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\R$array.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\R$attr.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\R$drawable.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\R$id.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\R$layout.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\R$menu.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\R$mipmap.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\R$string.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\R$style.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\R$xml.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\R.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\settings
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\settings\About.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\settings\Settings.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\SlimLinks$1.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\SlimLinks.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\SlimOTA$1.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\SlimOTA$2.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\SlimOTA.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\updater
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\updater\ConnectivityReceiver.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\updater\UpdateChecker$1.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\updater\UpdateChecker$2.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\updater\UpdateChecker.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\updater\UpdateListener.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\ota\updater\UpdateService.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer\SlimSizer$1.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer\SlimSizer$2.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer\SlimSizer$3.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer\SlimSizer$4.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer\SlimSizer$5.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer\SlimSizer$6.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer\SlimSizer$7.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer\SlimSizer$8.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer\SlimSizer$9.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer\SlimSizer$SlimDeleter.class
+* out\production\packages_apps_SlimCenter-kk4.4\com\slim\sizer\SlimSizer.class
+* out\production\packages_apps_SlimCenter-kk4.4\packages_apps_SlimCenter-kk4.4.apk
+* out\production\packages_apps_SlimCenter-kk4.4\packages_apps_SlimCenter-kk4.4.unaligned.apk
+* packages_apps_MahdiCenter.iml
+* proguard.flags
+* README.md
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

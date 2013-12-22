@@ -1,0 +1,3297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res" >
+            <file
+                name="action_about"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\action_about.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="action_settings"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\action_settings.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="content_discard"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\content_discard.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\content_save.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_changelog"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_changelog.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_donate"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_donate.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_download"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_download.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_faq"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_faq.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_github"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_github.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_irc"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_irc.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_need_update"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_need_update.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_news"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_news.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_notification_slimota"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_notification_slimota.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_no_data"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_no_data.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_slimota"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_slimota.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_uptodate"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_uptodate.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_website"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\ic_website.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="navigation_refresh"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-hdpi\navigation_refresh.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="action_about"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\action_about.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="action_settings"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\action_settings.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="content_discard"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\content_discard.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\content_save.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_changelog"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_changelog.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_donate"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_donate.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_download"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_download.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_faq"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_faq.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_github"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_github.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_irc"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_irc.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_need_update"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_need_update.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_news"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_news.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_notification_slimota"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_notification_slimota.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_no_data"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_no_data.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_slimota"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_slimota.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_uptodate"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_uptodate.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_website"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\ic_website.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="navigation_refresh"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-mdpi\navigation_refresh.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="action_about"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\action_about.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="action_settings"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\action_settings.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_discard"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\content_discard.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\content_save.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_changelog"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_changelog.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_donate"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_donate.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_download"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_download.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_faq"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_faq.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_github"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_github.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_irc"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_irc.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_need_update"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_need_update.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_news"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_news.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_notification_slimota"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_notification_slimota.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_no_data"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_no_data.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_slimota"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_slimota.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_uptodate"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_uptodate.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_website"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\ic_website.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="navigation_refresh"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\drawable-xhdpi\navigation_refresh.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="about"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\layout\about.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slim_about"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\layout\slim_about.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slim_center"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\layout\slim_center.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slim_ota"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\layout\slim_ota.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slim_ota_links"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\layout\slim_ota_links.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slim_sizer"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\layout\slim_sizer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slim_center"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\menu\slim_center.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="ic_launcher_slimota"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\mipmap-hdpi\ic_launcher_slimota.png"
+                qualifiers="hdpi"
+                type="mipmap" />
+            <file
+                name="ic_launcher_slimota"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\mipmap-mdpi\ic_launcher_slimota.png"
+                qualifiers="mdpi"
+                type="mipmap" />
+            <file
+                name="ic_launcher_slimota"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\mipmap-xhdpi\ic_launcher_slimota.png"
+                qualifiers="xhdpi"
+                type="mipmap" />
+            <file
+                name="ic_launcher_slimota"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\mipmap-xxhdpi\ic_launcher_slimota.png"
+                qualifiers="xxhdpi"
+                type="mipmap" />
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values\arrays.xml"
+                qualifiers="" >
+                <string-array
+                    name="values_update_interval"
+                    translatable="false" >
+                    <item>
+0
+                    </item>
+                    <item>
+1
+                    </item>
+                    <item>
+2
+                    </item>
+                    <item>
+3
+                    </item>
+                </string-array>
+                <string-array name="entries_update_interval" >
+                    <item>
+@string/update_interval_day
+                    </item>
+                    <item>
+@string/update_interval_half_day
+                    </item>
+                    <item>
+@string/update_interval_hour
+                    </item>
+                    <item>
+@string/update_interval_disable
+                    </item>
+                </string-array>
+                <string-array name="slimsizer_profile_array" >
+                    <item>
+Load Profile
+                    </item>
+                    <item>
+Save Profile
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="sizer_message_sdnoread" >Cannot read SD Card.
+                </string>
+                <string name="report_infofail" >Failed to create Bugreport, please try again.
+                </string>
+                <string name="short_cut_faq_summary" >Coming Soon!
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Important!!! Read changelog and install instructions carefully
+                </string>
+                <string name="slim_source_summary" >Mahdi-Rom is fully open source.\nSource at github.com/mahdi-rom
+                </string>
+                <string name="no_data_title" >No data connection available
+                </string>
+                <string name="faq_url" >http://www.textfiles.com/underconstruction/
+                </string>
+                <string name="toast_no_data_text" >No data connection. Please turn on
+                </string>
+                <string name="slim_donate_title" >Donate
+                </string>
+                <string name="download_url" >http://goo.im/devs/ManelScout4Life/hammerhead
+                </string>
+                <string name="curVer" >Current Version
+                </string>
+                <string name="sizer_message_sdnowrite" >Cannot write to SD Card.
+                </string>
+                <string name="btn_profile" >Profile
+                </string>
+                <string name="update_interval_disable" >Disable
+                </string>
+                <string name="no_irc" >MahdiIRC App not found.
+                </string>
+                <string name="menu_update" >Look for Updates now
+                </string>
+                <string name="title_update" >Update
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Download Mahdi-ROM
+                </string>
+                <string name="update_interval_day" >Every 24 hours
+                </string>
+                <string name="short_cut_changelog_title" >Changelog
+                </string>
+                <string name="settings_title" >Mahdi-OTA Settings
+                </string>
+                <string name="gapps_url" >http://bit.ly/ISA2tT
+                </string>
+                <string name="update_interval_summary" >Set automatic update check interval
+                </string>
+                <string name="about_contact_text" >Tell us what you think\nor let us know about a bug or problem
+                </string>
+                <string name="short_cut_additional_title" >Additional
+                </string>
+                <string name="cancel" >Cancel
+                </string>
+                <string name="short_cut_news_title" >News
+                </string>
+                <string name="short_cut_changelog_summary" >Show changelogs and install instructions
+                </string>
+                <string name="toast_text" >Looking for ROM updates, please wait.
+                </string>
+                <string name="about_title" >About
+                </string>
+                <string name="up_to_date_title" >Your system is up to date
+                </string>
+                <string name="slim_irc_summary" >Join our IRC channel!\nChat with the Slim Team and other users
+                </string>
+                <string name="sizer_message_noselect" >Nothing selected.
+                </string>
+                <string name="report_infosuccess" >Created Systemreport, provide it to Mahdi-Rom by attaching it to your Bugreport! You can find the Zip file on your SD-Card in a directory called \"Mahdi\".
+                </string>
+                <string name="delete_progress" >Selected files are being deleted, please wait.
+                </string>
+                <string name="about_home_url" ><a href="http://bit.ly/MAHDI-ROM" >
+http://bit.ly/MAHDI-ROM
+                    </a></string>
+                <string name="short_cut_release_title" >ROM related
+                </string>
+                <string name="error_reading_title" >Cannot read MahdiOTA properties
+                </string>
+                <string name="slim_source_title" >Mahdi Source
+                </string>
+                <string name="app_name" >Mahdi-Center
+                </string>
+                <string name="codename_title" >Codename:
+                </string>
+                <string name="xml_url_kitkat" >http://mbqonxda.net/smitty/Mahdi-Rom/OTA/ota_kitkat.xml
+                </string>
+                <string name="about_license" >Open source licenses
+                </string>
+                <string name="device_info_title" >Device Information
+                </string>
+                <string name="xml_url" >http://mbqonxda.net/smitty/Mahdi-Rom/OTA/ota_kitkat.xml
+                </string>
+                <string name="about_contact" >Contact us at Mahdi.Rom@gmail.com
+                </string>
+                <string name="sizer_message_delete_multi_one" >Are you sure you want to delete selected app?
+                </string>
+                <string name="btn_delete" >Delete selected APPs now!
+                </string>
+                <string name="system_prop_error" >Cannot read system properties
+                </string>
+                <string name="sizer_title" >MahdiSizer
+                </string>
+                <string name="delete_progress_title" >Deleting
+                </string>
+                <string name="update_interval_hour" >Every hour
+                </string>
+                <string name="menu_settings" >Settings
+                </string>
+                <string name="short_cut_download_summary_update_available" >New Mahdi-ROM update available. Download here!
+                </string>
+                <string name="aboutslim_title" >Mahdi-Roms
+                </string>
+                <string name="device_name_title" >Name:
+                </string>
+                <string name="sizer_message_delete_multi" >Are you sure you want to delete selected apps?
+                </string>
+                <string name="about_version" >Mahdi-Center .1
+                </string>
+                <string name="caution" >Caution!
+                </string>
+                <string name="about_slim_ota" >Mahdi-Center allows you to easily manage\n your ROM!
+                </string>
+                <string name="short_cut_download_gapps_title" >Download gapps
+                </string>
+                <string name="notification_message" >Mahdi-ROM update available
+                </string>
+                <string name="update_file_title" >Update:
+                </string>
+                <string name="short_cut_news_summary" >Read about latest Mahdi news
+                </string>
+                <string name="ota_title" >Mahdi-OTA
+                </string>
+                <string name="file_name_title" >File:
+                </string>
+                <string name="delete_fail" >Unable to delete
+                </string>
+                <string name="slim_irc_title" >Mahdi
+                </string>
+                <string name="short_cut_download_title" >Download Mahdi-Rom
+                </string>
+                <string name="version_title" >Version:
+                </string>
+                <string name="update_interval_half_day" >Every 12 hours
+                </string>
+                <string name="slim_website_summary" >http://bit.ly/MAHDI-ROM\nFind all latest Slim news here
+                </string>
+                <string name="slim_bugreport" >Bugreport
+                </string>
+                <string name="bad_url" >Unable to get to download area.\nPlease inform your Mahdi device maintainer!
+                </string>
+                <string name="news_url" >http://otaslim.slimroms.net/news.htm
+                </string>
+                <string name="sizer_message_startup" >This tool allows you to delete system apps. Use with caution and only delete apps you know are safe to be removed.
+                </string>
+                <string name="short_cut_download_gapps_summary" >Download PA Gapps packages
+                </string>
+                <string name="sizer_message_delete" >Are you sure you want to delete this app?
+                </string>
+                <string name="ok" >OK
+                </string>
+                <string name="update_interval_title" >Automatic update check interval
+                </string>
+                <string name="menu_slimsizer" >MahdiSizer
+                </string>
+                <string name="device_title" >Device
+                </string>
+                <string name="slim_donate_summary" >Donate to Mahdi786
+                </string>
+                <string name="about_copyright" >\u00A9 Copyright Slimroms 2013 modifed for Mahdi-ROM
+                </string>
+                <string name="sizer_message_filesuccess" >Created profile.
+                </string>
+                <string name="sizer_message_filefail" >Failed to create profile.
+                </string>
+                <string name="about_license_url" ><a href="http://otaslim.slimroms.net/license.htm" >
+gpl(2)
+                    </a></string>
+                <string name="center_summary" ><b>
+Mahdi-Center
+                    </b> provides tools &amp; information to help make your experience with Mahdi-Rom even better. Upgrade automatically to the newest version of our ROM with 
+<b>
+Mahdi-OTA
+                    </b></string>
+                <string name="short_cut_faq_title" >FAQ
+                </string>
+                <string name="listsystem" >list
+                </string>
+                <string name="slim_bugreport_summary" >Create a complete Bugreport.
+                </string>
+                <string name="about_license_text" >Mahdi-Center app:
+                </string>
+                <string name="delete_success" >Deleted
+                </string>
+                <string name="devs" >Developer
+                </string>
+                <string name="gapps_url_kitkat" >http://bit.ly/ISA2tT
+                </string>
+                <string name="changelog_url" > https://dl.dropboxusercontent.com/u/6175502/MAHDI/mahdichangelog.txt
+                </string>
+                <string name="slim_website_title" >Mahdi Website
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="SlimOTA"
+                    parent="SlimOTABaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style
+                    name="slimMedium"
+                    parent="@android:style/TextAppearance.Medium" >
+                    <item name="android:textStyle">
+normal
+                    </item>
+                </style>
+
+                <style
+                    name="SlimOTABaseTheme"
+                    parent="android:Theme.Holo" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-ar\strings.xml"
+                qualifiers="ar" >
+                <string name="update_interval_title" >مدة فحص التحديثات
+                </string>
+                <string name="about_license" >افتح مصدر الرُخص
+                </string>
+                <string name="up_to_date_title" >نظامك محدث
+                </string>
+                <string name="update_interval_day" >كل 25 ساعة
+                </string>
+                <string name="short_cut_changelog_summary" >اظهار سجل التغيير وتعليمات التثبيت
+                </string>
+                <string name="menu_settings" >الاعدادات
+                </string>
+                <string name="short_cut_download_gapps_title" >تحميل تطبيقات جوجل
+                </string>
+                <string name="codename_title" >رمز الاسم:
+                </string>
+                <string name="short_cut_faq_summary" >اظهار الاسئلة المتداولة ل \"سليم\"
+                </string>
+                <string name="caution" >تحذير!
+                </string>
+                <string name="sizer_message_sdnowrite" >لا يمكن الكتابة إلى بطاقة الذاكرة.
+                </string>
+                <string name="version_title" >الاصدار:
+                </string>
+                <string name="system_prop_error" >لا يمكن قراءة خصائص النظام
+                </string>
+                <string name="short_cut_changelog_title" >سجل التغييرات
+                </string>
+                <string name="about_title" >حول
+                </string>
+                <string name="device_name_title" >الاسم:
+                </string>
+                <string name="short_cut_download_uptodate_summary" >تحميل روم \"سليم بين\"
+                </string>
+                <string name="sizer_message_delete" >هل أنت متأكد بأنك تريد حذف هذا التطبيق؟
+                </string>
+                <string name="sizer_message_filesuccess" >تم انشاء الملف الشخصي.
+                </string>
+                <string name="device_info_title" >حول الجهاز
+                </string>
+                <string name="short_cut_additional_title" >اضافية
+                </string>
+                <string name="error_reading_title" >لا يمكن قراءة خصائص \"سليم عبر الهواء\"
+                </string>
+                <string name="short_cut_release_title" >ذات صلة بال\"روم\"
+                </string>
+                <string name="short_cut_download_title" >تحميل \"سليم بين\"
+                </string>
+                <string name="update_interval_disable" >تعطيل
+                </string>
+                <string name="curVer" >الاصدار الحالي
+                </string>
+                <string name="no_data_title" >لا يوجد اتصال
+                </string>
+                <string name="toast_text" >يتم البحث عن تحديثات الروم...
+                </string>
+                <string name="btn_delete" >حذف التطبيقات المحددة الآن!
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >هام جدا!!! اقرأ سجل التغييرات وارشادات التثبيت بعناية
+                </string>
+                <string name="ota_title" >\"سليم عبر الهواء\"
+                </string>
+                <string name="cancel" >إلغاء
+                </string>
+                <string name="update_interval_half_day" >كل 12 ساعة
+                </string>
+                <string name="update_interval_summary" >تعيين تلقائي لمدة فحص التحديث
+                </string>
+                <string name="device_title" >الجهاز
+                </string>
+                <string name="bad_url" >لم يتمكن الوصول لمنظقة التحميل.
+الرجاء اعلام صائن \"سليم\" الخاص بجهازك!
+                </string>
+                <string name="update_file_title" >تحديث:
+                </string>
+                <string name="sizer_message_noselect" >لا شيء محدد.
+                </string>
+                <string name="sizer_message_sdnoread" >لا يمكن قراءة بطاقة الذاكرة SD.
+                </string>
+                <string name="delete_fail" >غير قادر على الحذف
+                </string>
+                <string name="file_name_title" >ملف:
+                </string>
+                <string name="short_cut_download_gapps_summary" >تحميل حزم الاضافات \"سليم بين\"
+                </string>
+                <string name="btn_profile" >الملف الشخصي
+                </string>
+                <string name="sizer_message_filefail" >فشل في إنشاء الملف الشخصي.
+                </string>
+                <string name="update_interval_hour" >كل ساعة
+                </string>
+                <string name="listsystem" >القائمة
+                </string>
+                <string name="delete_success" >تم الحذف
+                </string>
+                <string name="settings_title" >اعدادات \"سليم عبر الهواء\"
+                </string>
+                <string name="app_name" >اعدادات \"سليم\"
+                </string>
+                <string name="about_contact_text" >اخبرنا ما رأيك
+أو اعلمنا عن حدوث خلل او مشكلة
+                </string>
+                <string name="short_cut_faq_title" >اسئلة متداولة
+                </string>
+                <string name="title_update" >تحديث
+                </string>
+                <string name="short_cut_news_summary" >اقرأ عن آخر أخبار سليم
+                </string>
+                <string name="menu_update" >ابحث عن تحديثات الآن
+                </string>
+                <string name="short_cut_news_title" >اخبار
+                </string>
+                <string name="notification_message" >يوجد تحديث متوفر ل\"سليم بين روك\"
+                </string>
+                <string name="short_cut_download_summary_update_available" >يوجد تحديث جديد متوفر ل\"سليم روم\" حمل من هنا!
+                </string>
+                <string name="sizer_message_startup" >هذه الأداة تسمح لك بحذف تطبيقات النظام. الرجاء الاستحدام بحذر وفقط حذف تطبيقات تعلم انه من الآمن إزالتها.
+                </string>
+                <string name="toast_no_data_text" >لا يوجد اتصال انترنت. الرجاء تشغيل الاتصال
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-cs\strings.xml"
+                qualifiers="cs" >
+                <string name="aboutslim_title" >SlimRoms
+                </string>
+                <string name="no_data_title" >Datové připojení není k dispozici
+                </string>
+                <string name="about_license_text" >Aplikace SlimCenter:
+                </string>
+                <string name="short_cut_faq_summary" >Zobrazit Slim FAQ
+                </string>
+                <string name="center_summary" ><b>
+SlimCenter
+                    </b> poskytuje nástroje a informace, které pomohou učinit vaše zkušenosti se SlimRoms ještě lepší. Automaticky aktualizujte na nejnovější verzi naší ROM pomocí 
+<b>
+SlimOTA
+                    </b> a odstraňte nežádoucí systémové aplikace 
+<b>
+SlimSizerem
+                    </b></string>
+                <string name="ok" >OK
+                </string>
+                <string name="menu_update" >Vyhledat aktualizace
+                </string>
+                <string name="download_url" >http://otaslim.slimroms.net/download.htm
+                </string>
+                <string name="update_interval_summary" >Vyberte interval automatické kontroly aktualizací
+                </string>
+                <string name="settings_title" >Nastavení SlimOTA
+                </string>
+                <string name="short_cut_changelog_title" >Seznam změn
+                </string>
+                <string name="menu_slimsizer" >SlimSizer
+                </string>
+                <string name="curVer" >Současná verze
+                </string>
+                <string name="about_copyright" >\u00A9 Copyright Slimroms 2013
+                </string>
+                <string name="title_update" >Aktualizace
+                </string>
+                <string name="toast_text" >Vyhledávám aktualizace ROM...
+                </string>
+                <string name="slim_source_summary" >SlimRoms jsou zcela open source.\nZdroje najdete na github.com/SlimRoms
+                </string>
+                <string name="short_cut_release_title" >Související s ROM
+                </string>
+                <string name="sizer_title" >SlimSizer
+                </string>
+                <string name="delete_fail" >Nelze smazat
+                </string>
+                <string name="delete_success" >Smazáno
+                </string>
+                <string name="slim_irc_title" >SlimIRC
+                </string>
+                <string name="sizer_message_delete" >Opravdu chcete smazat tuto aplikaci?
+                </string>
+                <string name="device_title" >Zařízení
+                </string>
+                <string name="faq_url" >http://otaslim.slimroms.net/faq.htm
+                </string>
+                <string name="btn_profile" >Profil
+                </string>
+                <string name="device_info_title" >Informace o zařízení
+                </string>
+                <string name="system_prop_error" >Nelze přečíst vlastnosti systému
+                </string>
+                <string name="slim_website_summary" >www.slimroms.net\nZde najdete poslední Slim novinky
+                </string>
+                <string name="caution" >Pozor!
+                </string>
+                <string name="update_interval_half_day" >Každých 12 hodin
+                </string>
+                <string name="update_interval_day" >Každých 24 hodin
+                </string>
+                <string name="error_reading_title" >Nelze přečíst vlastnosti SlimOTA
+                </string>
+                <string name="menu_settings" >Nastavení
+                </string>
+                <string name="about_contact" ><a href="http://otaslim.slimroms.net/contact.htm" >
+Kontaktujte nás
+                    </a></string>
+                <string name="about_version" >SlimCenter 1.1
+                </string>
+                <string name="about_license" >Licence open source
+                </string>
+                <string name="short_cut_additional_title" >Více
+                </string>
+                <string name="update_interval_hour" >Každou hodinu
+                </string>
+                <string name="sizer_message_noselect" >Nic není vybráno.
+                </string>
+                <string name="no_irc" >SlimIRC aplikace nenalezena.
+                </string>
+                <string name="about_home_url" ><a href="http://www.slimroms.net" >
+www.slimroms.net
+                    </a></string>
+                <string name="short_cut_download_gapps_title" >Stáhnout gapps
+                </string>
+                <string name="slim_donate_summary" >Přispějte týmu SlimRoms
+                </string>
+                <string name="gapps_url" >http://otaslim.slimroms.net/gapps.htm
+                </string>
+                <string name="devs" >Vývojář
+                </string>
+                <string name="codename_title" >Kódové označení:
+                </string>
+                <string name="short_cut_download_summary_update_available" >Je k dispozici aktualizace SlimBean ROM. Stáhnout!
+                </string>
+                <string name="about_slim_ota" >SlimCenter umožní snadno spravovat\nvaši ROM!
+                </string>
+                <string name="short_cut_news_title" >Novinky
+                </string>
+                <string name="cancel" >Zrušit
+                </string>
+                <string name="slim_donate_title" >Přispět
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Stáhnout SlimBean ROM
+                </string>
+                <string name="sizer_message_sdnowrite" >Nelze zapisovat na SD kartu.
+                </string>
+                <string name="short_cut_changelog_summary" >Zobrazit seznam změn a pokyny k instalaci
+                </string>
+                <string name="sizer_message_filesuccess" >Profil vytvořen.
+                </string>
+                <string name="update_file_title" >Aktualizace:
+                </string>
+                <string name="update_interval_title" >Interval automatické kontroly aktualizací
+                </string>
+                <string name="device_name_title" >Jméno:
+                </string>
+                <string name="changelog_url" >http://otaslim.slimroms.net/changelog.htm
+                </string>
+                <string name="file_name_title" >Soubor:
+                </string>
+                <string name="slim_source_title" >Slim Zdroj
+                </string>
+                <string name="slim_website_title" >Slim webstránka
+                </string>
+                <string name="listsystem" >seznam
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="up_to_date_title" >Váš systém je aktuální
+                </string>
+                <string name="sizer_message_filefail" >Nepodařilo se vytvořit profil.
+                </string>
+                <string name="about_contact_text" >Řekněte nám, co si myslíte\nnebo nám dejte vědět o chybě nebo problému
+                </string>
+                <string name="btn_delete" >Smazat vybrané aplikace
+                </string>
+                <string name="toast_no_data_text" >Zapněte prosím datové přenosy
+                </string>
+                <string name="slim_irc_summary" >Připojte se na náš IRC kanál!\nChatujte se Slim týmem i ostatními uživateli
+                </string>
+                <string name="sizer_message_sdnoread" >Nelze přečíst SD kartu.
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Důležité!!! Pozorně si přečtěte seznam změn a pokyny k instalaci
+                </string>
+                <string name="xml_url" >http://otaslim.slimroms.net/ota.xml
+                </string>
+                <string name="short_cut_faq_title" >FAQ
+                </string>
+                <string name="bad_url" >Nelze se připojit.\nKontaktujte prosím Slim správce vašeho zařízení.
+                </string>
+                <string name="sizer_message_startup" >Tento nástroj umožňuje odstranit systémové aplikace. Používejte jej s opatrností a odstraňujte pouze aplikace, které můžou být bezpečně odebrány.
+                </string>
+                <string name="update_interval_disable" >Vypnout
+                </string>
+                <string name="about_title" >O aplikaci
+                </string>
+                <string name="version_title" >Verze:
+                </string>
+                <string name="news_url" >http://otaslim.slimroms.net/news.htm
+                </string>
+                <string name="about_license_url" ><a href="http://otaslim.slimroms.net/license.htm" >
+gpl(2)
+                    </a></string>
+                <string name="short_cut_download_title" >Stáhnout SlimBean
+                </string>
+                <string name="short_cut_download_gapps_summary" >Stáhnout doplňující balíčky SlimBean
+                </string>
+                <string name="short_cut_news_summary" >Zobrazit poslední Slim novinky
+                </string>
+                <string name="notification_message" >Aktualizace SlimBean ROM je k dispozici
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-da\strings.xml"
+                qualifiers="da" >
+                <string name="sizer_message_startup" >Med dette værktøj kan du slette system apps. Vær forsigtig og slet kun apps du ved med sikkerhed kan fjernes.
+                </string>
+                <string name="menu_slimsizer" >SlimSizer
+                </string>
+                <string name="delete_fail" >Kan ikke slette
+                </string>
+                <string name="short_cut_additional_title" >Yderligere
+                </string>
+                <string name="changelog_url" >http://otaslim.slimroms.net/changelog.htm
+                </string>
+                <string name="short_cut_download_gapps_title" >Download gapps
+                </string>
+                <string name="title_update" >Opdater
+                </string>
+                <string name="up_to_date_title" >Dit system er opdateret
+                </string>
+                <string name="short_cut_download_title" >Download SlimBean
+                </string>
+                <string name="toast_no_data_text" >Ingen dataforbindelse
+                </string>
+                <string name="about_slim_ota" >SlimOTA holder altid dig,\ndin ROM og gapps opdateret
+                </string>
+                <string name="device_info_title" >Oplysninger om enheden
+                </string>
+                <string name="delete_success" >Slettet
+                </string>
+                <string name="menu_update" >Søg efter opdateringer
+                </string>
+                <string name="btn_profile" >Profile
+                </string>
+                <string name="about_contact_text" >Fortæl os hvad du synes\neller hvis du finder fejl eller støder på problemer
+                </string>
+                <string name="short_cut_download_gapps_summary" >Download SlimBean addon pakker
+                </string>
+                <string name="short_cut_news_summary" >Læs seneste Slim-nyheder
+                </string>
+                <string name="about_version" >SlimOTA 1.0
+                </string>
+                <string name="update_interval_title" >Automatisk opdateringstjek interval
+                </string>
+                <string name="short_cut_download_summary_update_available" >Ny SlimBean ROM-opdatering tilgængelig. Download her!
+                </string>
+                <string name="sizer_message_filefail" >Kunne ikke oprette profil.
+                </string>
+                <string name="sizer_message_filesuccess" >Oprettet profil.
+                </string>
+                <string name="update_interval_hour" >Hver time
+                </string>
+                <string name="sizer_message_delete" >Er du sikker på du vil slette denne app?
+                </string>
+                <string name="faq_url" >http://otaslim.slimroms.net/faq.htm
+                </string>
+                <string name="short_cut_changelog_title" >Ændringslog
+                </string>
+                <string name="settings_title" >SlimOTA indstillinger
+                </string>
+                <string name="sizer_message_noselect" >Intet valgt.
+                </string>
+                <string name="error_reading_title" >Kan ikke læse SlimOTA egenskaber
+                </string>
+                <string name="caution" >Forsigtig!
+                </string>
+                <string name="about_license" >Open Source Licenser
+                </string>
+                <string name="about_home_url" ><a href="http://www.slimroms.net" >
+www.slimroms.net
+                    </a></string>
+                <string name="no_data_title" >Ingen tilgængelig dataforbindelse
+                </string>
+                <string name="sizer_message_sdnoread" >Kan ikke læse SD-kort.
+                </string>
+                <string name="news_url" >http://otaslim.slimroms.net/news.htm
+                </string>
+                <string name="curVer" >Nuværende version
+                </string>
+                <string name="ok" >Ok
+                </string>
+                <string name="toast_text" >Søger efter ROM opdateringer...
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Download SlimBean ROM
+                </string>
+                <string name="gapps_url" >http://otaslim.slimroms.net/gapps.htm
+                </string>
+                <string name="about_title" >Om
+                </string>
+                <string name="short_cut_faq_title" >FAQ
+                </string>
+                <string name="update_interval_summary" >Indstil interval for automatisk opdateringstjek
+                </string>
+                <string name="update_interval_day" >Hver 24 timer
+                </string>
+                <string name="about_license_url" ><a href="http://otaslim.slimroms.net/license.htm" >
+gpl(2)
+                    </a></string>
+                <string name="cancel" >Annuller
+                </string>
+                <string name="update_interval_disable" >Deaktiver
+                </string>
+                <string name="codename_title" >Kodenavn:
+                </string>
+                <string name="version_title" >Version:
+                </string>
+                <string name="device_title" >Enhed
+                </string>
+                <string name="menu_settings" >Indstillinger
+                </string>
+                <string name="xml_url" >http://otaslim.slimroms.net/ota.xml
+                </string>
+                <string name="about_contact" ><a href="http://otaslim.slimroms.net/contact.htm" >
+Kontakt os
+                    </a></string>
+                <string name="about_copyright" >\u00A9 Copyright Slimroms 2013
+                </string>
+                <string name="bad_url" >Kan ikke finde indhold at downloade.\nKontakt venligst din enheds Slim-ROM vedligeholder!
+                </string>
+                <string name="file_name_title" >Fil:
+                </string>
+                <string name="sizer_title" >SlimSizer
+                </string>
+                <string name="system_prop_error" >Kan ikke læse systemegenskaber
+                </string>
+                <string name="update_interval_half_day" >Hver 12 timer
+                </string>
+                <string name="notification_message" >SlimBean ROM-opdatering tilgængelig
+                </string>
+                <string name="listsystem" >liste
+                </string>
+                <string name="device_name_title" >Navn:
+                </string>
+                <string name="short_cut_release_title" >ROM relateret
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Vigtigt! Læs ændringslog og installeringsinstruktioner omhyggeligt
+                </string>
+                <string name="short_cut_changelog_summary" >Vis ændringslog og installeringsinstruktioner
+                </string>
+                <string name="update_file_title" >Opdater:
+                </string>
+                <string name="sizer_message_sdnowrite" >Der kan ikke skrives til SD-kort.
+                </string>
+                <string name="about_license_text" >SlimOTA app:
+                </string>
+                <string name="short_cut_news_title" >Nyheder
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="btn_delete" >Slet valgte apps nu!
+                </string>
+                <string name="short_cut_faq_summary" >Vis Slim FAQ
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-de\arrays.xml"
+                qualifiers="de" >
+                <string-array name="slimsizer_profile_array" >
+                    <item>
+Profil laden
+                    </item>
+                    <item>
+Profil speichern
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-de\strings.xml"
+                qualifiers="de" >
+                <string name="no_irc" >SlimIRC App nicht gefunden.
+                </string>
+                <string name="ok" >OK
+                </string>
+                <string name="caution" >Vorsicht!
+                </string>
+                <string name="about_license" >Open Source Lizenzen
+                </string>
+                <string name="toast_text" >Suche ROM Aktualisierungen...
+                </string>
+                <string name="cancel" >Abbrechen
+                </string>
+                <string name="xml_url" >http://otaslim.slimroms.net/ota.xml
+                </string>
+                <string name="menu_update" >Suche nach Aktualisierungen
+                </string>
+                <string name="sizer_message_filefail" >Erstellen von Profil fehlgeschlagen.
+                </string>
+                <string name="changelog_url" >http://otaslim.slimroms.net/changelog.htm
+                </string>
+                <string name="sizer_message_sdnowrite" >SD-Karte kann nicht beschrieben werden
+                </string>
+                <string name="short_cut_news_title" >Neuigkeiten
+                </string>
+                <string name="about_license_url" ><a href="http://otaslim.slimroms.net/license.htm" >
+gpl(2)
+                    </a></string>
+                <string name="about_home_url" ><a href="http://www.slimroms.net" >
+www.slimroms.net
+                    </a></string>
+                <string name="system_prop_error" >Systemeigeschaften können nicht gelesen werden
+                </string>
+                <string name="listsystem" >Liste
+                </string>
+                <string name="update_interval_title" >Interval für automatische Aktualisierungen
+                </string>
+                <string name="device_title" >Gerät
+                </string>
+                <string name="about_title" >Über
+                </string>
+                <string name="btn_profile" >Profil
+                </string>
+                <string name="menu_settings" >Einstellungen
+                </string>
+                <string name="short_cut_additional_title" >Weiteres
+                </string>
+                <string name="slim_irc_title" >SlimIRC
+                </string>
+                <string name="delete_fail" >Entfernen nicht möglich
+                </string>
+                <string name="update_interval_disable" >Deaktiviert
+                </string>
+                <string name="update_interval_hour" >Jede Stunde
+                </string>
+                <string name="short_cut_download_uptodate_summary" >SlimBean ROM downloaden
+                </string>
+                <string name="slim_website_title" >Slim Webseite
+                </string>
+                <string name="update_interval_day" >Alle 24 Stunden
+                </string>
+                <string name="delete_success" >Entfernt
+                </string>
+                <string name="news_url" >http://otaslim.slimroms.net/news.htm
+                </string>
+                <string name="file_name_title" >Datei:
+                </string>
+                <string name="about_contact" ><a href="http://otaslim.slimroms.net/contact.htm" >
+Kontaktiere uns
+                    </a></string>
+                <string name="short_cut_download_gapps_summary" >SlimBean Addon Paket downloaden
+                </string>
+                <string name="short_cut_changelog_summary" >Zeige Installationsanweisungen und Changelogs 
+                </string>
+                <string name="slim_donate_summary" >Spende an Team SlimRoms
+                </string>
+                <string name="sizer_message_delete" >Bist Du sicher, dass Du diese App entfernen möchtest?
+                </string>
+                <string name="short_cut_release_title" >ROM abhängig
+                </string>
+                <string name="btn_delete" >Ausgewählte Apps werden nun gelöscht!
+                </string>
+                <string name="curVer" >Aktuelle Version
+                </string>
+                <string name="notification_message" >SlimBean ROM Aktualisierung verfügbar
+                </string>
+                <string name="update_file_title" >Aktualisierung:
+                </string>
+                <string name="about_slim_ota" >SlimOTA hält Deine ROM und Gapps\nimmer auf dem neusten Stand
+                </string>
+                <string name="short_cut_changelog_title" >Änderungsprotokoll
+                </string>
+                <string name="menu_slimsizer" >SlimSizer
+                </string>
+                <string name="download_url" >http://otaslim.slimroms.net/download.htm
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Wichtig!!! Lese sorgfältig die Installationsanweisungen und Changelogs und durch.
+                </string>
+                <string name="short_cut_download_title" >SlimBean downloaden
+                </string>
+                <string name="sizer_message_startup" >Dieses Tool erlaubt das Entfernen von System Apps. Verwende es mit Vorsicht und entferne nur Apps bei denen Du Dir absolut sicher bist.
+                </string>
+                <string name="settings_title" >SlimOTA-Einstellungen
+                </string>
+                <string name="about_contact_text" >Teile uns mit was Du denkst\noder gebe uns Bescheid über aufgetretene Probleme und Bugs
+                </string>
+                <string name="device_name_title" >Name:
+                </string>
+                <string name="sizer_message_noselect" >Nichts ausgewählt.
+                </string>
+                <string name="short_cut_faq_title" >FAQ
+                </string>
+                <string name="bad_url" >Fehler beim Aufrufen der Download URL.\nBitte informiere die Entwickler von SlimROM!
+                </string>
+                <string name="gapps_url" >http://otaslim.slimroms.net/gapps.htm
+                </string>
+                <string name="short_cut_download_gapps_title" >Gapps downloaden
+                </string>
+                <string name="title_update" >Aktualisierung
+                </string>
+                <string name="faq_url" >http://otaslim.slimroms.net/faq.htm
+                </string>
+                <string name="update_interval_half_day" >Alle 12 Stunden
+                </string>
+                <string name="slim_donate_title" >Spenden
+                </string>
+                <string name="about_version" >SlimOTA 1.0
+                </string>
+                <string name="sizer_message_filesuccess" >Profil erstellt.
+                </string>
+                <string name="aboutslim_title" >SlimRoms
+                </string>
+                <string name="device_info_title" >Geräteinformationen
+                </string>
+                <string name="about_copyright" >\u00A9 Copyright Slimroms 2013
+                </string>
+                <string name="slim_source_summary" >SlimRoms sind vollständig open source.\nQuellcode bei github.com/SlimRoms
+                </string>
+                <string name="slim_website_summary" >www.slimroms.net\nHier findest du alle Nachrichten zu Slim
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="short_cut_news_summary" >Lese aktuelle Neuigkeiten über Slim
+                </string>
+                <string name="short_cut_faq_summary" >Zeige Slim FAQ
+                </string>
+                <string name="center_summary" ><b>
+SlimCenter
+                    </b> bietet Tools &amp; Informationen, die dabei helfen, die Erfahrung mit SlimRoms sogar noch besser zu machen. Aktualisiere automatisch auf die neueste Version unserer ROM mit 
+<b>
+SlimOTA
+                    </b> und entferne nicht benötigte System-Apps mit 
+<b>
+SlimSizer
+                    </b></string>
+                <string name="no_data_title" >Keine Datenverbindung vorhanden
+                </string>
+                <string name="short_cut_download_summary_update_available" >Neue SlimBean ROM Aktualisierung verfügbar. Hier downloaden!
+                </string>
+                <string name="slim_irc_summary" >Komm in unseren IRC-Channell!\nChatte mit dem Slim Team und anderen Nutzern
+                </string>
+                <string name="sizer_title" >SlimSizer
+                </string>
+                <string name="toast_no_data_text" >Keine Datenverbindung. Bitte einschalten!
+                </string>
+                <string name="update_interval_summary" >Wähle ein Interval für die automatischen Aktualisierungen
+                </string>
+                <string name="devs" >Entwickler
+                </string>
+                <string name="sizer_message_sdnoread" >SD-Karte kann nicht gelesen werden
+                </string>
+                <string name="up_to_date_title" >Dein System ist auf dem neusten Stand
+                </string>
+                <string name="codename_title" >Codename:
+                </string>
+                <string name="version_title" >Version:
+                </string>
+                <string name="about_license_text" >SlimOTA App:
+                </string>
+                <string name="error_reading_title" >Eigenschaften von SlimOTA können nicht gelesen werden
+                </string>
+                <string name="slim_source_title" >Slim Quellcode
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-es\strings.xml"
+                qualifiers="es" >
+                <string name="delete_fail" >No se puede eliminar
+                </string>
+                <string name="short_cut_changelog_summary" >Mostrar registro de cambios e instrucciones de instalación
+                </string>
+                <string name="up_to_date_title" >Su sistema está actualizado
+                </string>
+                <string name="about_slim_ota" >SlimOTA te mantiene siempre actualizada\n tu rom y gapps
+                </string>
+                <string name="sizer_message_sdnowrite" >No se puede escribir en la tarjeta SD.
+                </string>
+                <string name="btn_delete" >¡Eliminar las aplicaciones seleccionadas ahora!
+                </string>
+                <string name="update_interval_day" >Cada 24 horas
+                </string>
+                <string name="short_cut_download_summary_update_available" >Nueva actualización de la ROM SlimBean disponible. ¡Descargar aquí!
+                </string>
+                <string name="slim_donate_summary" >Dona al equipo de SlimRoms
+                </string>
+                <string name="short_cut_changelog_title" >Registro de cambios
+                </string>
+                <string name="slim_source_title" >Código fuente de Slim
+                </string>
+                <string name="error_reading_title" >No se pueden leer las propiedades de SlimOTA
+                </string>
+                <string name="curVer" >Versión actual
+                </string>
+                <string name="short_cut_additional_title" >Adicional
+                </string>
+                <string name="center_summary" ><b>
+SlimCenter
+                    </b> proporciona herramientas e información para ayudarte a mejorar tu experiencia con SlimRoms. Puedes actualizar automáticamente a la versión más reciente de nuestra ROM con 
+<b>
+SlimOTA
+                    </b> y eliminar aplicaciones no deseadas del sistema con 
+<b>
+SlimSizer
+                    </b></string>
+                <string name="bad_url" >No se puede acceder a la zona de descarga. \n Por favor, informe al encargado de mantenimiento de su dispositivo.
+                </string>
+                <string name="about_contact_text" >Díganos lo que piensa\no infórmenos sobre cualquier error o problema
+                </string>
+                <string name="about_version" >SlimCenter 1.1
+                </string>
+                <string name="update_file_title" >Actualizar:
+                </string>
+                <string name="short_cut_faq_title" >Preguntas más frecuentes
+                </string>
+                <string name="device_name_title" >Nombre:
+                </string>
+                <string name="update_interval_half_day" >Cada 12 horas
+                </string>
+                <string name="no_data_title" >No existe ninguna conexión de datos disponible
+                </string>
+                <string name="short_cut_faq_summary" >Mostrar preguntas más frecuentes de Slim
+                </string>
+                <string name="title_update" >Actualizar
+                </string>
+                <string name="slim_irc_title" >SlimIRC
+                </string>
+                <string name="toast_no_data_text" >Ninguna conexión de datos. Por favor activela
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="short_cut_download_gapps_summary" >Descargar paquetes de adicionales de SlimBean
+                </string>
+                <string name="slim_irc_summary" >¡Entra en nuestro canal de IRC!\nChatea con el equipo de Slim y con otros usuarios
+                </string>
+                <string name="menu_settings" >Ajustes
+                </string>
+                <string name="update_interval_title" >Intervalo de comprobación de actualización automática
+                </string>
+                <string name="slim_source_summary" >SlimRoms es completamente de código abierto.\nCódigo fuente en github.com/SlimRoms
+                </string>
+                <string name="settings_title" >Configuración de SlimOTA
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >¡¡¡Importante!!! Lea el registro de cambios y las instrucciones de instalación detenidamente
+                </string>
+                <string name="system_prop_error" >No se pueden leer las propiedades del sistema
+                </string>
+                <string name="notification_message" >Actualización de la ROM de SlimBean disponible
+                </string>
+                <string name="slim_website_title" >Sitio web de Slim
+                </string>
+                <string name="ota_title" >SlimOTA
+                </string>
+                <string name="listsystem" >lista
+                </string>
+                <string name="slim_donate_title" >Donar
+                </string>
+                <string name="delete_success" >Eliminada
+                </string>
+                <string name="about_license_text" >SlimCenter app:
+                </string>
+                <string name="sizer_message_filefail" >Error al crear el perfil.
+                </string>
+                <string name="sizer_message_delete" >¿Está seguro que desea eliminar esta aplicación?
+                </string>
+                <string name="aboutslim_title" >SlimRoms
+                </string>
+                <string name="update_interval_disable" >Desactivar
+                </string>
+                <string name="slim_website_summary" >www.slimroms.net\nEncuentra las últimas noticias sobre Slim aquí
+                </string>
+                <string name="about_license" >Licencias de código abierto
+                </string>
+                <string name="version_title" >Versión:
+                </string>
+                <string name="devs" >Desarrollador
+                </string>
+                <string name="device_info_title" >Información del dispositivo
+                </string>
+                <string name="device_title" >Dispositivo
+                </string>
+                <string name="caution" >¡Atención!
+                </string>
+                <string name="btn_profile" >Perfil
+                </string>
+                <string name="update_interval_summary" >Establecer intervalo de comprobaciones de actualización automática
+                </string>
+                <string name="codename_title" >Alias:
+                </string>
+                <string name="short_cut_news_summary" >Leer sobre las últimas novedades Slim
+                </string>
+                <string name="sizer_message_noselect" >Nada seleccionado.
+                </string>
+                <string name="menu_update" >Buscar actualizaciones ahora
+                </string>
+                <string name="download_url" >http://otaslim.slimroms.net/download.htm
+                </string>
+                <string name="no_irc" >SlimIRC App no encontrada.
+                </string>
+                <string name="sizer_message_startup" >Esta herramienta permite eliminar aplicaciones de sistema. Utilice con precaución y elimine solamente aplicaciones sabiendo que son seguras para eliminarse.
+                </string>
+                <string name="short_cut_news_title" >Noticias
+                </string>
+                <string name="sizer_message_sdnoread" >No se puede leer la tarjeta SD.
+                </string>
+                <string name="cancel" >Cancelar
+                </string>
+                <string name="toast_text" >Buscando actualizaciones de ROM...
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Descargar SlimBean ROM
+                </string>
+                <string name="file_name_title" >Archivo:
+                </string>
+                <string name="short_cut_release_title" >Relacionado con la ROM
+                </string>
+                <string name="short_cut_download_gapps_title" >Descargar gapps
+                </string>
+                <string name="update_interval_hour" >Cada hora
+                </string>
+                <string name="about_title" >Acerca de
+                </string>
+                <string name="sizer_message_filesuccess" >Perfil creado.
+                </string>
+                <string name="short_cut_download_title" >Descargar SlimBean
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-fi\strings.xml"
+                qualifiers="fi" >
+                <string name="toast_no_data_text" >Ei datayhteyttä. Käynnistä yhteys.
+                </string>
+                <string name="curVer" >Nykyinen versio
+                </string>
+                <string name="version_title" >Versio:
+                </string>
+                <string name="codename_title" >Koodinimi:
+                </string>
+                <string name="update_interval_day" >24 Tunnin välein
+                </string>
+                <string name="update_interval_disable" >Poista käytöstä
+                </string>
+                <string name="toast_text" >Etsii ROM päivitystä...
+                </string>
+                <string name="about_license" >Avoimen lähdekoodin käyttöluvat
+                </string>
+                <string name="update_interval_title" >Automaattinen Päivitysten tarkistusväli
+                </string>
+                <string name="short_cut_news_summary" >Lue Slim Uutiset
+                </string>
+                <string name="menu_update" >Etsi päivityksiä nyt
+                </string>
+                <string name="up_to_date_title" >Järjestelmä on ajan tasalla
+                </string>
+                <string name="short_cut_download_gapps_title" >Lataa gapps
+                </string>
+                <string name="short_cut_changelog_summary" >Näytä muutosloki ja asennusohje
+                </string>
+                <string name="sizer_message_startup" >Tämän työkalun avulla voit poistaa järjestelmäsovelluksia. Käytä varoen ja vain jos tiedät että se on turvallista poistaa.
+                </string>
+                <string name="short_cut_changelog_title" >Muutosloki
+                </string>
+                <string name="about_contact_text" >Kerro meille mielipiteesi\n tai kerro ongelmista
+                </string>
+                <string name="error_reading_title" >Ei voi lukea SlimOTA ominaisuuksia
+                </string>
+                <string name="short_cut_additional_title" >Lisätietoja
+                </string>
+                <string name="device_info_title" >Laitteen tiedot
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Tärkeää! Lue muutosloki ja asennusohjeet huolellisesti
+                </string>
+                <string name="about_slim_ota" >SlimOTA pitää ROM:n ja gapps:n aina ajantasalla
+                </string>
+                <string name="short_cut_download_gapps_summary" >Lataa SlimBean lisäosia
+                </string>
+                <string name="update_interval_half_day" >12 Tunnin välein
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="sizer_message_delete" >Oletko varma, että haluat poistaa tämän ohjelman?
+                </string>
+                <string name="no_data_title" >Datayhteyttä ei saatavilla
+                </string>
+                <string name="update_interval_hour" >Tunnin välein
+                </string>
+                <string name="device_name_title" >Nimi:
+                </string>
+                <string name="update_interval_summary" >Aseta automaattisen päivityksen tarkistusväli
+                </string>
+                <string name="device_title" >Laite
+                </string>
+                <string name="update_file_title" >Päivitys:
+                </string>
+                <string name="short_cut_download_summary_update_available" >Uusi SlimBean ROM-päivitys saatavilla. Lataa tästä!
+                </string>
+                <string name="short_cut_faq_summary" >Näytä Slim FAQ
+                </string>
+                <string name="short_cut_release_title" >ROM:n tiedot
+                </string>
+                <string name="short_cut_news_title" >Uutisia
+                </string>
+                <string name="settings_title" >SlimOTA asetukset
+                </string>
+                <string name="short_cut_faq_title" >USEIN KYSYTYT KYSYMYKSET
+                </string>
+                <string name="bad_url" >Ei pääsyä lataussivulle. \n Ilmoita laitemallisi Slim-ylläpitäjälle!
+                </string>
+                <string name="caution" >Varoitus!
+                </string>
+                <string name="file_name_title" >Tiedosto:
+                </string>
+                <string name="title_update" >Päivitä
+                </string>
+                <string name="short_cut_download_title" >Lataa SlimBean
+                </string>
+                <string name="cancel" >Peruuta
+                </string>
+                <string name="listsystem" >luettelo
+                </string>
+                <string name="notification_message" >SlimBean ROM-päivitys saatavilla
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Lataa SlimBean ROM
+                </string>
+                <string name="about_title" >Tietoja
+                </string>
+                <string name="system_prop_error" >Ei voi lukea Järjestelmäominaisuuksia
+                </string>
+                <string name="menu_settings" >Asetukset
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-fr\strings.xml"
+                qualifiers="fr" >
+                <string name="settings_title" >Paramètres de SlimOTA
+                </string>
+                <string name="gapps_url" >http://otaslim.slimroms.net/gapps.htm
+                </string>
+                <string name="short_cut_faq_summary" >Voir la FAQ Slim
+                </string>
+                <string name="listsystem" >liste
+                </string>
+                <string name="about_license" >Licences Open Source
+                </string>
+                <string name="update_interval_hour" >Toutes les heures
+                </string>
+                <string name="about_contact" ><a href="http://otaslim.slimroms.net/contact.htm" >
+ Contactez-nous
+                    </a></string>
+                <string name="menu_settings" >Configuration
+                </string>
+                <string name="news_url" >http://otaslim.slimroms.net/news.htm
+                </string>
+                <string name="about_license_text" >SlimOTA app :
+                </string>
+                <string name="toast_text" >Vérification des mises à jour de ROM...
+                </string>
+                <string name="sizer_message_sdnowrite" >Impossible d\'écrire sur la carte SD.
+                </string>
+                <string name="changelog_url" >http://otaslim.slimroms.net/changelog.htm
+                </string>
+                <string name="btn_profile" >Profil
+                </string>
+                <string name="sizer_message_filefail" >Impossible de créer le profil.
+                </string>
+                <string name="codename_title" >Nom de code :
+                </string>
+                <string name="about_contact_text" >Dites-nous ce que vous pensez\n ou faite nous remonter un bogue ou un problème
+                </string>
+                <string name="caution" >Attention!
+                </string>
+                <string name="toast_no_data_text" >Aucune connexion de données. Activé s\'il vous plaît
+                </string>
+                <string name="about_version" >SlimOTA 1.0
+                </string>
+                <string name="short_cut_download_title" >Télécharger SlimBean
+                </string>
+                <string name="xml_url" >http://otaslim.slimroms.net/ota.xml
+                </string>
+                <string name="sizer_title" >SlimSizer
+                </string>
+                <string name="device_title" >Appareil
+                </string>
+                <string name="curVer" >Version actuelle
+                </string>
+                <string name="update_interval_half_day" >Toutes les 12 heures
+                </string>
+                <string name="update_interval_title" >Intervalle de vérification de mise à jour automatique
+                </string>
+                <string name="about_title" >A propos 
+                </string>
+                <string name="no_data_title" >Aucune connexion de données disponible
+                </string>
+                <string name="sizer_message_filesuccess" >Profil créé.
+                </string>
+                <string name="error_reading_title" >Ne peut pas lire les propriétés de SlimOTA
+                </string>
+                <string name="title_update" >Mise à jour
+                </string>
+                <string name="bad_url" >Impossible d’accéder à la zone de téléchargement.\n Veuillez informer le responsable de votre appareil slim, !
+                </string>
+                <string name="short_cut_download_summary_update_available" >Nouvelle version de la ROM SlimBean disponible. Télécharger ici !
+                </string>
+                <string name="update_interval_summary" >Fréquence des recherche de mise à jour
+                </string>
+                <string name="sizer_message_delete" >Êtes-vous sûr de vouloir supprimer cette application ?
+                </string>
+                <string name="update_interval_disable" >Désactiver
+                </string>
+                <string name="notification_message" >Mise à jour de SlimBean ROM disponible 
+                </string>
+                <string name="about_slim_ota" >SlimOTA vous permet de maintenir à jour\n votre rom et les gapps
+                </string>
+                <string name="short_cut_news_summary" >Découvrez les dernières actualités de Slim
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Important!!! Lire le changelog et installer les instructions soigneusement
+                </string>
+                <string name="menu_update" >Rechercher des mises à jour maintenant
+                </string>
+                <string name="about_license_url" ><a href="http://otaslim.slimroms.net/license.htm" >
+ GPL(2)
+                    </a></string>
+                <string name="short_cut_download_gapps_summary" >Télécharger les paquets addon SlimBean
+                </string>
+                <string name="short_cut_faq_title" >FAQ
+                </string>
+                <string name="sizer_message_noselect" >Rien n\'est sélectionné.
+                </string>
+                <string name="sizer_message_sdnoread" >Impossible de lire la carte SD.
+                </string>
+                <string name="sizer_message_startup" >Cet outil permet de supprimer des applications système. Utiliser avec prudence et supprimer uniquement les applications que vous savez sûrs d\'être enlevé.
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Télécharger SlimBean ROM
+                </string>
+                <string name="short_cut_release_title" >ROM associé
+                </string>
+                <string name="version_title" >Version:
+                </string>
+                <string name="btn_delete" >Supprimez les applications sélectionnées maintenant !
+                </string>
+                <string name="device_name_title" >Nom :
+                </string>
+                <string name="short_cut_changelog_summary" >Montrer les changelogs et instructions d\'installation
+                </string>
+                <string name="short_cut_additional_title" >Supplémentaires
+                </string>
+                <string name="delete_success" >Supprimée
+                </string>
+                <string name="update_interval_day" >Toutes les 24 heures
+                </string>
+                <string name="menu_slimsizer" >SlimSizer
+                </string>
+                <string name="device_info_title" >Informations sur l\'appareil
+                </string>
+                <string name="file_name_title" >Fichier :
+                </string>
+                <string name="delete_fail" >Impossible de supprimer
+                </string>
+                <string name="update_file_title" >Mise à jour:
+                </string>
+                <string name="short_cut_download_gapps_title" >Télécharger gapps
+                </string>
+                <string name="faq_url" >http://otaslim.slimroms.net/faq.htm
+                </string>
+                <string name="up_to_date_title" >Votre système est à jour
+                </string>
+                <string name="about_copyright" >\u00A9 copyright Slimroms 2013
+                </string>
+                <string name="about_home_url" ><a href="http://www.slimroms.net" >
+www.slimroms.net
+                    </a></string>
+                <string name="short_cut_changelog_title" >Changelog
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="cancel" >Annuler
+                </string>
+                <string name="ok" >Ok
+                </string>
+                <string name="system_prop_error" >Impossible de lire les propriétés systeme
+                </string>
+                <string name="short_cut_news_title" >Actualités
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-hr\strings.xml"
+                qualifiers="hr" >
+                <string name="app_name" >SlimCentar
+                </string>
+                <string name="file_name_title" >File:
+                </string>
+                <string name="about_license" >Licence otvorenog koda
+                </string>
+                <string name="short_cut_download_gapps_title" >Preuzmite gapps
+                </string>
+                <string name="menu_update" >Provjeri nova ažuriranja
+                </string>
+                <string name="update_interval_title" >Interval za automatsko osvježavanje
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Preuzmite SlimBean ROM
+                </string>
+                <string name="short_cut_changelog_title" >Lista promjena
+                </string>
+                <string name="update_interval_day" >Svakih 24 sata
+                </string>
+                <string name="listsystem" >lista
+                </string>
+                <string name="curVer" >Trenutna Verzija
+                </string>
+                <string name="caution" >Pažnja!
+                </string>
+                <string name="update_file_title" >Osvježi:
+                </string>
+                <string name="update_interval_disable" >Iskljući
+                </string>
+                <string name="notification_message" >SlimBean ROM ažuriranje je dostupno
+                </string>
+                <string name="no_data_title" >Konekcija nije dostupna
+                </string>
+                <string name="device_info_title" >Informacije o uređaju
+                </string>
+                <string name="sizer_message_delete" >Jeste li sigurni da želite izbrisati ovu aplikaciju?
+                </string>
+                <string name="about_contact_text" >Recite nam što mislite\nili nas obavjestite o greškama ili problemima
+                </string>
+                <string name="short_cut_release_title" >U vezi sa ROM-om 
+                </string>
+                <string name="update_interval_half_day" >Svakih 12 sati
+                </string>
+                <string name="version_title" >Verzija:
+                </string>
+                <string name="update_interval_hour" >Svaki sat
+                </string>
+                <string name="menu_settings" >Postavke
+                </string>
+                <string name="short_cut_download_title" >Preuzmite SlimBean
+                </string>
+                <string name="codename_title" >Kodno ime:
+                </string>
+                <string name="short_cut_download_gapps_summary" >Preuzmite SlimBean dodatne pakete
+                </string>
+                <string name="sizer_message_startup" >Ovaj alat dozvoljava Vam da izbrišete sistemske aplikacije. Pazite kako ga koristite i izbrišite samo aplikacije za koje ste sigurni da smiju biti izbrisane.
+                </string>
+                <string name="toast_no_data_text" >Konekcija nije dostupna. Molim Vas uključite
+                </string>
+                <string name="toast_text" >Tražim nova ažuriranja...
+                </string>
+                <string name="short_cut_changelog_summary" >Pokaži listu promjena i instalacijske instrukcije
+                </string>
+                <string name="cancel" >Odustani
+                </string>
+                <string name="short_cut_additional_title" >Dodatni
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Važno!!! Pročitatje pažljivo listu pronjena i instalacijske instrukcije
+                </string>
+                <string name="error_reading_title" >Nemoguće pročitati SlimOTA postavke
+                </string>
+                <string name="short_cut_news_summary" >Pročitajte zadnje Slim vjesti
+                </string>
+                <string name="update_interval_summary" >Postavi interval za automatsko osvježavanje
+                </string>
+                <string name="device_title" >Uređaj
+                </string>
+                <string name="short_cut_download_summary_update_available" >Novi SlimBean ROM ažuriranje je dostupno. Preuzmite ovdje!
+                </string>
+                <string name="settings_title" >SlimOTA Postavke
+                </string>
+                <string name="about_title" >O autoru
+                </string>
+                <string name="short_cut_faq_summary" >Pokaži Slim uobičajena pitanja
+                </string>
+                <string name="system_prop_error" >Nemoguče je pročitati sistemske postavke
+                </string>
+                <string name="up_to_date_title" >Vaš uređaj je osvježen do danas
+                </string>
+                <string name="title_update" >Osvježi
+                </string>
+                <string name="device_name_title" >Ime:
+                </string>
+                <string name="bad_url" >Mjesto za snimanje nije dostupno.\nMolim Vas obavjestite odrzavatelja vašeg slim uređaja!
+                </string>
+                <string name="about_slim_ota" >SlimOTA će uvijek ažurirati\nvaš ROM i gapps
+                </string>
+                <string name="short_cut_news_title" >Vjesti
+                </string>
+                <string name="short_cut_faq_title" >Uobičajena pitanja
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-hu\strings.xml"
+                qualifiers="hu" >
+                <string name="update_interval_half_day" >12 óránként
+                </string>
+                <string name="codename_title" >Kódnév:
+                </string>
+                <string name="sizer_message_delete" >Biztosan törölni akarja ezt az applikációt?
+                </string>
+                <string name="listsystem" >lista
+                </string>
+                <string name="version_title" >Verzió:
+                </string>
+                <string name="short_cut_news_title" >Hírek
+                </string>
+                <string name="update_interval_day" >24 óránként
+                </string>
+                <string name="about_title" >Névjegy
+                </string>
+                <string name="toast_no_data_text" >Az adatkapcsolat nem elérhető, kérem kapcsolja be
+                </string>
+                <string name="update_interval_hour" >Óránként
+                </string>
+                <string name="update_interval_disable" >Letiltás
+                </string>
+                <string name="short_cut_download_gapps_title" >Google Apps letöltése
+                </string>
+                <string name="short_cut_news_summary" >Legújabb Slim hírek
+                </string>
+                <string name="update_file_title" >Frissítés:
+                </string>
+                <string name="notification_message" >Elérhető SlimBean ROM frissítés
+                </string>
+                <string name="short_cut_download_gapps_summary" >SlimBean kiegészítő csomagok letöltése
+                </string>
+                <string name="short_cut_download_title" >SlimBean letöltése
+                </string>
+                <string name="short_cut_download_summary_update_available" >Új SlimBean ROM érhető el. Letöltés itt!
+                </string>
+                <string name="curVer" >Jelenlegi verzió
+                </string>
+                <string name="file_name_title" >Fájl:
+                </string>
+                <string name="sizer_message_noselect" >Semmi sincs kiválasztva.
+                </string>
+                <string name="about_license" >Nyílt forráskódú licenszek
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Fontos!!! Figyelmesen olvassa el a változtatásokat és a telepítési útmutatót
+                </string>
+                <string name="btn_profile" >Profil
+                </string>
+                <string name="sizer_message_filesuccess" >Profil létrehozva.
+                </string>
+                <string name="up_to_date_title" >A rendszer naprakész
+                </string>
+                <string name="caution" >Vigyázat!
+                </string>
+                <string name="short_cut_changelog_title" >Változtatások
+                </string>
+                <string name="delete_success" >Törölve
+                </string>
+                <string name="sizer_message_filefail" >A profil létrehozása nem sikerült.
+                </string>
+                <string name="device_name_title" >Név:
+                </string>
+                <string name="short_cut_download_uptodate_summary" >SlimBean ROM letöltése
+                </string>
+                <string name="title_update" >Frissítés
+                </string>
+                <string name="sizer_message_startup" >Ezzel az eszközzel törölheti a rendszer szintű programokat. Kérjük, óvatosan használja és csak olyan applikációkat töröljön, amelyek biztonsággal eltávolíthatók.
+                </string>
+                <string name="short_cut_faq_title" >GYIK
+                </string>
+                <string name="settings_title" >SlimOTA beállítások
+                </string>
+                <string name="short_cut_additional_title" >Továbbiak
+                </string>
+                <string name="short_cut_changelog_summary" >Változtatások és telepítési útmutató megtekintése
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="toast_text" >ROM frissítések keresése...
+                </string>
+                <string name="menu_update" >Frissítések keresése most
+                </string>
+                <string name="delete_fail" >Törlés sikertelen
+                </string>
+                <string name="cancel" >Mégsem
+                </string>
+                <string name="btn_delete" >Kijelölt applikációk törlése most!
+                </string>
+                <string name="no_data_title" >Nincs elérhető adatkapcsolat
+                </string>
+                <string name="device_title" >Eszköz
+                </string>
+                <string name="device_info_title" >Eszköz információ
+                </string>
+                <string name="menu_settings" >Beállítások
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-it\strings.xml"
+                qualifiers="it" >
+                <string name="short_cut_faq_summary" >Visualizza FAQ della Slim
+                </string>
+                <string name="codename_title" >Codename:
+                </string>
+                <string name="short_cut_additional_title" >Aggiuntive
+                </string>
+                <string name="faq_url" >http://otaslim.slimroms.net/faq.htm
+                </string>
+                <string name="short_cut_release_title" >ROM correlati
+                </string>
+                <string name="about_license_url" ><a href="http://otaslim.slimroms.net/license.htm" >
+gpl(2)
+                    </a></string>
+                <string name="changelog_url" >http://otaslim.slimroms.net/changelog.htm
+                </string>
+                <string name="sizer_message_filefail" >Impossibile creare il profilo.
+                </string>
+                <string name="aboutslim_title" >SlimRoms
+                </string>
+                <string name="short_cut_news_summary" >Ultime novità Slim
+                </string>
+                <string name="about_license_text" >SlimOTA app:
+                </string>
+                <string name="about_license" >Licenze open source
+                </string>
+                <string name="short_cut_news_title" >Notizie
+                </string>
+                <string name="cancel" >Annulla
+                </string>
+                <string name="settings_title" >Impostazioni di SlimOTA
+                </string>
+                <string name="update_interval_hour" >Ogni ora
+                </string>
+                <string name="short_cut_download_title" >Scarica SlimBean
+                </string>
+                <string name="caution" >Attenzione!
+                </string>
+                <string name="gapps_url" >http://otaslim.slimroms.net/gapps.htm
+                </string>
+                <string name="devs" >Sviluppatore
+                </string>
+                <string name="no_irc" >SlimIRC App non trovata.
+                </string>
+                <string name="sizer_title" >SlimSizer
+                </string>
+                <string name="short_cut_download_gapps_title" >Scarica gapps
+                </string>
+                <string name="about_home_url" ><a href="http://www.slimroms.net" >
+www.slimroms.net
+                    </a></string>
+                <string name="update_file_title" >Aggiorna:
+                </string>
+                <string name="short_cut_changelog_title" >Elenco modifiche
+                </string>
+                <string name="update_interval_half_day" >Ogni 12 ore
+                </string>
+                <string name="slim_donate_summary" >Dona al Team SlimRoms
+                </string>
+                <string name="btn_delete" >Eliminare la applicazioni selezionate adesso!
+                </string>
+                <string name="slim_irc_summary" >Unisciti al nostro canale IRC!\nChatta con lo Slim Team e gli altri utenti
+                </string>
+                <string name="sizer_message_filesuccess" >Profilo creato.
+                </string>
+                <string name="system_prop_error" >Non è possibile leggere le proprietà di sistema
+                </string>
+                <string name="file_name_title" >File:
+                </string>
+                <string name="device_info_title" >Informazioni dispositivo
+                </string>
+                <string name="about_title" >Informazioni
+                </string>
+                <string name="sizer_message_delete" >Sei sicuro di volere cancellare questa applicazione?
+                </string>
+                <string name="notification_message" >Disponibile aggiornamento per la ROM SlimBean
+                </string>
+                <string name="update_interval_day" >Ogni 24 ore
+                </string>
+                <string name="slim_source_summary" >Le SlimRom sono totalmente open source.\nSource su github.com/SlimRoms
+                </string>
+                <string name="error_reading_title" >Non è possibile leggere le proprietà di SlimOTA
+                </string>
+                <string name="listsystem" >elenco
+                </string>
+                <string name="btn_profile" >Profilo
+                </string>
+                <string name="delete_fail" >Impossibile eliminare
+                </string>
+                <string name="sizer_message_sdnowrite" >Impossibile scrivere su scheda SD.
+                </string>
+                <string name="menu_slimsizer" >SlimSizer
+                </string>
+                <string name="menu_update" >Cerca gli aggiornamenti ora
+                </string>
+                <string name="update_interval_title" >Intervallo di controllo automatico di aggiornamenti
+                </string>
+                <string name="title_update" >Aggiorna
+                </string>
+                <string name="about_contact_text" >Dicci cosa pensi\no facci sapere di bug o problemi
+                </string>
+                <string name="ok" >OK
+                </string>
+                <string name="menu_settings" >Impostazioni
+                </string>
+                <string name="news_url" >http://otaslim.slimroms.net/news.htm
+                </string>
+                <string name="slim_donate_title" >Dona
+                </string>
+                <string name="about_slim_ota" >SlimOTA ti tiene sempre aggiornato\nsulla tua rom e sulle gapps
+                </string>
+                <string name="short_cut_download_summary_update_available" >Nuovo aggiornamento della ROM SlimBean disponibile. Scaricalo qui!
+                </string>
+                <string name="version_title" >Versione:
+                </string>
+                <string name="about_copyright" >\u00A9 copyright Slimroms 2013
+                </string>
+                <string name="slim_source_title" >Slim Source
+                </string>
+                <string name="short_cut_download_gapps_summary" >Scarica gli addon SlimBean
+                </string>
+                <string name="sizer_message_sdnoread" >Impossibile leggere la scheda SD.
+                </string>
+                <string name="up_to_date_title" >Il vostro sistema è aggiornato
+                </string>
+                <string name="toast_text" >Cercando aggiornamenti della ROM...
+                </string>
+                <string name="sizer_message_startup" >Questo strumento consente di eliminare le applicazioni di sistema. Utilizzare con cautela ed eliminare solo applicazioni che sai essere sicuro rimuovere.
+                </string>
+                <string name="short_cut_changelog_summary" >Visualizza il changelog e istruzioni per l\'installazione
+                </string>
+                <string name="device_name_title" >Nome:
+                </string>
+                <string name="about_contact" ><a href="http://otaslim.slimroms.net/contact.htm" >
+Contattaci
+                    </a></string>
+                <string name="no_data_title" >Nessuna connessione dati disponibile
+                </string>
+                <string name="curVer" >Versione corrente
+                </string>
+                <string name="slim_irc_title" >SlimIRC
+                </string>
+                <string name="sizer_message_noselect" >Niente selezionato.
+                </string>
+                <string name="delete_success" >Eliminate
+                </string>
+                <string name="download_url" >http://otaslim.slimroms.net/download.htm
+                </string>
+                <string name="device_title" >Dispositivo
+                </string>
+                <string name="bad_url" >Impossibile raggiungere l\'area download.\nPer favore avvisa il gestore del tuo dispositivo slim!
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Scarica SlimBean ROM
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="toast_no_data_text" >Nessuna connessione dati. Si prega di accendere
+                </string>
+                <string name="slim_website_summary" >www.slimroms.net\nQua trovi tutte le news Slim
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Importante!!! Leggi il changelog e le istruzioni dell\'installazione con attenzione
+                </string>
+                <string name="center_summary" ><b>
+SlimCenter
+                    </b> fornisce strumenti e informazioni per aiutarti a rendere la tua esperienza con SlimRoms ancora migliore. Aggiorna automaticamente all\'ultima versione della nostra ROM con 
+<b>
+SlimOTA
+                    </b> e rimuovi le apps di sistema non volute con 
+<b>
+SlimSizer
+                    </b></string>
+                <string name="slim_website_title" >Sito web Slim
+                </string>
+                <string name="update_interval_disable" >Disattiva
+                </string>
+                <string name="update_interval_summary" >Imposta un intervallo di controllo automatico degli aggiornamenti
+                </string>
+                <string name="short_cut_faq_title" >FAQ
+                </string>
+                <string name="about_version" >SlimOTA 1.0
+                </string>
+                <string name="xml_url" >http://otaslim.slimroms.net/ota.xml
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-lt\strings.xml"
+                qualifiers="lt" >
+                <string name="about_copyright" >\u00A9 Copyright Slimroms 2013
+                </string>
+                <string name="device_name_title" >Pavadinimas:
+                </string>
+                <string name="app_name" >Slim centras
+                </string>
+                <string name="about_license_text" >SlimOTA programėlė:
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Atsisiųsti SlimBean ROM
+                </string>
+                <string name="short_cut_news_summary" >Skaityti Slim naujienas
+                </string>
+                <string name="faq_url" >http://otaslim.slimroms.net/faq.htm
+                </string>
+                <string name="gapps_url" >http://otaslim.slimroms.net/gapps.htm
+                </string>
+                <string name="update_file_title" >Atnaujinimas:
+                </string>
+                <string name="update_interval_hour" >Kas valandą
+                </string>
+                <string name="changelog_url" >http://otaslim.slimroms.net/changelog.htm
+                </string>
+                <string name="delete_success" >Ištrinta
+                </string>
+                <string name="error_reading_title" >Nepavyksta matyti SlimOTA ypatybių
+                </string>
+                <string name="update_interval_summary" >Nustatyti automatinį atnaujinimų tikrinimo intervalą
+                </string>
+                <string name="caution" >Atsargiai!
+                </string>
+                <string name="update_interval_title" >Tikrinti ar yra atnaujinimų kas
+                </string>
+                <string name="file_name_title" >Failas:
+                </string>
+                <string name="codename_title" >Kodinis pavadinimas:
+                </string>
+                <string name="short_cut_changelog_summary" >Rodyti pakeitimų sąrašus ir diegimo instrukcijas
+                </string>
+                <string name="listsystem" >sąrašas
+                </string>
+                <string name="about_contact" ><a href="http://otaslim.slimroms.net/contact.htm" >
+Contact us
+                    </a></string>
+                <string name="sizer_message_delete" >Ar tikrai norite naikinti šią programą?
+                </string>
+                <string name="device_title" >Prietaisas
+                </string>
+                <string name="about_license_url" ><a href="http://otaslim.slimroms.net/license.htm" >
+gpl(2)
+                    </a></string>
+                <string name="short_cut_news_title" >Naujienos
+                </string>
+                <string name="short_cut_additional_title" >Papildomas
+                </string>
+                <string name="btn_delete" >Trinti pasirinktas programėles dabar!
+                </string>
+                <string name="short_cut_download_gapps_title" >Atsisiųsti Google programėles
+                </string>
+                <string name="about_title" >Apie
+                </string>
+                <string name="short_cut_download_title" >Atsisiųsti SlimBean
+                </string>
+                <string name="sizer_message_filesuccess" >Sukurtas profilis.
+                </string>
+                <string name="btn_profile" >Profilis
+                </string>
+                <string name="update_interval_disable" >Išjungti
+                </string>
+                <string name="short_cut_download_summary_update_available" >Galimas SlimBean atnaujinimas. Atsisiųsti čia!
+                </string>
+                <string name="xml_url" >http://otaslim.slimroms.net/ota.xml
+                </string>
+                <string name="no_data_title" >Nėra galimo duomenų ryšio
+                </string>
+                <string name="menu_settings" >Nustatymai
+                </string>
+                <string name="sizer_message_noselect" >Niekas nepasirinkta.
+                </string>
+                <string name="cancel" >Atšaukti
+                </string>
+                <string name="device_info_title" >Įrenginio informacija
+                </string>
+                <string name="sizer_message_sdnowrite" >Nepavyksta rašyti į SD kortelę.
+                </string>
+                <string name="sizer_message_startup" >Šis įrankis leidžia jums ištrinti sistemines programas. Naudokite atsargiai ir trinkite tik tas programas, dėl kurių esate tikri.
+                </string>
+                <string name="version_title" >Versija:
+                </string>
+                <string name="short_cut_faq_title" >DUK
+                </string>
+                <string name="menu_slimsizer" >Slim dydis
+                </string>
+                <string name="about_version" >SlimOTA 1.0
+                </string>
+                <string name="title_update" >Atnaujinimas
+                </string>
+                <string name="up_to_date_title" >Jūsų sistema yra naujausios versijos
+                </string>
+                <string name="short_cut_download_gapps_summary" >Atsisiųsti SlimBean papildinių paketus
+                </string>
+                <string name="menu_update" >Ieškoti atnaujinimų dabar
+                </string>
+                <string name="system_prop_error" >Nepavyksta matyti sistemos ypatybių
+                </string>
+                <string name="settings_title" >SlimOTA nustatymai
+                </string>
+                <string name="update_interval_half_day" >Kas 12 valandų
+                </string>
+                <string name="news_url" >http://otaslim.slimroms.net/news.htm
+                </string>
+                <string name="short_cut_release_title" >Susiję su ROM
+                </string>
+                <string name="about_license" >Atvirojo kodo licenzijos
+                </string>
+                <string name="toast_no_data_text" >Nėra interneto ryšio. Prašome jį įjungti
+                </string>
+                <string name="sizer_title" >Slim dydis
+                </string>
+                <string name="sizer_message_sdnoread" >Nepavyksta skaityti SD kortelės.
+                </string>
+                <string name="delete_fail" >Neleidžiama ištrinti
+                </string>
+                <string name="notification_message" >Galimas SlimBean ROM atnaujinimas
+                </string>
+                <string name="toast_text" >Ieškoma ROM atnaujinimų...
+                </string>
+                <string name="ok" >Gerai
+                </string>
+                <string name="short_cut_changelog_title" >Pakeitimų sąrašas
+                </string>
+                <string name="short_cut_faq_summary" >Rodyti Slim DUK
+                </string>
+                <string name="update_interval_day" >Kas 24 valandas
+                </string>
+                <string name="about_home_url" ><a href="http://www.slimroms.net" >
+www.slimroms.net
+                    </a></string>
+                <string name="curVer" >Dabartinė versija
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Svarbu!!! Įdėmiai perskaitykite pakeitimų sąrašą ir diegimo instrukcijas
+                </string>
+                <string name="bad_url" >Nepavyksta prieiti prie atsisiuntimo vietos.\nPrašome pranešti savo prietaiso SlimBean prižiūrėtojui!
+                </string>
+                <string name="about_contact_text" >Rašykite atsiliepimus \narba praneškite apie klaidas
+                </string>
+                <string name="sizer_message_filefail" >Nepavyko sukurti profilio.
+                </string>
+                <string name="about_slim_ota" >SlimOTA leidžia jums visada turėti \nnaujausią programinę įrangą
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-nl\strings.xml"
+                qualifiers="nl" >
+                <string name="update_interval_title" >Automatische update controle-interval
+                </string>
+                <string name="delete_success" >Verwijderd
+                </string>
+                <string name="listsystem" >Lijst
+                </string>
+                <string name="error_reading_title" >Kan SlimOTA gegevens niet lezen
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="file_name_title" >Bestand:
+                </string>
+                <string name="device_name_title" >Naam:
+                </string>
+                <string name="notification_message" >SlimBean ROM update beschikbaar
+                </string>
+                <string name="short_cut_download_gapps_summary" >SlimBean addon-paketten downloaden
+                </string>
+                <string name="update_interval_day" >Elke 24 uur
+                </string>
+                <string name="short_cut_changelog_title" >Changelog
+                </string>
+                <string name="update_file_title" >Bijwerken:
+                </string>
+                <string name="sizer_message_filefail" >Aanmaken van profiel mislukt.
+                </string>
+                <string name="short_cut_additional_title" >Extra
+                </string>
+                <string name="btn_profile" >Profiel
+                </string>
+                <string name="bad_url" >Niet in staat om downloads te vinden.\nBreng uw Slim apparaat ontwikkelaar hiervan op de hoogte!
+                </string>
+                <string name="codename_title" >Codenaam:
+                </string>
+                <string name="short_cut_download_title" >Download SlimBean
+                </string>
+                <string name="short_cut_news_summary" >Lees het laatste Slim-nieuws
+                </string>
+                <string name="settings_title" >SlimOTA instellingen
+                </string>
+                <string name="update_interval_summary" >Stel automatische update controle interval in
+                </string>
+                <string name="update_interval_half_day" >Elke 12 uur
+                </string>
+                <string name="caution" >Let op!
+                </string>
+                <string name="curVer" >Huidige versie
+                </string>
+                <string name="menu_update" >Controleer nu op updates
+                </string>
+                <string name="no_data_title" >Geen dataverbinding beschikbaar
+                </string>
+                <string name="title_update" >Bijwerken
+                </string>
+                <string name="short_cut_release_title" >ROM gerelateerd
+                </string>
+                <string name="short_cut_download_summary_update_available" >Er is een nieuwe versie van SlimBean. Download hier!
+                </string>
+                <string name="menu_settings" >Instellingen
+                </string>
+                <string name="sizer_message_noselect" >Niets geselecteerd.
+                </string>
+                <string name="about_slim_ota" >SlimOTA houdt u altijd op de hoogte\nvan uw ROM en gapps
+                </string>
+                <string name="btn_delete" >Verwijder geselecteerde apps
+                </string>
+                <string name="sizer_message_delete" >Weet u zeker dat u deze app wilt verwijderen ?
+                </string>
+                <string name="sizer_message_startup" >Deze tool stelt u in staat om systeem applicaties te verwijderen. Wees voorzichtig en verwijder alleen apps welke veilig zijn om te verwijderen.
+                </string>
+                <string name="sizer_message_filesuccess" >Profiel maken
+                </string>
+                <string name="short_cut_changelog_summary" >Laat changelogs en installatieinstructies zien
+                </string>
+                <string name="about_license" >Open-sourcelicenties
+                </string>
+                <string name="sizer_message_sdnoread" >Lezen SD Kaart onmogelijk
+                </string>
+                <string name="up_to_date_title" >Uw systeem is up to date
+                </string>
+                <string name="update_interval_disable" >Uitschakelen
+                </string>
+                <string name="short_cut_faq_summary" >Open Slim FAQ
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Download SlimBean ROM
+                </string>
+                <string name="short_cut_download_gapps_title" >Download gapps
+                </string>
+                <string name="delete_fail" >Verwijderen onmogelijk
+                </string>
+                <string name="sizer_message_sdnowrite" >Schrijven SD kaart onmogelijk
+                </string>
+                <string name="system_prop_error" >Kan systeem eigenschappen niet lezen
+                </string>
+                <string name="short_cut_faq_title" >FAQ
+                </string>
+                <string name="device_info_title" >Apparaatgegevens
+                </string>
+                <string name="update_interval_hour" >Elk uur
+                </string>
+                <string name="about_contact_text" >Vertel ons wat u denkt\nof meld een bug of probleem
+                </string>
+                <string name="short_cut_news_title" >Nieuws
+                </string>
+                <string name="device_title" >Toestel
+                </string>
+                <string name="version_title" >Versie:
+                </string>
+                <string name="toast_no_data_text" >Geen internet verbinding. Zet a.u.b. aan.
+                </string>
+                <string name="cancel" >Annuleren
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Belangrijk! Lees het changelog en de installatieinstructies aandachtig
+                </string>
+                <string name="about_title" >Over
+                </string>
+                <string name="toast_text" >Zoeken naar ROM updates...
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-pl\strings.xml"
+                qualifiers="pl" >
+                <string name="short_cut_news_title" >Aktualności
+                </string>
+                <string name="delete_success" >Usunięto
+                </string>
+                <string name="device_name_title" >Nazwa:
+                </string>
+                <string name="about_title" >Na temat
+                </string>
+                <string name="sizer_message_startup" >Narzędzie to pozwala na usuwanie aplikacji systemu. \nUżywaj ostrożnie, usuwaj jedynie aplikacje o których wiesz że są bezpieczne.
+                </string>
+                <string name="update_interval_title" >Częstotliwość sprawdzania automatycznej aktualizacji
+                </string>
+                <string name="download_url" >http://otaslim.slimroms.net/download.htm
+                </string>
+                <string name="ota_title" >SlimOTA
+                </string>
+                <string name="menu_settings" >Ustawienia
+                </string>
+                <string name="no_data_title" >Brak połączenia danych
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Ważne! Przeczytaj dokładnie instrukcje instalacji i zmiany w tej wersji
+                </string>
+                <string name="slim_irc_summary" >Dołącz do naszego kanału IRCl!\nRozmawiaj z zespołem Slim i innymi użytkownikami
+                </string>
+                <string name="listsystem" >Lista
+                </string>
+                <string name="update_interval_summary" >Ustaw częstotliwość sprawdzania automatycznej aktualizacji
+                </string>
+                <string name="caution" >Uwaga!
+                </string>
+                <string name="center_summary" ><b>
+SlimCenter
+                    </b> dostarcza narzędzia i informacje, które pomogą ulepszyć twoje doświadczenia z Romem. Aktualizuj automatycznie do najnowszej wersji przez 
+<b>
+SlimOTA
+                    </b> i usuwaj niepotrzebne aplikacje systemowe z 
+<b>
+SlimSizer
+                    </b></string>
+                <string name="short_cut_changelog_summary" >Pokaż zmiany w tej wersji i instrukcje instalacji
+                </string>
+                <string name="codename_title" >Kryptonim:
+                </string>
+                <string name="slim_website_summary" >www.slimroms.net\nZnajdź najnowsze informacje o projekcie tutaj
+                </string>
+                <string name="menu_slimsizer" >SlimSizer
+                </string>
+                <string name="update_interval_day" >Co 24 godziny
+                </string>
+                <string name="short_cut_faq_summary" >Pokaż SLIM FAQ
+                </string>
+                <string name="short_cut_release_title" >Związane z ROMEM
+                </string>
+                <string name="file_name_title" >Plik:
+                </string>
+                <string name="slim_irc_title" >SlimIRC
+                </string>
+                <string name="up_to_date_title" >System jest aktualny
+                </string>
+                <string name="sizer_message_sdnoread" >Nie można odczytać karty SD.
+                </string>
+                <string name="sizer_message_filesuccess" >Profil utworzony.
+                </string>
+                <string name="cancel" >Anuluj
+                </string>
+                <string name="device_title" >Urządzenie
+                </string>
+                <string name="curVer" >Aktualna wersja
+                </string>
+                <string name="update_file_title" >Aktualizacja:
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="sizer_message_sdnowrite" >Nie można zapisać na karcie SD.
+                </string>
+                <string name="update_interval_disable" >Wyłącz
+                </string>
+                <string name="short_cut_changelog_title" >Zmiany w tej wersji
+                </string>
+                <string name="btn_delete" >Usuń wybrane aplikacje!
+                </string>
+                <string name="bad_url" >Nie można dotrzeć do miejsca pobrania. \nProszę poinformuj opiekuna swojego urządzenia SLIM! 
+                </string>
+                <string name="devs" >Programista
+                </string>
+                <string name="no_irc" >Nie znaleziono aplikacji SlimIRC.
+                </string>
+                <string name="short_cut_faq_title" >FAQ
+                </string>
+                <string name="slim_donate_title" >Wesprzyj
+                </string>
+                <string name="sizer_message_noselect" >Nic nie wybrano.
+                </string>
+                <string name="about_license" >Licencja otwartego źródła
+                </string>
+                <string name="ok" >OK
+                </string>
+                <string name="menu_update" >Poszukaj aktualizacji teraz
+                </string>
+                <string name="short_cut_news_summary" >Przeczytaj najnowsze wieści SLIM
+                </string>
+                <string name="about_contact_text" >Powiedz nam co myślisz\nlub też daj znać o błędach i problemach
+                </string>
+                <string name="about_license_text" >SlimOTA app:
+                </string>
+                <string name="short_cut_download_title" >Pobierz SlimBean
+                </string>
+                <string name="sizer_message_filefail" >Nie można utworzyć profilu.
+                </string>
+                <string name="system_prop_error" >Nie można odczytać właściwości systemu
+                </string>
+                <string name="slim_source_title" >Źródło SLIM
+                </string>
+                <string name="title_update" >Aktualizuj
+                </string>
+                <string name="delete_fail" >Nie można usunąć
+                </string>
+                <string name="sizer_message_delete" >Czy na pewno chcesz usunąć tą aplikację?
+                </string>
+                <string name="short_cut_download_gapps_summary" >Pobierz paczki z dodatkami do SlimBean
+                </string>
+                <string name="toast_no_data_text" >Brak połączenia danych. Proszę włączyć
+                </string>
+                <string name="about_version" >SlimOTA 1.0
+                </string>
+                <string name="settings_title" >Ustawienia SlimOTA
+                </string>
+                <string name="short_cut_download_gapps_title" >Pobierz Gapps
+                </string>
+                <string name="error_reading_title" >Nie można odczytać właściwości SlimOTA
+                </string>
+                <string name="slim_donate_summary" >Dotacje dla ekipy SlimRoms
+                </string>
+                <string name="about_slim_ota" >SlimOTA pilnuje by twój ROM i gappsy\nbyły na bieżąco
+                </string>
+                <string name="toast_text" >Szukam aktualizacji ROMU... 
+                </string>
+                <string name="update_interval_hour" >Co godzinę
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Pobierz ROM SlimBean
+                </string>
+                <string name="short_cut_download_summary_update_available" >Nowa aktualizacja SlimBean ROM dostępna. Pobierz tutaj!
+                </string>
+                <string name="slim_source_summary" >Romy SLIM są w pełni otwartym źródłem.\nŹródło: github.com/SlimRoms
+                </string>
+                <string name="short_cut_additional_title" >Dodatkowe
+                </string>
+                <string name="slim_website_title" >Strona projektu Slim
+                </string>
+                <string name="version_title" >Wersja:
+                </string>
+                <string name="btn_profile" >Profil
+                </string>
+                <string name="about_copyright" >\u00A9 prawa autorskie Slimroms 2013
+                </string>
+                <string name="notification_message" >Dostępna aktualizacja ROMU SlimBean
+                </string>
+                <string name="sizer_title" >SlimSizer
+                </string>
+                <string name="aboutslim_title" >SlimRoms
+                </string>
+                <string name="update_interval_half_day" >Co 12 godzin
+                </string>
+                <string name="device_info_title" >Informacje o urządzeniu
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-pt\strings.xml"
+                qualifiers="pt" >
+                <string name="sizer_message_delete" >Tem certeza que deseja remover esta aplicação?
+                </string>
+                <string name="short_cut_download_title" >Download SlimBean
+                </string>
+                <string name="sizer_message_sdnowrite" >Não é possível gravar no cartão SD.
+                </string>
+                <string name="cancel" >Cancelar
+                </string>
+                <string name="short_cut_additional_title" >Mais
+                </string>
+                <string name="short_cut_news_title" >Notícias
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Download da ROM SlimBean
+                </string>
+                <string name="error_reading_title" >Não é possível ler as propriedades do SlimOTA
+                </string>
+                <string name="file_name_title" >Ficheiro:
+                </string>
+                <string name="listsystem" >lista
+                </string>
+                <string name="version_title" >Versão:
+                </string>
+                <string name="bad_url" >Não foi possível fazer o download.\nPor favor informe-nos!
+                </string>
+                <string name="short_cut_release_title" >Relacionado com a ROM
+                </string>
+                <string name="up_to_date_title" >O seu sistema está atualizado
+                </string>
+                <string name="sizer_message_sdnoread" >Não é possível ler o cartão SD.
+                </string>
+                <string name="device_name_title" >Nome:
+                </string>
+                <string name="short_cut_faq_title" >Perguntas Frequentes
+                </string>
+                <string name="device_title" >Dispositivo
+                </string>
+                <string name="toast_text" >A procurar por atualizações da ROM...
+                </string>
+                <string name="short_cut_faq_summary" >Visualizar Perguntas Frequentes
+                </string>
+                <string name="short_cut_download_gapps_title" >Download das gapps
+                </string>
+                <string name="btn_delete" >Remover aplicações selecionadas agora!
+                </string>
+                <string name="delete_success" >Eliminado
+                </string>
+                <string name="short_cut_download_gapps_summary" >Download dos pacotes adicionais SlimBean
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="no_data_title" >Nenhuma conexão de dados disponível
+                </string>
+                <string name="sizer_message_filesuccess" >Perfil criado.
+                </string>
+                <string name="menu_settings" >Definições
+                </string>
+                <string name="btn_profile" >Perfil
+                </string>
+                <string name="device_info_title" >Informações do dispositivo
+                </string>
+                <string name="update_interval_disable" >Desativar
+                </string>
+                <string name="caution" >Atenção!
+                </string>
+                <string name="about_title" >Sobre
+                </string>
+                <string name="update_interval_hour" >A cada hora
+                </string>
+                <string name="update_interval_summary" >Definir intervalo de procura de actualizações automáticas
+                </string>
+                <string name="about_contact_text" >Diga-nos o que pensa da ROM\nou informe-nos sobre um bug ou um problema
+                </string>
+                <string name="short_cut_changelog_summary" >Visualizar changelogs e instruções de instalação
+                </string>
+                <string name="menu_update" >Procurar por atualizações agora
+                </string>
+                <string name="delete_fail" >Não é possível eliminar
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Importante!!! Leia o changelog e as instruções de instalação cuidadosamente
+                </string>
+                <string name="codename_title" >Nome de código:
+                </string>
+                <string name="short_cut_news_summary" >Leia as últimas notícias Slim
+                </string>
+                <string name="about_license" >Licenças de código aberto
+                </string>
+                <string name="update_interval_half_day" >A cada 12 horas
+                </string>
+                <string name="update_interval_day" >A cada 24 horas
+                </string>
+                <string name="about_slim_ota" >SlimOTA mantém-te sempre com a ROM\ne as gapps atualizados
+                </string>
+                <string name="system_prop_error" >Não é possível ler as propriedades do sistema
+                </string>
+                <string name="sizer_message_startup" >Esta ferramenta permite que remova aplicações do sistema. Use com cuidado e só apague as aplicações que sabe que são seguras para se removerem.
+                </string>
+                <string name="settings_title" >Definições do SlimOTA
+                </string>
+                <string name="sizer_message_filefail" >Falha ao criar o perfil.
+                </string>
+                <string name="short_cut_download_summary_update_available" >Nova atualização da ROM SlimBean disponível. Download aqui!
+                </string>
+                <string name="update_interval_title" >Intervalo de procura de actualizações automáticas
+                </string>
+                <string name="title_update" >Atualização
+                </string>
+                <string name="toast_no_data_text" >Nenhuma conexão de dados. Por favor, ligue-a
+                </string>
+                <string name="sizer_message_noselect" >Nada selecionado.
+                </string>
+                <string name="curVer" >Versão atual
+                </string>
+                <string name="update_file_title" >Atualização:
+                </string>
+                <string name="notification_message" >Atualização da ROM SlimBean disponível
+                </string>
+                <string name="short_cut_changelog_title" >Changelog
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-ro\strings.xml"
+                qualifiers="ro" >
+                <string name="short_cut_download_summary_update_available" >O nouă versiune SlimBean ROM este disponibilă. Descărcați de aici!
+                </string>
+                <string name="menu_update" >Caută actualizări acum
+                </string>
+                <string name="bad_url" >Imposibil de a ajunge în zona de descărcare.\nVă rugăm informați menținătorul dispozitivului dumneavoastră!
+                </string>
+                <string name="update_interval_summary" >Setare interval de verificare actualizare automată
+                </string>
+                <string name="update_interval_day" >La fiecare 24 de ore
+                </string>
+                <string name="sizer_message_filefail" >Creare profil eșuată.
+                </string>
+                <string name="short_cut_download_gapps_title" >Descarcă gapps
+                </string>
+                <string name="xml_url" >http://otaslim.slimroms.net/ota.xml
+                </string>
+                <string name="short_cut_news_summary" >Citiţi despre cele mai recente noutăți Slim
+                </string>
+                <string name="faq_url" >http://otaslim.slimroms.net/faq.htm
+                </string>
+                <string name="about_license_url" ><a href="http://otaslim.slimroms.net/license.htm" >
+gpl(2)
+                    </a></string>
+                <string name="btn_profile" >Profil
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Descarcă SlimBean ROM
+                </string>
+                <string name="about_slim_ota" >SlimOTA te ţine întotdeauna actualizat\nîn legătura cu rom şi gapps
+                </string>
+                <string name="gapps_url" >http://otaslim.slimroms.net/gapps.htm
+                </string>
+                <string name="short_cut_changelog_title" >Istoria schimbărilor
+                </string>
+                <string name="menu_slimsizer" >SlimSizer
+                </string>
+                <string name="about_title" >Despre
+                </string>
+                <string name="changelog_url" >http://otaslim.slimroms.net/changelog.htm
+                </string>
+                <string name="device_title" >Dispozitiv
+                </string>
+                <string name="short_cut_download_title" >Descarcă SlimBean
+                </string>
+                <string name="sizer_message_noselect" >Nimic selectat.
+                </string>
+                <string name="about_version" >SlimOTA 1.0
+                </string>
+                <string name="curVer" >Versiunea curentă
+                </string>
+                <string name="news_url" >http://otaslim.slimroms.net/news.htm
+                </string>
+                <string name="sizer_message_delete" >Sunteţi sigur că doriţi să ştergeţi această aplicație?
+                </string>
+                <string name="update_interval_title" >Interval de verificare actualizare automată
+                </string>
+                <string name="codename_title" >Nume de cod:
+                </string>
+                <string name="version_title" >Versiune:
+                </string>
+                <string name="short_cut_news_title" >Noutăți
+                </string>
+                <string name="sizer_message_filesuccess" >Crează profil.
+                </string>
+                <string name="btn_delete" >Şterge aplicațiile selectate acum!
+                </string>
+                <string name="update_file_title" >Actualizare:
+                </string>
+                <string name="ok" >OK
+                </string>
+                <string name="short_cut_release_title" >Legate de ROM
+                </string>
+                <string name="short_cut_download_gapps_summary" >Descarcă pachet de adaugări
+                </string>
+                <string name="about_home_url" ><a href="http://www.slimroms.net" >
+www.slimroms.net
+                    </a></string>
+                <string name="sizer_message_sdnowrite" >Nu se poate scrie pe SD Card.
+                </string>
+                <string name="update_interval_half_day" >La fiecare 12 ore
+                </string>
+                <string name="sizer_title" >SlimSizer
+                </string>
+                <string name="caution" >Avertisment!
+                </string>
+                <string name="delete_fail" >Imposibil de șters
+                </string>
+                <string name="update_interval_disable" >Dezactivaţi
+                </string>
+                <string name="app_name" >SlimCenter
+                </string>
+                <string name="menu_settings" >Setari
+                </string>
+                <string name="settings_title" >Setări SlimOTA
+                </string>
+                <string name="error_reading_title" >Imposibil de citit proprietăţile SlimOTA
+                </string>
+                <string name="sizer_message_sdnoread" >Nu se poate citi SD Card.
+                </string>
+                <string name="update_interval_hour" >La fiecare oră
+                </string>
+                <string name="file_name_title" >Fişier:
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Important!!! Citiți istoricul de schimbări si instrucțiunile de instalare cu atenție
+                </string>
+                <string name="about_contact" ><a href="http://otaslim.slimroms.net/contact.htm" >
+Contactați-ne
+                    </a></string>
+                <string name="short_cut_additional_title" >Suplimentar
+                </string>
+                <string name="title_update" >Actualizare
+                </string>
+                <string name="short_cut_changelog_summary" >Arata istoricul schimbărilor si instrucțiunile de instalare
+                </string>
+                <string name="device_name_title" >Nume:
+                </string>
+                <string name="system_prop_error" >Imposibil de citit proprietățile de sistem
+                </string>
+                <string name="short_cut_faq_summary" >Arată Slim FAQ
+                </string>
+                <string name="about_contact_text" >Spuneți-ne ce credeți\nsau anunţaţi-ne despre un bug sau o problema
+                </string>
+                <string name="up_to_date_title" >Sistemul dumneavoastră este actualizat
+                </string>
+                <string name="toast_no_data_text" >Nici o conexiune de date. Vă rugăm să o porniți
+                </string>
+                <string name="about_license" >Licenţe open source
+                </string>
+                <string name="notification_message" >Actualizare SlimBean ROM disponibilă
+                </string>
+                <string name="toast_text" >Caut actualizări ROM...
+                </string>
+                <string name="no_data_title" >Nici o conexiune de date disponibilă
+                </string>
+                <string name="cancel" >Anulează
+                </string>
+                <string name="short_cut_faq_title" >FAQ
+                </string>
+                <string name="delete_success" >Şters
+                </string>
+                <string name="about_copyright" >\u00A9 Drepturi de autor Slimroms 2013
+                </string>
+                <string name="sizer_message_startup" >Acest instrument vă permite să ştergeţi aplicațiile din sistem. Utilizaţi cu precauţie şi ştergeți numai aplicațiile pe care ştiţi că pot fi    înlăturate fără probleme.
+                </string>
+                <string name="listsystem" >listă
+                </string>
+                <string name="device_info_title" >Informaţii dispozitiv
+                </string>
+                <string name="about_license_text" >Aplicatie SlimOTA:
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-ru\arrays.xml"
+                qualifiers="ru" >
+                <string-array name="slimsizer_profile_array" >
+                    <item>
+Загрузить профиль
+                    </item>
+                    <item>
+Сохранить профиль
+                    </item>
+                </string-array>
+                <string-array
+                    name="values_update_interval"
+                    translatable="false" >
+                    <item>
+0
+                    </item>
+                    <item>
+1
+                    </item>
+                    <item>
+2
+                    </item>
+                    <item>
+3
+                    </item>
+                </string-array>
+                <string-array name="entries_update_interval" >
+                    <item>
+@string/update_interval_day
+                    </item>
+                    <item>
+@string/update_interval_half_day
+                    </item>
+                    <item>
+@string/update_interval_hour
+                    </item>
+                    <item>
+@string/update_interval_disable
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-ru\strings.xml"
+                qualifiers="ru" >
+                <string name="slim_irc_title" >SlimIRC
+                </string>
+                <string name="update_interval_title" >Интервал автопроверки обновлений
+                </string>
+                <string name="bad_url" >Невозможно получить доступ к скачиванию.\nПожалуйста, свяжитесь с куратором Sim для вашего устройства!
+                </string>
+                <string name="update_interval_disable" >Отключить
+                </string>
+                <string name="menu_settings" >Настройки
+                </string>
+                <string name="cancel" >Отмена
+                </string>
+                <string name="listsystem" >список
+                </string>
+                <string name="short_cut_download_summary_update_available" >Найдено обновление прошиски SlimBean. Скачать здесь!
+                </string>
+                <string name="slim_irc_summary" >Заходите в нашу IRC!\nОбщайтесь с командой Slim и другими пользователями
+                </string>
+                <string name="btn_delete" >Удалить выделенные приложения!
+                </string>
+                <string name="delete_fail" >Невозможно удалить
+                </string>
+                <string name="slim_website_summary" >www.slimroms.net\nВсе последние новости про Slim здесь
+                </string>
+                <string name="sizer_message_startup" >Эта программа разрешает удалять системные приложения. Используйте с осторожностью и удаляйте только то, что можно удалить без последствий.
+                </string>
+                <string name="slim_bugreport" >Сообщить об ошибке
+                </string>
+                <string name="slim_website_title" >Страница Slim
+                </string>
+                <string name="sizer_message_delete" >Вы точно хотите удалить это/эти приложение(-ия)?
+                </string>
+                <string name="slim_bugreport_summary" >Создать отчет об ошибке.
+                </string>
+                <string name="delete_success" >Удалено
+                </string>
+                <string name="system_prop_error" >Невозможно прочесть системные свойства
+                </string>
+                <string name="sizer_message_sdnoread" >Невозможно чтение с SD-карты.
+                </string>
+                <string name="slim_donate_title" >Пожертвования
+                </string>
+                <string name="slim_donate_summary" >Пожертвовать команде SlimRoms
+                </string>
+                <string name="version_title" >Версия:
+                </string>
+                <string name="about_contact_text" >Расскажите нам свои впечатления\nили дайте знать о баге или проблеме
+                </string>
+                <string name="report_infofail" >Ошибка создания отчета об ошибке, попробуйте еще раз.
+                </string>
+                <string name="short_cut_release_title" >Прошивка
+                </string>
+                <string name="file_name_title" >Файл:
+                </string>
+                <string name="sizer_message_delete_multi" >Вы точно хотите удалить выбранные приложения?
+                </string>
+                <string name="sizer_message_noselect" >Ничего не выбрано.
+                </string>
+                <string name="title_update" >Обновить
+                </string>
+                <string name="about_slim_ota" >Slim-Центр позволяет легко изменять\n свою прошивку!
+                </string>
+                <string name="codename_title" >Кодовое имя:
+                </string>
+                <string name="menu_update" >Поиск обновлений
+                </string>
+                <string name="short_cut_faq_summary" >Показать FAQ по Slim
+                </string>
+                <string name="sizer_message_filesuccess" >Профиль создан.
+                </string>
+                <string name="device_name_title" >Имя:
+                </string>
+                <string name="short_cut_changelog_summary" >Показывать список обновлений и инструкции по установке
+                </string>
+                <string name="about_license_text" >Slim-Центр:
+                </string>
+                <string name="btn_profile" >Профиль
+                </string>
+                <string name="update_interval_half_day" >Каждые 12 часов
+                </string>
+                <string name="delete_progress" >Выбранные файлы удаляются, пожалуйста, подождите
+                </string>
+                <string name="app_name" >Slim-Центр
+                </string>
+                <string name="device_info_title" >Информация об устройства
+                </string>
+                <string name="update_file_title" >Обновить:
+                </string>
+                <string name="short_cut_news_summary" >Прочесть о последних новостях в Slim
+                </string>
+                <string name="no_irc" >Приложение SlimIRC не найдено.
+                </string>
+                <string name="sizer_message_delete_multi_one" >Вы точно хотите удалить выбранное приложение?
+                </string>
+                <string name="error_reading_title" >Невозможно прочесть данные SlimOTA
+                </string>
+                <string name="notification_message" >Доступно обновление прошивки SlimBean
+                </string>
+                <string name="up_to_date_title" >У вас установлена самая новая версия
+                </string>
+                <string name="settings_title" >Настройки SlimOTA
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Скачать прошивку SlimBean
+                </string>
+                <string name="about_title" >Про SlimOTA
+                </string>
+                <string name="short_cut_news_title" >Новости
+                </string>
+                <string name="update_interval_summary" >Задать интервал автопроверки обновлений
+                </string>
+                <string name="no_data_title" >Нет подключения к сети
+                </string>
+                <string name="short_cut_download_gapps_title" >Скачать Google Apps
+                </string>
+                <string name="slim_source_title" >Исходники Slim
+                </string>
+                <string name="slim_source_summary" >Slim полностью открыт.\nИсходники на github.com/SlimRoms
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Важно!!! Внимательно прочтите списолк изменений и инструкций по установке
+                </string>
+                <string name="short_cut_faq_title" >ЧаВО
+                </string>
+                <string name="center_summary" ><b>
+Slim-Центр
+                    </b> включает утилиты и данные, чтобы сделать работу с прошивкой SlimRoms еще лучше. В числе возможностей: автоматическое обновление до последней версии ROM с помощью 
+<b>
+SlimOTA
+                    </b> и удаление ненужных системных приложений через 
+<b>
+SlimSizer
+                    </b></string>
+                <string name="short_cut_changelog_title" >Список изменений
+                </string>
+                <string name="update_interval_hour" >Каждый час
+                </string>
+                <string name="toast_no_data_text" >Нет подключения к сети. Пожалуйста, подключитесь
+                </string>
+                <string name="report_infosuccess" >Создан системный отчет, отправьте его команде SlimRoms, прикрепив к отчету об ошибке. Zip-архив с системным отчетом находится на SD-карте в директории \"Slim\".
+                </string>
+                <string name="device_title" >Устройство
+                </string>
+                <string name="delete_progress_title" >Удаление
+                </string>
+                <string name="caution" >Внимание!
+                </string>
+                <string name="short_cut_additional_title" >Дополнительно
+                </string>
+                <string name="about_contact" ><a href="http://otaslim.slimroms.net/contact.htm" >
+Связаться с нами
+                    </a></string>
+                <string name="devs" >Разработчик
+                </string>
+                <string name="update_interval_day" >Каждые 24 часа
+                </string>
+                <string name="toast_text" >Поиск обновлений прошивки, пожалуйста, подождите
+                </string>
+                <string name="sizer_message_filefail" >Невозможно создать профиль.
+                </string>
+                <string name="short_cut_download_title" >Скачать SlimBean
+                </string>
+                <string name="short_cut_download_gapps_summary" >Скачать дополнения к прошивке SlimBean
+                </string>
+                <string name="sizer_message_sdnowrite" >Невозможна запись на SD-карту.
+                </string>
+                <string name="aboutslim_title" >SlimRoms
+                </string>
+                <string name="curVer" >Текущая версия
+                </string>
+                <string name="ota_title" >SlimOTA
+                </string>
+                <string name="about_version" >Slim-Центр 1.1
+                </string>
+                <string name="about_license" >Открытые лицензии
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-uk\strings.xml"
+                qualifiers="uk" >
+                <string name="btn_profile" >Профіль
+                </string>
+                <string name="cancel" >Скасувати
+                </string>
+                <string name="short_cut_faq_summary" >Показати Slim FAQ
+                </string>
+                <string name="bad_url" >Не вдається завантажити. \nБудь ласка інформуйте свого розробітника Slim!
+                </string>
+                <string name="about_title" >Про SlimOTA
+                </string>
+                <string name="short_cut_download_title" >Завантажити SlimBean
+                </string>
+                <string name="device_title" >Пристрій
+                </string>
+                <string name="short_cut_faq_title" >ПИТАННЯ ТА ВІДПОВІДІ
+                </string>
+                <string name="delete_fail" >Не вдалося видалити
+                </string>
+                <string name="about_license" >Open source ліцензії
+                </string>
+                <string name="update_interval_title" >Інтервал перевірки автоматичного оновлення
+                </string>
+                <string name="short_cut_changelog_title" >Список змін
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Завантажити SlimBean ROM
+                </string>
+                <string name="short_cut_news_summary" >Читайте про останні новини Slim
+                </string>
+                <string name="toast_no_data_text" >Немає зв\'язку. Будь ласка, увімкніть
+                </string>
+                <string name="curVer" >Актуальна версія
+                </string>
+                <string name="sizer_message_filefail" >Не вдалося створити профіль.
+                </string>
+                <string name="up_to_date_title" >Ваша система є актуальна
+                </string>
+                <string name="device_name_title" >Ім’я:
+                </string>
+                <string name="sizer_message_filesuccess" >Профіль створен.
+                </string>
+                <string name="codename_title" >Кодова назва:
+                </string>
+                <string name="btn_delete" >Видалити вибрані служби зараз!
+                </string>
+                <string name="system_prop_error" >Не вдалося прочитати властивості системи
+                </string>
+                <string name="short_cut_download_gapps_title" >Завантажити gapps
+                </string>
+                <string name="short_cut_download_gapps_summary" >Завантажити аддони до SlimBean
+                </string>
+                <string name="sizer_message_noselect" >Нічого не є вибрано.
+                </string>
+                <string name="menu_update" >Знайдіть оновлення зараз
+                </string>
+                <string name="delete_success" >Видалено
+                </string>
+                <string name="no_data_title" >Немає підключення
+                </string>
+                <string name="menu_settings" >Параметри
+                </string>
+                <string name="notification_message" >Доступна SlimBean ROM oновлення
+                </string>
+                <string name="sizer_message_delete" >Ви дійсно бажаєте видалити цю app?
+                </string>
+                <string name="update_interval_disable" >Вимкнути
+                </string>
+                <string name="update_interval_half_day" >Кожні 12 години
+                </string>
+                <string name="update_file_title" >Оновлення:
+                </string>
+                <string name="app_name" >Slim-Центер
+                </string>
+                <string name="sizer_message_sdnoread" >Не вдалося прочитати з SD-карти.
+                </string>
+                <string name="listsystem" >Список
+                </string>
+                <string name="short_cut_news_title" >Новини
+                </string>
+                <string name="file_name_title" >Файл:
+                </string>
+                <string name="version_title" >Версія:
+                </string>
+                <string name="device_info_title" >Відомості про пристрій
+                </string>
+                <string name="error_reading_title" >Не вдалося прочитати властивості SlimOTA
+                </string>
+                <string name="update_interval_hour" >Щогодини
+                </string>
+                <string name="update_interval_day" >Кожні 24 години
+                </string>
+                <string name="caution" >Увага!
+                </string>
+                <string name="settings_title" >Параметри SlimOTA
+                </string>
+                <string name="title_update" >Оновлення
+                </string>
+                <string name="sizer_message_sdnowrite" >Не вдалося записати на SD-карту.
+                </string>
+                <string name="update_interval_summary" >Настроювити інтервал перевірки автоматичного оновлення
+                </string>
+                <string name="toast_text" >Шукає ROM оновлення...
+                </string>
+            </file>
+            <file
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\values-vi\strings.xml"
+                qualifiers="vi" >
+                <string name="short_cut_release_title" >Liên quan tới ROM
+                </string>
+                <string name="toast_no_data_text" >Không có kết nối dữ liệu. Vui lòng bật kết nối dữ liệu
+                </string>
+                <string name="short_cut_changelog_summary_update_available" >Quan trọng! Đọc nhật ký thay đổi và hướng dẫn cài đặt cẩn thận
+                </string>
+                <string name="device_name_title" >Tên:
+                </string>
+                <string name="center_summary" ><b>
+Trung tâm Slim
+                    </b> cung cấp các công cụ &amp; thông tin để giúp nâng cao vượt bậc trải nghiệm của bạn với Slim rom. Tự động nâng cấp SlimRom của bạn lên phiên bản mới nhất với 
+<b>
+SlimOTA
+                    </b> và loại bỏ những ứng dụng hệ thống không mong muốn với 
+<b>
+SlimSizer
+                    </b></string>
+                <string name="about_title" >Giới thiệu
+                </string>
+                <string name="update_interval_summary" >Thiết lập khoảng thời gian kiểm tra Tự động cập nhật
+                </string>
+                <string name="slim_website_summary" >www.slimroms.net\nTìm tất cả mọi thứ mới nhất về Slim ở đây
+                </string>
+                <string name="error_reading_title" >Không thể đọc thuộc tính SlimOTA
+                </string>
+                <string name="device_info_title" >Thông tin thiết bị
+                </string>
+                <string name="slim_source_title" >Mã nguồn Slim
+                </string>
+                <string name="short_cut_download_gapps_summary" >Tải về gói tiện ích SlimBean
+                </string>
+                <string name="toast_text" >Đang tìm kiếm bản cập nhật ROM...
+                </string>
+                <string name="update_file_title" >Cập nhật:
+                </string>
+                <string name="short_cut_download_uptodate_summary" >Tải về ROM SlimBean
+                </string>
+                <string name="sizer_message_startup" >Công cụ này cho phép bạn xóa ứng dụng hệ thống. Sử dụng thận trọng và chỉ xóa ứng dụng bạn biết là an toàn để được gỡ bỏ.
+                </string>
+                <string name="sizer_message_filefail" >Tạo hồ sơ thất bại.
+                </string>
+                <string name="short_cut_changelog_summary" >Hiển thị nhật ký thay đổi và hướng dẫn cài đặt
+                </string>
+                <string name="short_cut_additional_title" >Bổ sung
+                </string>
+                <string name="curVer" >Phiên bản hiện tại
+                </string>
+                <string name="delete_success" >Đã xóa
+                </string>
+                <string name="update_interval_title" >Khoảng thời gian tự động kiểm tra cập nhật
+                </string>
+                <string name="file_name_title" >Tập tin:
+                </string>
+                <string name="no_irc" >Không tìm thấy Ứng dụng SlimIRC.
+                </string>
+                <string name="slim_donate_summary" >Ủng hộ nhóm phát triển Slim
+                </string>
+                <string name="short_cut_faq_summary" >Hiển thị Câu hỏi thường gặp về Slim
+                </string>
+                <string name="sizer_message_delete" >Bạn có chắc bạn muốn xóa các ứng dụng này không?
+                </string>
+                <string name="title_update" >Cập nhật
+                </string>
+                <string name="devs" >Nhà phát triển
+                </string>
+                <string name="short_cut_news_summary" >Đọc tin tức mới nhất về Slim
+                </string>
+                <string name="bad_url" >Không thể tới vùng có thể tải. \nXin thông báo với người bảo trì thiết bị Slim của bạn!
+                </string>
+                <string name="update_interval_hour" >Mỗi giờ
+                </string>
+                <string name="device_title" >Thiết bị
+                </string>
+                <string name="codename_title" >Tên mã là:
+                </string>
+                <string name="notification_message" >Có sẵn bản cập nhật của ROM SlimBean
+                </string>
+                <string name="btn_profile" >Cấu hình
+                </string>
+                <string name="app_name" >Trung tâm Slim
+                </string>
+                <string name="sizer_message_sdnoread" >Không thể đọc thẻ SD.
+                </string>
+                <string name="update_interval_disable" >Tắt
+                </string>
+                <string name="menu_settings" >Cài đặt
+                </string>
+                <string name="sizer_message_sdnowrite" >Không thể ghi vào thẻ SD.
+                </string>
+                <string name="listsystem" >danh sách
+                </string>
+                <string name="update_interval_half_day" >Mỗi 12 giờ
+                </string>
+                <string name="slim_donate_title" >Ủng hộ
+                </string>
+                <string name="caution" >Thận trọng!
+                </string>
+                <string name="slim_irc_summary" >Tham gia của kênh IRC của chúng tôi! \nTrò chuyện với Đội phát triển Slim và những người dùng khác
+                </string>
+                <string name="no_data_title" >Không có kết nối dữ liệu sẵn dùng
+                </string>
+                <string name="slim_irc_title" >SlimIRC
+                </string>
+                <string name="settings_title" >Cài đặt SlimOTA
+                </string>
+                <string name="short_cut_download_gapps_title" >Tải về gapps
+                </string>
+                <string name="menu_update" >Đang tìm kiếm cập nhật
+                </string>
+                <string name="sizer_message_noselect" >Không có gì được chọn.
+                </string>
+                <string name="short_cut_download_title" >Tải về SlimBean
+                </string>
+                <string name="system_prop_error" >Không thể đọc thuộc tính hệ thống
+                </string>
+                <string name="aboutslim_title" >SlimRoms
+                </string>
+                <string name="btn_delete" >Xóa bỏ các ứng dụng đã được chọn!
+                </string>
+                <string name="up_to_date_title" >Hệ thống của bạn là mới nhất
+                </string>
+                <string name="about_slim_ota" >Trung tâm Slim cho phép bạn để dễ dàng quản lý\n ROM của bạn!
+                </string>
+                <string name="slim_source_summary" >SlimRoms là nguồn mở hoàn toàn.\nMã nguồn tại github.com/SlimRoms
+                </string>
+                <string name="about_version" >Trung tâm Slim 1.1
+                </string>
+                <string name="short_cut_news_title" >Tin tức
+                </string>
+                <string name="cancel" >Hủy
+                </string>
+                <string name="update_interval_day" >Mỗi 24 giờ
+                </string>
+                <string name="download_url" >http://otaslim.slimroms.net/download.htm
+                </string>
+                <string name="delete_fail" >Không thể xoá
+                </string>
+                <string name="sizer_message_filesuccess" >Tạo hồ sơ.
+                </string>
+                <string name="slim_website_title" >Trang web Slim
+                </string>
+                <string name="about_license_text" >Thông tin Trung tâm Slim:
+                </string>
+                <string name="short_cut_faq_title" >CÂU HỎI THƯỜNG GẶP
+                </string>
+                <string name="about_license" >Giấy phép nguồn mở
+                </string>
+                <string name="short_cut_changelog_title" >Thay đổi
+                </string>
+                <string name="version_title" >Phiên bản:
+                </string>
+                <string name="about_contact_text" >Cho chúng tôi biết những gì bạn nghĩ\nhoặc cho chúng tôi biết về một lỗi hay vấn đề
+                </string>
+                <string name="short_cut_download_summary_update_available" >Có sẵn phiên bản cập nhật của SlimBean ROM. Tải về ở đây!
+                </string>
+            </file>
+            <file
+                name="mahdi_ota_settings"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\xml\mahdi_ota_settings.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="wakeful"
+                path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\main\res\xml\wakeful.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\David\Documents\GitHub\MahdiCenterGradle\app\src\debug\res" />
+    </dataSet>
+
+</merger>
