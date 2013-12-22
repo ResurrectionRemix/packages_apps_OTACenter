@@ -18,7 +18,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.slim.ota"
+    package="com.mahdi.ota"
     android:versionCode="1"
     android:versionName="1.1" >
 
@@ -40,7 +40,7 @@
         android:launchMode="singleTask"
         android:theme="@style/SlimOTA" >
         <activity
-            android:name="com.slim.center.MahdiCenter"
+            android:name="com.mahdi.center.MahdiCenter"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name" >
             <intent-filter>
@@ -49,22 +49,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.slim.ota.MahdiOTA"
+            android:name="com.mahdi.ota.MahdiOTA"
             android:label="@string/ota_title"
-            android:parentActivityName="com.slim.center.MahdiCenter" >
+            android:parentActivityName="com.mahdi.center.MahdiCenter" >
         </activity>
         <activity
-            android:name="com.slim.sizer.MahdiSizer"
+            android:name="com.mahdi.sizer.MahdiSizer"
             android:label="@string/sizer_title"
-            android:parentActivityName="com.slim.center.MahdiCenter" >
+            android:parentActivityName="com.mahdi.center.MahdiCenter" >
         </activity>
         <activity
-            android:name="com.slim.center.AboutMahdi"
+            android:name="com.mahdi.center.AboutMahdi"
             android:label="@string/aboutslim_title"
-            android:parentActivityName="com.slim.center.MahdiCenter" >
+            android:parentActivityName="com.mahdi.center.MahdiCenter" >
         </activity>
 
-        <service android:name="com.slim.ota.updater.UpdateService" />
+        <service android:name="com.mahdi.ota.updater.UpdateService" />
 
         <receiver android:name="com.commonsware.cwac.wakeful.AlarmReceiver" >
             <intent-filter>
@@ -76,15 +76,15 @@
                 android:resource="@xml/wakeful" />
         </receiver>
         <receiver
-            android:name="com.slim.ota.updater.ConnectivityReceiver"
+            android:name="com.mahdi.ota.updater.ConnectivityReceiver"
             android:enabled="false" >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
 
-        <activity android:name="com.slim.ota.settings.Settings" />
-        <activity android:name="com.slim.ota.settings.About" />
+        <activity android:name="com.mahdi.ota.settings.Settings" />
+        <activity android:name="com.mahdi.ota.settings.About" />
     </application>
 
 </manifest>
