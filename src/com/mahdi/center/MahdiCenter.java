@@ -9,7 +9,7 @@
  *  LICENSE   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  *
  *  AUTHORS:     fronti90, mnazim, tchaari, kufikugel
- *  DESCRIPTION: SlimCenter: manage your ROM
+ *  DESCRIPTION: MahdiCenter: manage your ROM
  *
  *=========================================================================
  */
