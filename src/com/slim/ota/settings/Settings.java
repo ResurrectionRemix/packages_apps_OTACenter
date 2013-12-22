@@ -32,7 +32,7 @@ import com.commonsware.cwac.wakeful.WakefulIntentService;
 public class Settings extends PreferenceActivity implements
         Preference.OnPreferenceChangeListener {
     @SuppressWarnings("unused")
-    private static final String TAG = "SlimOTASettings";
+    private static final String TAG = "MahdiOTASettings";
 
     private static final String KEY_UPDATE_INTERVAL = "update_interval";
     private static final String LAST_INTERVAL = "lastInterval";
@@ -43,7 +43,7 @@ public class Settings extends PreferenceActivity implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.slim_ota_settings);
+        addPreferencesFromResource(R.xml.mahdi_ota_settings);
 
         PreferenceScreen prefs = getPreferenceScreen();
 
