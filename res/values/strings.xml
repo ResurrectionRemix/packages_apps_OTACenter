@@ -89,11 +89,11 @@
     <string name="about_license">Open source licenses</string>
     <string name="about_license_text">Mahdi-Center app:</string>
     <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
-    <string name="menu_slimsizer">MahdiSizer</string>
+    <string name="menu_slimsizer">System Apps</string>
 
     <!-- MahdiSizer  -->
     <string name="listsystem">list</string>
-    <string name="sizer_title">MahdiSizer</string>
+    <string name="sizer_title">System Apps</string>
     <string name="caution">Caution!</string>
     <string name="sizer_message_startup">This tool allows you to delete system apps. Use with caution and only delete apps you know are safe to be removed.</string>
     <string name="cancel">Cancel</string>
@@ -111,10 +111,10 @@
     <string name="sizer_message_filesuccess">Created profile.</string>
     <string name="sizer_message_filefail">Failed to create profile.</string>
     <string name="sizer_message_noselect">Nothing selected.</string>
-    <string name="ota_title">Mahdi-OTA</string>
+    <string name="ota_title">Mahdi Updates</string>
 
     <!-- About -->
-    <string name="aboutslim_title">Mahdi-Roms</string>
+    <string name="aboutslim_title">Mahdi</string>
     <string name="devs">Developer</string>
     <string name="slim_website_title">Mahdi Website</string>
     <string name="slim_website_summary">http://bit.ly/MAHDI-ROM\nFind all latest Slim news here</string>
