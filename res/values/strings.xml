@@ -17,7 +17,7 @@
 
 <resources>
     <!-- MahdiOTA main strings -->
-    <string name="app_name">Mahdi-Center</string>
+    <string name="app_name">OTACenter</string>
     <string name="menu_settings">Settings</string>
     <string name="device_title">Device</string>
     <string name="device_name_title">Name:</string>
@@ -34,7 +34,7 @@
     <string name="update_file_title">Update:</string>
 
     <!-- MahdiOTA settings -->
-    <string name="settings_title">Mahdi-OTA Settings</string>
+    <string name="settings_title">OTA Settings</string>
     <string name="about_title">About</string>
     <string name="update_interval_title">Automatic update check interval</string>
     <string name="update_interval_summary">Set automatic update check interval</string>
@@ -81,13 +81,13 @@
 
     <!-- MahdiOTA About -->
     <string name="about_home_url"><a href="http://bit.ly/MAHDI-ROM">http://bit.ly/MAHDI-ROM</a></string>
-    <string name="about_slim_ota">Mahdi-Center allows you to easily manage\n your ROM!</string>
+    <string name="about_slim_ota">OTACenter allows you to easily manage\n your ROM!</string>
     <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for Mahdi-ROM</string>
-    <string name="about_version">Mahdi-Center .1</string>
+    <string name="about_version">OTACenter 1.0</string>
     <string name="about_contact">Contact us at Mahdi.Rom@gmail.com</string>
     <string name="about_contact_text">Tell us what you think\nor let us know about a bug or problem</string>
     <string name="about_license">Open source licenses</string>
-    <string name="about_license_text">Mahdi-Center app:</string>
+    <string name="about_license_text">OTACenter app:</string>
     <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
     <string name="menu_slimsizer">System Apps</string>
 
@@ -111,7 +111,7 @@
     <string name="sizer_message_filesuccess">Created profile.</string>
     <string name="sizer_message_filefail">Failed to create profile.</string>
     <string name="sizer_message_noselect">Nothing selected.</string>
-    <string name="ota_title">Mahdi Updates</string>
+    <string name="ota_title">Updater</string>
 
     <!-- About -->
     <string name="aboutslim_title">Mahdi</string>
@@ -125,7 +125,7 @@
     <string name="slim_source_title">Mahdi Source</string>
     <string name="slim_source_summary">Mahdi-Rom is fully open source.\nSource at github.com/mahdi-rom</string>
     <string name="no_irc">MahdiIRC App not found.</string>
-    <string name="center_summary"><b>Mahdi-Center</b> provides tools &amp; information to help make your experience with Mahdi-Rom even better. Upgrade automatically to the newest version of our ROM with <b>Mahdi-OTA</b></string>
+    <string name="center_summary"><b>OTACenter</b> provides tools &amp; information to help make your experience with Mahdi-Rom even better. Upgrade automatically to the newest version of our ROM with <b>OTACenter</b></string>
     <string name="slim_bugreport">Bugreport</string>
     <string name="slim_bugreport_summary">Create a complete Bugreport.</string>
     <string name="report_infosuccess">Created Systemreport, provide it to Mahdi-Rom by attaching it to your Bugreport! You can find the Zip file on your SD-Card in a directory called \"Mahdi\".</string>
