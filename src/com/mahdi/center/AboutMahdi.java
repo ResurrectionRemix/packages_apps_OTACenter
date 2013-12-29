@@ -177,12 +177,12 @@ public class AboutMahdi extends Fragment{
         short state = sizer.sdAvailable();
         //initialize logfiles
         File extdir = Environment.getExternalStorageDirectory();
-        path = new File(extdir.getAbsolutePath().replace("emulated/0", "emulated/legacy") + "/Slim/Bugreport");
+        path = new File(extdir.getAbsolutePath().replace("emulated/0", "emulated/legacy") + "/Mahdi/Bugreport");
         File savefile = new File(path + "/system.log");
         File logcat = new File(path + "/logcat.log");
         File last_kmsg = new File(path + "/last_kmsg.log");
         File kmsg = new File(path + "/kmsg.log");
-        File zip = new File(Environment.getExternalStorageDirectory() + "/Slim/bugreport.zip");
+        File zip = new File(Environment.getExternalStorageDirectory() + "/Mahdi/bugreport.zip");
         systemfile = savefile.toString();
         logfile = logcat.toString();
         last_kmsgfile = last_kmsg.toString();
