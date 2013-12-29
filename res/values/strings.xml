@@ -54,7 +54,7 @@
     <string name="short_cut_release_title">ROM related</string>
     <string name="short_cut_changelog_title">Changelog</string>
     <string name="short_cut_changelog_summary_update_available">Important!!! Read changelog and install instructions carefully</string>
-    <string name="short_cut_download_summary_update_available">New Mahdi-ROM update available. Download here!</string>
+    <string name="short_cut_download_summary_update_available">New Mahdi-Rom update available. Download here!</string>
     <string name="short_cut_changelog_summary">Show changelogs and install instructions</string>
     <string name="short_cut_additional_title">Additional</string>
     <string name="short_cut_faq_title">FAQ</string>
@@ -117,9 +117,9 @@
     <string name="aboutslim_title">Mahdi</string>
     <string name="devs">Developer</string>
     <string name="slim_website_title">Mahdi Website</string>
-    <string name="slim_website_summary">http://bit.ly/MAHDI-ROM\nFind all latest Slim news here</string>
+    <string name="slim_website_summary">http://bit.ly/MAHDI-ROM\nFind all latest Mahdi-Rom news here</string>
     <string name="slim_irc_title">Mahdi</string>
-    <string name="slim_irc_summary">Join our IRC channel!\nChat with the Slim Team and other users</string>
+    <string name="slim_irc_summary">Join our IRC channel!\nChat with the Mahdi-Rom Team and other users</string>
     <string name="slim_donate_title">Donate</string>
     <string name="slim_donate_summary">Donate to Mahdi786</string>
     <string name="slim_source_title">Mahdi Source</string>
