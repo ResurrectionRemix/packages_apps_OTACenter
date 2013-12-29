@@ -74,7 +74,7 @@ public class AboutMahdi extends Fragment{
     byte[] buf = new byte[1024];
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.slim_about, container, false);
+        View view = inflater.inflate(R.layout.mahdi_about, container, false);
         return view;
     }
 
@@ -105,19 +105,19 @@ public class AboutMahdi extends Fragment{
 
         //set LinearLayouts and onClickListeners
 
-        website = (LinearLayout) getView().findViewById(R.id.slim_website);
+        website = (LinearLayout) getView().findViewById(R.id.website);
         website.setOnClickListener(mActionLayouts);
 
-        source = (LinearLayout) getView().findViewById(R.id.slim_source);
+        source = (LinearLayout) getView().findViewById(R.id.source);
         source.setOnClickListener(mActionLayouts);
 
-        donate = (LinearLayout) getView().findViewById(R.id.slim_donate);
+        donate = (LinearLayout) getView().findViewById(R.id.donate);
         donate.setOnClickListener(mActionLayouts);
 
-       // irc = (LinearLayout) getView().findViewById(R.id.slim_irc);
+       // irc = (LinearLayout) getView().findViewById(R.id.irc);
        // irc.setOnClickListener(mActionLayouts);
 
-        report = (LinearLayout) getView().findViewById(R.id.slim_bugreport);
+        report = (LinearLayout) getView().findViewById(R.id.bugreport);
         report.setOnClickListener(mActionLayouts);
         //request su
         try {

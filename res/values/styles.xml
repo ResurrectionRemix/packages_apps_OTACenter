@@ -18,7 +18,7 @@
 -->
 
 <resources>
-    <style name="SlimOTABaseTheme" parent="android:Theme.Holo">
+    <style name="OTABaseTheme" parent="android:Theme.Holo">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
@@ -27,10 +27,10 @@
     </style>
 
     <!-- MahdiOTA theme. -->
-    <style name="SlimOTA" parent="SlimOTABaseTheme">
+    <style name="OTA" parent="OTABaseTheme">
          <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <style name="slimMedium" parent="@android:style/TextAppearance.Medium">
+    <style name="Medium" parent="@android:style/TextAppearance.Medium">
         <item name="android:textStyle">normal</item>
     </style>
  </resources>

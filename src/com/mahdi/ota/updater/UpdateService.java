@@ -31,7 +31,7 @@ public class UpdateService extends WakefulIntentService {
     }
 
     public UpdateService() {
-        super("SlimOtaService");
+        super("OtaService");
     }
 
     /* (non-Javadoc)
@@ -39,7 +39,7 @@ public class UpdateService extends WakefulIntentService {
      */
     @Override
     protected void doWakefulWork(Intent intent) {
-       if (mNoLog == false) Log.d(TAG, "Slim OTA Update service called!");
+       if (mNoLog == false) Log.d(TAG, "OTA Update service called!");
        UpdateChecker otaChecker = new UpdateChecker();
        otaChecker.execute(getBaseContext());
     }

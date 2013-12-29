@@ -58,7 +58,7 @@ public class MahdiSizer extends Fragment {
     protected DataOutputStream dos;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.slim_sizer, container, false);
+        View view = inflater.inflate(R.layout.mahdi_sizer, container, false);
         return view;
     }
 
@@ -204,7 +204,7 @@ public class MahdiSizer extends Fragment {
                                         int id) {
                                     // action for ok
                                     // call delete
-                                    new MahdiSizer.SlimDeleter().execute(item);
+                                    new MahdiSizer.Deleter().execute(item);
                                     // remove list entry
                                     adapter.remove(item);
                                     adapter.notifyDataSetChanged();
@@ -243,7 +243,7 @@ public class MahdiSizer extends Fragment {
                                         }
                                     }
                                     adapter.notifyDataSetChanged();
-                                    new MahdiSizer.SlimDeleter().execute(itemsList.toArray(new String[itemsList.size()]));
+                                    new MahdiSizer.Deleter().execute(itemsList.toArray(new String[itemsList.size()]));
                                 }
                             })
                     .setNegativeButton(R.string.cancel,
@@ -263,15 +263,15 @@ public class MahdiSizer extends Fragment {
     private void selectDialog(final ArrayList<String> sysAppProfile,
             final ArrayAdapter<String> adapter) {
         AlertDialog.Builder select = new AlertDialog.Builder(getActivity());
-        select.setItems(R.array.slimsizer_profile_array,
+        select.setItems(R.array.sizer_profile_array,
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         // The 'which' argument contains the index position
                         // of the selected item
                         short state = sdAvailable();
                         File path = new File(Environment
-                                .getExternalStorageDirectory() + "/Slim");
-                        File savefile = new File(path + "/slimsizer.stf");
+                                .getExternalStorageDirectory() + "/Mahdi");
+                        File savefile = new File(path + "/sizer.stf");
                         if (which == 0) {
                             // load profile action
                             if (state >= 1) {
@@ -299,7 +299,7 @@ public class MahdiSizer extends Fragment {
                                         adapter.remove(item);
                                     }
                                     adapter.notifyDataSetChanged();
-                                    new MahdiSizer.SlimDeleter().execute(itemsList.toArray(new String[itemsList.size()]));
+                                    new MahdiSizer.Deleter().execute(itemsList.toArray(new String[itemsList.size()]));
                                 } catch (FileNotFoundException e) {
                                     // TODO Auto-generated catch block
                                     e.printStackTrace();
@@ -395,7 +395,7 @@ public class MahdiSizer extends Fragment {
         }
     }
 
-    public class SlimDeleter extends AsyncTask<String, String, Void> {
+    public class Deleter extends AsyncTask<String, String, Void> {
 
         private ProgressDialog progress;
 

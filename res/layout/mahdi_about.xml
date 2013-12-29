@@ -19,22 +19,39 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_margin="3dp"
         android:showDividers="beginning" >
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/short_cut_changelog"
+        <TextView
+            android:id="@+id/center_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/center_summary"
+            style="@style/Medium" />
+
+        <TextView
+            android:id="@+id/line6"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/website"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true" >
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
@@ -45,25 +62,73 @@
                     android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_changelog" />
+                    android:src="@drawable/ic_website"
+                    android:id="@+id/imageView" />
 
                 <TextView
-                    android:id="@+id/short_cut_changelog_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="4dp"
                     android:paddingLeft="5dp"
-                    android:text="@string/short_cut_changelog_title"
+                    android:text="@string/website_title"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 </LinearLayout>
 
             <TextView
-                android:id="@+id/short_cut_changelog_summary"
+                android:id="@+id/website_sum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
-                android:text="@string/short_cut_changelog_summary"
+                android:text="@string/website_summary"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/line7"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/bugreport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_website" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/bugreport"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+
+            <TextView
+                android:id="@+id/bugreport_sum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/bugreport_summary"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
         </LinearLayout>
@@ -75,15 +140,15 @@
             android:layout_height="8dp"
             android:gravity="center_horizontal" />
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/short_cut_download"
+        <LinearLayout
+            android:id="@+id/donate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true" >
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
@@ -94,72 +159,24 @@
                     android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_download" />
-
-                <TextView
-                    android:id="@+id/short_cut_download_title"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
-                    android:paddingLeft="5dp"
-                    android:text="@string/short_cut_download_title"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-                </LinearLayout>
-
-            <TextView
-                android:id="@+id/short_cut_download_summary"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:text="@string/short_cut_download_uptodate_summary"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/line3"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="8dp"
-            android:gravity="center_horizontal" />
-
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/short_cut_download_gapps"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
-
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" >
-
-                <ImageView
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_download" />
+                    android:src="@drawable/ic_donate" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="4dp"
                     android:paddingLeft="5dp"
-                    android:text="@string/short_cut_download_gapps_title"
+                    android:text="@string/donate_title"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 </LinearLayout>
 
             <TextView
+                android:id="@+id/website_sum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
-                android:text="@string/short_cut_download_gapps_summary"
+                android:text="@string/donate_summary"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
         </LinearLayout>
@@ -171,30 +188,15 @@
             android:layout_height="8dp"
             android:gravity="center_horizontal" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="5dp"
-            android:paddingTop="8dp"
-            android:text="@string/short_cut_additional_title"
-            style="@style/slimMedium" />
-
-        <TextView
-            android:id="@+id/line5"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="8dp"
-            android:gravity="center_horizontal" />
-
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/short_cut_faq"
+        <LinearLayout
+            android:id="@+id/source"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true" >
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
@@ -205,23 +207,24 @@
                     android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_faq" />
+                    android:src="@drawable/ic_github" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="4dp"
                     android:paddingLeft="5dp"
-                    android:text="@string/short_cut_faq_title"
+                    android:text="@string/source_title"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 </LinearLayout>
 
             <TextView
+                android:id="@+id/website_sum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
-                android:text="@string/short_cut_faq_summary"
+                android:text="@string/source_summary"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
         </LinearLayout>
@@ -232,48 +235,6 @@
             android:layout_width="match_parent"
             android:layout_height="8dp"
             android:gravity="center_horizontal" />
-
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/short_cut_news"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
-
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" >
-
-             <!--disable News Section-->
-
-                <!--<ImageView-->
-                    <!--android:layout_alignParentLeft="true"-->
-                    <!--android:layout_marginLeft="5dp"-->
-                    <!--android:layout_marginTop="3dp"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:src="@drawable/ic_news" />-->
-
-                <!--<TextView-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:paddingTop="4dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:text="@string/short_cut_news_title"-->
-                    <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
-
-                </LinearLayout>
-
-            <!--<TextView-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:paddingLeft="10dp"-->
-                <!--android:text="@string/short_cut_news_summary"-->
-                <!--android:textAppearance="?android:attr/textAppearanceSmall" />-->
-
-        </LinearLayout>
 
     </LinearLayout>
 

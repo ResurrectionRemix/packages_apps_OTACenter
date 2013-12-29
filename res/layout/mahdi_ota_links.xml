@@ -19,39 +19,22 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_margin="3dp"
         android:showDividers="beginning" >
 
-        <TextView
-            android:id="@+id/center_sum"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="10dp"
-            android:paddingLeft="10dp"
-            android:paddingTop="10dp"
-            android:text="@string/center_summary"
-            style="@style/slimMedium" />
-
-        <TextView
-            android:id="@+id/line6"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="8dp"
-            android:gravity="center_horizontal" />
-
-        <LinearLayout
-            android:id="@+id/slim_website"
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/short_cut_changelog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true" >
 
-            <LinearLayout
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
@@ -62,73 +45,25 @@
                     android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_website"
-                    android:id="@+id/imageView" />
+                    android:src="@drawable/ic_changelog" />
 
                 <TextView
+                    android:id="@+id/short_cut_changelog_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="4dp"
                     android:paddingLeft="5dp"
-                    android:text="@string/slim_website_title"
+                    android:text="@string/short_cut_changelog_title"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 </LinearLayout>
 
             <TextView
-                android:id="@+id/slim_website_sum"
+                android:id="@+id/short_cut_changelog_summary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
-                android:text="@string/slim_website_summary"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/line7"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="8dp"
-            android:gravity="center_horizontal" />
-
-        <LinearLayout
-            android:id="@+id/slim_bugreport"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" >
-
-                <ImageView
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_website" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
-                    android:paddingLeft="5dp"
-                    android:text="@string/slim_bugreport"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-                </LinearLayout>
-
-            <TextView
-                android:id="@+id/slim_bugreport_sum"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:text="@string/slim_bugreport_summary"
+                android:text="@string/short_cut_changelog_summary"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
         </LinearLayout>
@@ -140,15 +75,15 @@
             android:layout_height="8dp"
             android:gravity="center_horizontal" />
 
-        <LinearLayout
-            android:id="@+id/slim_donate"
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/short_cut_download"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true" >
 
-            <LinearLayout
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
@@ -159,24 +94,72 @@
                     android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_donate" />
+                    android:src="@drawable/ic_download" />
+
+                <TextView
+                    android:id="@+id/short_cut_download_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/short_cut_download_title"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+
+            <TextView
+                android:id="@+id/short_cut_download_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/short_cut_download_uptodate_summary"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/line3"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/short_cut_download_gapps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true" >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_download" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="4dp"
                     android:paddingLeft="5dp"
-                    android:text="@string/slim_donate_title"
+                    android:text="@string/short_cut_download_gapps_title"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 </LinearLayout>
 
             <TextView
-                android:id="@+id/slim_website_sum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
-                android:text="@string/slim_donate_summary"
+                android:text="@string/short_cut_download_gapps_summary"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
         </LinearLayout>
@@ -188,15 +171,30 @@
             android:layout_height="8dp"
             android:gravity="center_horizontal" />
 
-        <LinearLayout
-            android:id="@+id/slim_source"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="8dp"
+            android:text="@string/short_cut_additional_title"
+            style="@style/Medium" />
+
+        <TextView
+            android:id="@+id/line5"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/short_cut_faq"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true" >
 
-            <LinearLayout
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
@@ -207,24 +205,23 @@
                     android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_github" />
+                    android:src="@drawable/ic_faq" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="4dp"
                     android:paddingLeft="5dp"
-                    android:text="@string/slim_source_title"
+                    android:text="@string/short_cut_faq_title"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 </LinearLayout>
 
             <TextView
-                android:id="@+id/slim_website_sum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
-                android:text="@string/slim_source_summary"
+                android:text="@string/short_cut_faq_summary"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
         </LinearLayout>
@@ -235,6 +232,48 @@
             android:layout_width="match_parent"
             android:layout_height="8dp"
             android:gravity="center_horizontal" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/short_cut_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true" >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+             <!--disable News Section-->
+
+                <!--<ImageView-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginTop="3dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:src="@drawable/ic_news" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingTop="4dp"-->
+                    <!--android:paddingLeft="5dp"-->
+                    <!--android:text="@string/short_cut_news_title"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+                </LinearLayout>
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:text="@string/short_cut_news_summary"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall" />-->
+
+        </LinearLayout>
 
     </LinearLayout>
 

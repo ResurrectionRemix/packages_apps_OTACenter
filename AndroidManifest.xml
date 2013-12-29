@@ -35,10 +35,10 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_slimota"
+        android:icon="@mipmap/ic_launcher_ota"
         android:label="@string/app_name"
         android:launchMode="singleTask"
-        android:theme="@style/SlimOTA" >
+        android:theme="@style/OTA" >
         <activity
             android:name="com.mahdi.center.MahdiCenter"
             android:configChanges="orientation|screenSize"
@@ -60,7 +60,7 @@
         </activity>
         <activity
             android:name="com.mahdi.center.AboutMahdi"
-            android:label="@string/aboutslim_title"
+            android:label="@string/about_title"
             android:parentActivityName="com.mahdi.center.MahdiCenter" >
         </activity>
 

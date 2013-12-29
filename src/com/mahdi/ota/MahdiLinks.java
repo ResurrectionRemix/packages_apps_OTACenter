@@ -51,7 +51,7 @@ public class MahdiLinks extends Fragment {
     private String mStrCurFile;
 
     public View onCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.slim_ota_links, container, false);
+        View view = inflater.inflate(R.layout.mahdi_ota_links, container, false);
         return view;
     }
 
