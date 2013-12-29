@@ -53,7 +53,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
     private static final int MSG_SET_PROGRESS = 2;
     private static final int MSG_CLOSE_DIALOG = 3;
 
-    private String strDevice, slimCurVer;
+    private String strDevice, CurVer;
     private Context mContext;
     private int mId = 1000001;
 
@@ -107,7 +107,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
                 if (line[0].equalsIgnoreCase("ro.product.device")) {
                     strDevice = line[1].trim();
                 } else if (line[0].equalsIgnoreCase("mahdi.ota.version")) {
-                    slimCurVer = line[1].trim();
+                    CurVer = line[1].trim();
                 }
             }
             br.close();
@@ -128,12 +128,12 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
         if (!connectivityAvailable(mContext)) return "connectivityNotAvailable";
         try {
             getDeviceTypeAndVersion();
-            if (mNoLog == false) Log.d(TAG, "strDevice="+strDevice+ "   slimCurVer="+slimCurVer);
-            if (strDevice == null || slimCurVer == null) return null;
+            if (mNoLog == false) Log.d(TAG, "strDevice="+strDevice+ "   CurVer="+CurVer);
+            if (strDevice == null || CurVer == null) return null;
             String newUpdateUrl = null;
             String newFileName = null;
             URL url = null;
-            if (slimCurVer != null && slimCurVer.contains("4.4")) {
+            if (CurVer != null && CurVer.contains("4.4")) {
                 url = new URL(mContext.getString(R.string.xml_url_kitkat));
             } else {
                 url = new URL(mContext.getString(R.string.xml_url));
@@ -169,7 +169,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
                     try {
                         versionOnServer = tempFileName.split("\\-")[2];
                         putDataInprefs(mContext, "Filename",versionOnServer);
-                        if (versionOnServer.compareToIgnoreCase(slimCurVer)>0) newFileName = tempFileName;
+                        if (versionOnServer.compareToIgnoreCase(CurVer)>0) newFileName = tempFileName;
                     } catch (Exception invalidFileName) {
                         Log.e(TAG, "File Name from server is invalid : "+tempFileName);
                     }
@@ -229,8 +229,8 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
         Notification.Builder mBuilder = new Notification.Builder(mContext)
             .setContentTitle(mContext.getString(R.string.title_update))
             .setContentText(mContext.getString(R.string.notification_message))
-            .setSmallIcon(R.drawable.ic_notification_slimota)
-            .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.ic_slimota));
+            .setSmallIcon(R.drawable.ic_notification_ota)
+            .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.ic_ota));
 
         Intent intent = new Intent(mContext, MahdiCenter.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

@@ -41,7 +41,7 @@ ActionBar.TabListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.slim_center);
+        setContentView(R.layout.mahdi_center);
 
         // Set up the action bar.
         final ActionBar actionBar = getActionBar();
@@ -108,7 +108,7 @@ ActionBar.TabListener{
         @Override
         public int getCount() {
             // Show 3 total pages.
-            //Disable Slimsizer here
+            //Disable sizer here
             return 3;
         }
 
@@ -117,7 +117,7 @@ ActionBar.TabListener{
             Locale l = Locale.getDefault();
             switch (position) {
             case 0:
-                return getString(R.string.aboutslim_title).toUpperCase(l);
+                return getString(R.string.about_title).toUpperCase(l);
             case 1:
                 return getString(R.string.ota_title).toUpperCase(l);
             case 2:
@@ -142,7 +142,7 @@ ActionBar.TabListener{
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.slim_center, menu);
+        inflater.inflate(R.menu.mahdi_center, menu);
         return true;
     }
 

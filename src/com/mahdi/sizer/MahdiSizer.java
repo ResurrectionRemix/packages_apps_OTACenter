@@ -50,6 +50,7 @@ public class MahdiSizer extends Fragment {
     private final int STARTUP_DIALOG = 1;
     private final int DELETE_DIALOG = 2;
     private final int DELETE_MULTIPLE_DIALOG = 3;
+    private final int REBOOT_DIALOG = 4;
     protected ArrayAdapter<String> adapter;
     private ArrayList<String> mSysApp;
     private boolean startup = true;
@@ -58,7 +59,7 @@ public class MahdiSizer extends Fragment {
     protected DataOutputStream dos;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.slim_sizer, container, false);
+        View view = inflater.inflate(R.layout.mahdi_sizer, container, false);
         return view;
     }
 
@@ -109,9 +110,6 @@ public class MahdiSizer extends Fragment {
         // populate listview via arrayadapter
         adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_multiple_choice, mSysApp);
-
-        // startup dialog
-        //showDialog(STARTUP_DIALOG, null, adapter, 0);
 
         final ListView lv = (ListView) getView().findViewById(R.string.listsystem);
         lv.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
@@ -204,7 +202,7 @@ public class MahdiSizer extends Fragment {
                                         int id) {
                                     // action for ok
                                     // call delete
-                                    new MahdiSizer.SlimDeleter().execute(item);
+                                    new MahdiSizer.Deleter().execute(item);
                                     // remove list entry
                                     adapter.remove(item);
                                     adapter.notifyDataSetChanged();
@@ -243,7 +241,7 @@ public class MahdiSizer extends Fragment {
                                         }
                                     }
                                     adapter.notifyDataSetChanged();
-                                    new MahdiSizer.SlimDeleter().execute(itemsList.toArray(new String[itemsList.size()]));
+                                    new MahdiSizer.Deleter().execute(itemsList.toArray(new String[itemsList.size()]));
                                 }
                             })
                     .setNegativeButton(R.string.cancel,
@@ -254,6 +252,34 @@ public class MahdiSizer extends Fragment {
                                     dialog.cancel();
                                 }
                             });
+        } else if (id == REBOOT_DIALOG) {
+        // create warning dialog
+        alert.setMessage(R.string.reboot)
+                .setTitle(R.string.caution)
+                .setCancelable(true)
+                .setPositiveButton(R.string.reboot_ok,
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,
+                                    int id) {
+                                // action for ok
+                                try {
+                                    dos.writeBytes("reboot");
+                                    dos.flush();
+                                    dos.close();
+                                } catch (IOException e) {
+                                    // TODO Auto-generated catch block
+                                    e.printStackTrace();
+                                }
+                            }
+                })
+                .setNegativeButton(R.string.reboot_cancel,
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,
+                                    int id) {
+                                // action for cancel
+                                dialog.cancel();
+                            }
+                        });
         }
         // show warning dialog
         alert.show();
@@ -263,15 +289,15 @@ public class MahdiSizer extends Fragment {
     private void selectDialog(final ArrayList<String> sysAppProfile,
             final ArrayAdapter<String> adapter) {
         AlertDialog.Builder select = new AlertDialog.Builder(getActivity());
-        select.setItems(R.array.slimsizer_profile_array,
+        select.setItems(R.array.sizer_profile_array,
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         // The 'which' argument contains the index position
                         // of the selected item
                         short state = sdAvailable();
                         File path = new File(Environment
-                                .getExternalStorageDirectory() + "/Slim");
-                        File savefile = new File(path + "/slimsizer.stf");
+                                .getExternalStorageDirectory() + "/Mahdi");
+                        File savefile = new File(path + "/sizer.stf");
                         if (which == 0) {
                             // load profile action
                             if (state >= 1) {
@@ -299,9 +325,8 @@ public class MahdiSizer extends Fragment {
                                         adapter.remove(item);
                                     }
                                     adapter.notifyDataSetChanged();
-                                    new MahdiSizer.SlimDeleter().execute(itemsList.toArray(new String[itemsList.size()]));
+                                    new MahdiSizer.Deleter().execute(itemsList.toArray(new String[itemsList.size()]));
                                 } catch (FileNotFoundException e) {
-                                    // TODO Auto-generated catch block
                                     e.printStackTrace();
                                 }
                             } else {
@@ -343,7 +368,6 @@ public class MahdiSizer extends Fragment {
                                                         R.string.sizer_message_filefail));
                                     }
                                 } catch (IOException e) {
-                                    // TODO Auto-generated catch block
                                     e.printStackTrace();
                                 }
                             } else {
@@ -395,7 +419,7 @@ public class MahdiSizer extends Fragment {
         }
     }
 
-    public class SlimDeleter extends AsyncTask<String, String, Void> {
+    public class Deleter extends AsyncTask<String, String, Void> {
 
         private ProgressDialog progress;
 
@@ -437,6 +461,7 @@ public class MahdiSizer extends Fragment {
                 e.printStackTrace();
             }
             progress.dismiss();
+            showDialog(REBOOT_DIALOG, null, adapter, 0);
         }
     }
 }

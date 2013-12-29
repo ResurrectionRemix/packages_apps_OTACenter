@@ -68,7 +68,7 @@ public class MahdiOTA extends Fragment implements OnSharedPreferenceChangeListen
 
     SharedPreferences prefs;
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.slim_ota, container, false);
+        View view = inflater.inflate(R.layout.mahdi_ota, container, false);
         return view;
     }
 
@@ -203,8 +203,8 @@ public class MahdiOTA extends Fragment implements OnSharedPreferenceChangeListen
     private void addShortCutFragment() {
         FragmentManager fragmentManager = this.getActivity().getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        MahdiLinks slimLinks = new MahdiLinks();
-        fragmentTransaction.replace(R.id.linksFragment, slimLinks);
+        MahdiLinks Links = new MahdiLinks();
+        fragmentTransaction.replace(R.id.linksFragment, Links);
         fragmentTransaction.commit();
     }
 
