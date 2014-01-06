@@ -82,7 +82,7 @@ public class AboutMahdi extends Fragment{
         @Override
         public void onClick(View v) {
             if (v == website) {
-                launchUrl("http://bit.ly/MAHDI-ROM");
+                launchUrl("http://mahdi-rom.androidfilesharing.com/");
             } else if (v == source) {
                 launchUrl("http://github.com/Mahdi-rom");
             } else if (v == donate) {
@@ -114,8 +114,8 @@ public class AboutMahdi extends Fragment{
         donate = (LinearLayout) getView().findViewById(R.id.donate);
         donate.setOnClickListener(mActionLayouts);
 
-       // irc = (LinearLayout) getView().findViewById(R.id.irc);
-       // irc.setOnClickListener(mActionLayouts);
+        // irc = (LinearLayout) getView().findViewById(R.id.irc);
+        // irc.setOnClickListener(mActionLayouts);
 
         report = (LinearLayout) getView().findViewById(R.id.bugreport);
         report.setOnClickListener(mActionLayouts);
@@ -154,23 +154,23 @@ public class AboutMahdi extends Fragment{
     //bugreport
     private void bugreport(){
         try {
-         //collect system information
-         FileInputStream fstream = new FileInputStream("/system/build.prop");
-         DataInputStream in = new DataInputStream(fstream);
-         BufferedReader br = new BufferedReader(new InputStreamReader(in));
-         String strLine;
-         while ((strLine = br.readLine()) != null) {
-             String[] line = strLine.split("=");
-             if (line[0].equalsIgnoreCase("ro.modversion")) {
-                 mStrDevice = line[1];
-             }
-         }
-         in.close();
-         } catch (Exception e) {
-             Toast.makeText(getView().getContext(), getString(R.string.system_prop_error),
-                     Toast.LENGTH_LONG).show();
-             e.printStackTrace();
-         }
+            //collect system information
+            FileInputStream fstream = new FileInputStream("/system/build.prop");
+            DataInputStream in = new DataInputStream(fstream);
+            BufferedReader br = new BufferedReader(new InputStreamReader(in));
+            String strLine;
+            while ((strLine = br.readLine()) != null) {
+                String[] line = strLine.split("=");
+                if (line[0].equalsIgnoreCase("ro.modversion")) {
+                    mStrDevice = line[1];
+                }
+            }
+            in.close();
+        } catch (Exception e) {
+            Toast.makeText(getView().getContext(), getString(R.string.system_prop_error),
+                    Toast.LENGTH_LONG).show();
+            e.printStackTrace();
+        }
         String kernel=getFormattedKernelVersion();
         //check if sdcard is available
         MahdiSizer sizer=new MahdiSizer();
@@ -210,7 +210,7 @@ public class AboutMahdi extends Fragment{
                 if (kmsg.exists()) {
                     kmsg.delete();
                 }
-             // create savefile and output lists to it
+                // create savefile and output lists to it
                 FileWriter outstream = new FileWriter(
                         savefile);
                 BufferedWriter save = new BufferedWriter(
@@ -231,7 +231,7 @@ public class AboutMahdi extends Fragment{
                 if (savefile.exists()&&logcat.exists()&&last_kmsg.exists()&&kmsg.exists()) {
                     boolean zipcreated=zip();
                     if (zipcreated==true){
-                    dialog(true);
+                        dialog(true);
                     } else {
                         dialog(false);
                     }
@@ -252,8 +252,8 @@ public class AboutMahdi extends Fragment{
 
         } catch (IOException e) {
             Log.e(LOG_TAG,
-                "IO Exception when getting kernel version for Device Info screen",
-                e);
+                    "IO Exception when getting kernel version for Device Info screen",
+                    e);
 
             return "Unavailable";
         }
@@ -262,12 +262,12 @@ public class AboutMahdi extends Fragment{
     public static String formatKernelVersion(String rawKernelVersion) {
 
         final String PROC_VERSION_REGEX =
-            "Linux version (\\S+) " + /* group 1: "3.0.31-g6fb96c9" */
-            "\\((\\S+?)\\) " +        /* group 2: "x@y.com" (kernel builder) */
-            "(?:\\(gcc.+? \\)) " +    /* ignore: GCC version information */
-            "(#\\d+) " +              /* group 3: "#1" */
-            "(?:.*?)?" +              /* ignore: optional SMP, PREEMPT, and any CONFIG_FLAGS */
-            "((Sun|Mon|Tue|Wed|Thu|Fri|Sat).+)"; /* group 4: "Thu Jun 28 11:02:39 PDT 2012" */
+                "Linux version (\\S+) " + /* group 1: "3.0.31-g6fb96c9" */
+                        "\\((\\S+?)\\) " +        /* group 2: "x@y.com" (kernel builder) */
+                        "(?:\\(gcc.+? \\)) " +    /* ignore: GCC version information */
+                        "(#\\d+) " +              /* group 3: "#1" */
+                        "(?:.*?)?" +              /* ignore: optional SMP, PREEMPT, and any CONFIG_FLAGS */
+                        "((Sun|Mon|Tue|Wed|Thu|Fri|Sat).+)"; /* group 4: "Thu Jun 28 11:02:39 PDT 2012" */
 
         Matcher m = Pattern.compile(PROC_VERSION_REGEX).matcher(rawKernelVersion);
         if (!m.matches()) {
@@ -279,7 +279,7 @@ public class AboutMahdi extends Fragment{
             return "Unavailable";
         }
         return m.group(1) + " " +                 // 3.0.31-g6fb96c9
-            m.group(2) + " " + m.group(3);
+                m.group(2) + " " + m.group(3);
     }
 
     private static String readLine(String filename) throws IOException {
@@ -311,7 +311,7 @@ public class AboutMahdi extends Fragment{
             e.printStackTrace();
             return false;
         }
-          return true;
+        return true;
     }
 
     private void getLogs(String command) {
@@ -331,20 +331,20 @@ public class AboutMahdi extends Fragment{
         final AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());
         if (success==true){
             alert.setMessage(R.string.report_infosuccess)
-                 .setPositiveButton(R.string.ok,
+                    .setPositiveButton(R.string.ok,
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog,
-                                        int id) {
+                                                    int id) {
                                     // action for ok
                                     dialog.cancel();
                                 }
                             });
         } else {
             alert.setMessage(R.string.report_infofail)
-                 .setPositiveButton(R.string.ok,
+                    .setPositiveButton(R.string.ok,
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog,
-                                        int id) {
+                                                    int id) {
                                     // action for ok
                                     dialog.cancel();
                                 }
