@@ -17,39 +17,44 @@
 -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:paddingLeft="70dp"
+    android:paddingRight="70dp" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:layout_margin="3dp"
+        android:divider="@drawable/list_divider"
+        android:orientation="vertical"
         android:showDividers="beginning" >
 
         <TextView
             android:id="@+id/center_sum"
+            style="@style/Medium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="10dp"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="@string/center_summary"
-            style="@style/Medium" />
+            android:text="@string/center_summary" />
 
         <TextView
             android:id="@+id/line6"
             style="?android:attr/listSeparatorTextViewStyle"
             android:layout_width="match_parent"
             android:layout_height="8dp"
-            android:gravity="center_horizontal" />
+            android:fontFamily="Sans-Serif-Light"
+            android:gravity="center_horizontal"
+            android:textColor="#FF2D2D2D" />
 
         <LinearLayout
             android:id="@+id/website"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
+            android:clickable="true"
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -57,32 +62,34 @@
                 android:orientation="horizontal" >
 
                 <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_website"
-                    android:id="@+id/imageView" />
+                    android:src="@drawable/ic_website" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
+                    android:fontFamily="Sans-Serif-Light"
                     android:paddingLeft="5dp"
+                    android:paddingTop="4dp"
                     android:text="@string/website_title"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-                </LinearLayout>
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF2D2D2D" />
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/website_sum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="Sans-Serif-Light"
                 android:paddingLeft="10dp"
                 android:text="@string/website_summary"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FF2D2D2D" />
         </LinearLayout>
 
         <TextView
@@ -90,15 +97,17 @@
             style="?android:attr/listSeparatorTextViewStyle"
             android:layout_width="match_parent"
             android:layout_height="8dp"
-            android:gravity="center_horizontal" />
+            android:fontFamily="Sans-Serif-Light"
+            android:gravity="center_horizontal"
+            android:textColor="#FF2D2D2D" />
 
         <LinearLayout
             android:id="@+id/bugreport"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
+            android:clickable="true"
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -106,31 +115,33 @@
                 android:orientation="horizontal" >
 
                 <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:src="@drawable/ic_website" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
+                    android:fontFamily="Sans-Serif-Light"
                     android:paddingLeft="5dp"
+                    android:paddingTop="4dp"
                     android:text="@string/bugreport"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-                </LinearLayout>
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF2D2D2D" />
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/bugreport_sum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="Sans-Serif-Light"
                 android:paddingLeft="10dp"
                 android:text="@string/bugreport_summary"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FF2D2D2D" />
         </LinearLayout>
 
         <TextView
@@ -144,9 +155,9 @@
             android:id="@+id/donate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
+            android:clickable="true"
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -154,31 +165,33 @@
                 android:orientation="horizontal" >
 
                 <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:src="@drawable/ic_donate" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
+                    android:fontFamily="Sans-Serif-Light"
                     android:paddingLeft="5dp"
+                    android:paddingTop="4dp"
                     android:text="@string/donate_title"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-                </LinearLayout>
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF2D2D2D" />
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/website_sum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="Sans-Serif-Light"
                 android:paddingLeft="10dp"
                 android:text="@string/donate_summary"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FF2D2D2D" />
         </LinearLayout>
 
         <TextView
@@ -186,15 +199,17 @@
             style="?android:attr/listSeparatorTextViewStyle"
             android:layout_width="match_parent"
             android:layout_height="8dp"
-            android:gravity="center_horizontal" />
+            android:fontFamily="Sans-Serif-Light"
+            android:gravity="center_horizontal"
+            android:textColor="#FF2D2D2D" />
 
         <LinearLayout
             android:id="@+id/source"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
+            android:clickable="true"
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -202,31 +217,33 @@
                 android:orientation="horizontal" >
 
                 <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="3dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:src="@drawable/ic_github" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
+                    android:fontFamily="Sans-Serif-Light"
                     android:paddingLeft="5dp"
+                    android:paddingTop="4dp"
                     android:text="@string/source_title"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-                </LinearLayout>
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF2D2D2D" />
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/website_sum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="Sans-Serif-Light"
                 android:paddingLeft="10dp"
                 android:text="@string/source_summary"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FF2D2D2D" />
         </LinearLayout>
 
         <TextView
@@ -234,8 +251,9 @@
             style="?android:attr/listSeparatorTextViewStyle"
             android:layout_width="match_parent"
             android:layout_height="8dp"
-            android:gravity="center_horizontal" />
-
+            android:fontFamily="Sans-Serif-Light"
+            android:gravity="center_horizontal"
+            android:textColor="#FF2D2D2D" />
     </LinearLayout>
 
 </ScrollView>
