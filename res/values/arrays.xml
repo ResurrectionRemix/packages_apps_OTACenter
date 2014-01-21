@@ -25,17 +25,15 @@
         <item>@string/update_interval_hour</item>
         <item>@string/update_interval_disable</item>
     </string-array>
-
     <string-array name="values_update_interval" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
     </string-array>
-
     <string-array name="sizer_profile_array">
-        <item >Load Profile</item>
-        <item >Save Profile</item>
+        <item>Load Profile</item>
+        <item>Save Profile</item>
     </string-array>
 
 </resources>

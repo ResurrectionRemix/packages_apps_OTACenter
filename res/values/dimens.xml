@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="default_padding">16.0dip</dimen>
+    <dimen name="nav_drawer_entry_height">64.0dip</dimen>
+    <dimen name="setting_border_padding_left_right">16.0dip</dimen>
+    <dimen name="abs__action_bar_default_height">48.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="side_panel_max_width">275.0dip</dimen>
+    <dimen name="side_panel_padding">0.0dip</dimen>
+    <dimen name="gf_list_item_padding">12.0dip</dimen>
+    <dimen name="gf_list_item_height">60.0dip</dimen>
+
+</resources>

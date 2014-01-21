@@ -1,4 +1,5 @@
-    <!--
+
+<!--
  *=========================================================================
  *
  *  PROJECT:  SlimRoms
@@ -25,39 +26,19 @@
         android:id="@string/listsystem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btn_layout"
         android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true" />
-
-    <RelativeLayout
-        android:id="@+id/btn_layout"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:padding="5dp" >
-
-        <ImageView
-            android:id="@+id/btn_profile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/content_save"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:padding="6dp"
-            android:clickable="true"
-            android:background="?android:attr/selectableItemBackground" />
-
-        <ImageView
-            android:id="@+id/btn_delete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/content_discard"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:padding="6dp"
-            android:clickable="true"
-            android:background="?android:attr/selectableItemBackground" />
-
-    </RelativeLayout>
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1.00dp"
+        android:duplicateParentState="true"
+        android:fitsSystemWindows="true"
+        android:listSelector="#DBDBD9"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:scrollbars="none"
+        android:scrollingCache="true" />
 
 </RelativeLayout>

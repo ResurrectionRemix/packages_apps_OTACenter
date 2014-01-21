@@ -16,6 +16,7 @@
 -->
 
 <resources>
+
     <!-- MahdiOTA main strings -->
     <string name="app_name">OTACenter</string>
     <string name="menu_settings">Settings</string>
@@ -35,9 +36,17 @@
     <string name="reboot">All done! Reboot your device now.</string>
     <string name="reboot_ok">Reboot now</string>
     <string name="reboot_cancel">Don\'t reboot</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="MenuDrawerStuff">
+        <item>About Mahdi</item>
+        <item>Mahdi OTA</item>
+        <item>Edit System Apps</item>
+    </string-array>
 
     <!-- MahdiOTA settings -->
-    <string name="settings_title">OTA Settings</string>    
+    <string name="settings_title">OTA Settings</string>
     <string name="update_interval_title">Automatic update check interval</string>
     <string name="update_interval_summary">Set automatic update check interval</string>
     <string name="update_interval_day">Every 24 hours</string>
@@ -67,7 +76,6 @@
     <string name="short_cut_download_uptodate_summary">Download Mahdi-ROM</string>
     <string name="short_cut_download_gapps_title">Download gapps</string>
     <string name="short_cut_download_gapps_summary">Download PA Gapps packages</string>
-
     <string name="download_url">http://mahdi-rom.androidfilesharing.com</string>
     <string name="changelog_url">http://mahdi-rom.androidfilesharing.com/ota/changelog.txt</string>
     <string name="faq_url">http://mahdi-rom.androidfilesharing.com</string>
@@ -75,7 +83,7 @@
     <string name="gapps_url">http://bit.ly/ISA2tT</string>
     <string name="gapps_url_kitkat">http://bit.ly/ISA2tT</string>
 
-    <!-- MahdiOTA update checker -->    
+    <!-- MahdiOTA update checker -->
     <string name="xml_url">http://mahdi-rom.androidfilesharing.com/ota/ota_kitkat.xml.php</string>
     <string name="xml_url_kitkat">http://mahdi-rom.androidfilesharing.com/ota/ota_kitkat.xml.php</string>
     <string name="notification_message">Mahdi-ROM update available</string>
@@ -92,7 +100,7 @@
     <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
     <string name="menu_sizer">System Apps</string>
 
-    <!-- MahdiSizer  -->
+    <!-- MahdiSizer -->
     <string name="listsystem">list</string>
     <string name="sizer_title">System Apps</string>
     <string name="caution">Caution!</string>
