@@ -23,98 +23,100 @@ import android.content.SharedPreferences;
 import android.os.PowerManager;
 
 abstract public class WakefulIntentService extends IntentService {
-	public interface AlarmListener {
-		long getMaxAge();
+  abstract protected void doWakefulWork(Intent intent);
 
-		void scheduleAlarms(AlarmManager mgr, PendingIntent pi, Context ctxt);
+  static final String NAME=
+      "com.commonsware.cwac.wakeful.WakefulIntentService";
+  static final String LAST_ALARM="lastAlarm";
+  private static volatile PowerManager.WakeLock lockStatic=null;
 
-		void sendWakefulWork(Context ctxt);
-	}
+  synchronized private static PowerManager.WakeLock getLock(Context context) {
+    if (lockStatic == null) {
+      PowerManager mgr=
+          (PowerManager)context.getSystemService(Context.POWER_SERVICE);
 
-	static final String NAME = "com.commonsware.cwac.wakeful.WakefulIntentService";
-	static final String LAST_ALARM = "lastAlarm";
-	private static volatile PowerManager.WakeLock lockStatic = null;
+      lockStatic=mgr.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, NAME);
+      lockStatic.setReferenceCounted(true);
+    }
 
-	public static void cancelAlarms(Context ctxt) {
-		AlarmManager mgr = (AlarmManager) ctxt
-				.getSystemService(Context.ALARM_SERVICE);
-		Intent i = new Intent(ctxt, AlarmReceiver.class);
-		PendingIntent pi = PendingIntent.getBroadcast(ctxt, 0, i, 0);
+    return(lockStatic);
+  }
 
-		mgr.cancel(pi);
-	}
+  public static void sendWakefulWork(Context ctxt, Intent i) {
+    getLock(ctxt.getApplicationContext()).acquire();
+    ctxt.startService(i);
+  }
 
-	synchronized private static PowerManager.WakeLock getLock(Context context) {
-		if (lockStatic == null) {
-			PowerManager mgr = (PowerManager) context
-					.getSystemService(Context.POWER_SERVICE);
+  public static void sendWakefulWork(Context ctxt, Class<?> clsService) {
+    sendWakefulWork(ctxt, new Intent(ctxt, clsService));
+  }
 
-			lockStatic = mgr.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, NAME);
-			lockStatic.setReferenceCounted(true);
-		}
+  public static void scheduleAlarms(AlarmListener listener, Context ctxt) {
+    scheduleAlarms(listener, ctxt, true);
+  }
 
-		return (lockStatic);
-	}
+  public static void scheduleAlarms(AlarmListener listener,
+                                    Context ctxt, boolean force) {
+    SharedPreferences prefs=ctxt.getSharedPreferences(NAME, 0);
+    long lastAlarm=prefs.getLong(LAST_ALARM, 0);
 
-	public static void scheduleAlarms(AlarmListener listener, Context ctxt) {
-		scheduleAlarms(listener, ctxt, true);
-	}
+    if (lastAlarm == 0
+        || force
+        || (System.currentTimeMillis() > lastAlarm && System.currentTimeMillis()
+            - lastAlarm > listener.getMaxAge())) {
+      AlarmManager mgr=
+          (AlarmManager)ctxt.getSystemService(Context.ALARM_SERVICE);
+      Intent i=new Intent(ctxt, AlarmReceiver.class);
+      PendingIntent pi=PendingIntent.getBroadcast(ctxt, 0, i, 0);
+      listener.scheduleAlarms(mgr, pi, ctxt);
+    }
+  }
 
-	public static void scheduleAlarms(AlarmListener listener, Context ctxt,
-			boolean force) {
-		SharedPreferences prefs = ctxt.getSharedPreferences(NAME, 0);
-		long lastAlarm = prefs.getLong(LAST_ALARM, 0);
+  public static void cancelAlarms(Context ctxt) {
+    AlarmManager mgr=
+        (AlarmManager)ctxt.getSystemService(Context.ALARM_SERVICE);
+    Intent i=new Intent(ctxt, AlarmReceiver.class);
+    PendingIntent pi=PendingIntent.getBroadcast(ctxt, 0, i, 0);
 
-		if (lastAlarm == 0
-				|| force
-				|| (System.currentTimeMillis() > lastAlarm && System
-						.currentTimeMillis() - lastAlarm > listener.getMaxAge())) {
-			AlarmManager mgr = (AlarmManager) ctxt
-					.getSystemService(Context.ALARM_SERVICE);
-			Intent i = new Intent(ctxt, AlarmReceiver.class);
-			PendingIntent pi = PendingIntent.getBroadcast(ctxt, 0, i, 0);
-			listener.scheduleAlarms(mgr, pi, ctxt);
-		}
-	}
+    mgr.cancel(pi);
+  }
 
-	public static void sendWakefulWork(Context ctxt, Class<?> clsService) {
-		sendWakefulWork(ctxt, new Intent(ctxt, clsService));
-	}
+  public WakefulIntentService(String name) {
+    super(name);
+    setIntentRedelivery(true);
+  }
 
-	public static void sendWakefulWork(Context ctxt, Intent i) {
-		getLock(ctxt.getApplicationContext()).acquire();
-		ctxt.startService(i);
-	}
+  @Override
+  public int onStartCommand(Intent intent, int flags, int startId) {
+    PowerManager.WakeLock lock=getLock(this.getApplicationContext());
 
-	public WakefulIntentService(String name) {
-		super(name);
-		setIntentRedelivery(true);
-	}
+    if (!lock.isHeld() || (flags & START_FLAG_REDELIVERY) != 0) {
+      lock.acquire();
+    }
 
-	abstract protected void doWakefulWork(Intent intent);
+    super.onStartCommand(intent, flags, startId);
 
-	@Override
-	final protected void onHandleIntent(Intent intent) {
-		try {
-			doWakefulWork(intent);
-		} finally {
-			PowerManager.WakeLock lock = getLock(this.getApplicationContext());
-			if (lock.isHeld()) {
-				lock.release();
-			}
-		}
-	}
+    return(START_REDELIVER_INTENT);
+  }
 
-	@Override
-	public int onStartCommand(Intent intent, int flags, int startId) {
-		PowerManager.WakeLock lock = getLock(this.getApplicationContext());
+  @Override
+  final protected void onHandleIntent(Intent intent) {
+    try {
+      doWakefulWork(intent);
+    }
+    finally {
+      PowerManager.WakeLock lock=getLock(this.getApplicationContext());
+      if (lock.isHeld()) {
+        lock.release();
+      }
+    }
+  }
 
-		if (!lock.isHeld() || (flags & START_FLAG_REDELIVERY) != 0) {
-			lock.acquire();
-		}
+  public interface AlarmListener {
+    void scheduleAlarms(AlarmManager mgr, PendingIntent pi, Context ctxt);
 
-		super.onStartCommand(intent, flags, startId);
+    void sendWakefulWork(Context ctxt);
 
-		return (START_REDELIVER_INTENT);
-	}
+    long getMaxAge();
+  }
 }
