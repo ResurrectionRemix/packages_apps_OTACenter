@@ -82,7 +82,7 @@ public class AboutMahdi extends Fragment{
         @Override
         public void onClick(View v) {
             if (v == website) {
-                launchUrl("http://mahdi-rom.androidfilesharing.com");
+                launchUrl("http://mahdi-rom.com");
             } else if (v == source) {
                 launchUrl("http://github.com/Mahdi-rom");
             } else if (v == donate) {

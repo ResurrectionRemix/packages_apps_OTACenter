@@ -68,20 +68,20 @@
     <string name="short_cut_download_gapps_title">Download gapps</string>
     <string name="short_cut_download_gapps_summary">Download PA Gapps packages</string>
 
-    <string name="download_url">http://mahdi-rom.androidfilesharing.com</string>
-    <string name="changelog_url">http://mahdi-rom.androidfilesharing.com/ota/changelog.txt</string>
-    <string name="faq_url">http://mahdi-rom.androidfilesharing.com</string>
+    <string name="download_url">http://mahdi-rom.com</string>
+    <string name="changelog_url">http://mahdi-rom.com/ota/changelogsimple.txt</string>
+    <string name="faq_url">http://mahdi-rom.com</string>
     <string name="news_url">http://otaslim.slimroms.net/news.htm</string>
     <string name="gapps_url">http://bit.ly/ISA2tT</string>
     <string name="gapps_url_kitkat">http://bit.ly/ISA2tT</string>
 
     <!-- MahdiOTA update checker -->    
-    <string name="xml_url">http://mahdi-rom.androidfilesharing.com/ota/ota_kitkat.xml.php</string>
-    <string name="xml_url_kitkat">http://mahdi-rom.androidfilesharing.com/ota/ota_kitkat.xml.php</string>
+    <string name="xml_url">http://mahdi-rom.com/ota/ota_kitkat.xml.php</string>
+    <string name="xml_url_kitkat">http://mahdi-rom.com/ota/ota_kitkat.xml.php</string>
     <string name="notification_message">Mahdi-ROM update available</string>
 
     <!-- MahdiOTA About -->
-    <string name="about_home_url"><a href="http://mahdi-rom.androidfilesharing.com/">Mahdi-ROM</a></string>
+    <string name="about_home_url"><a href="http://mahdi-rom.com/">Mahdi-ROM</a></string>
     <string name="about_ota">OTACenter allows you to easily manage\n your ROM!</string>
     <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for Mahdi-ROM</string>
     <string name="about_version">OTACenter 1.0</string>
@@ -118,7 +118,7 @@
     <string name="about_title">Mahdi</string>
     <string name="devs">Developer</string>
     <string name="website_title">Mahdi Website</string>
-    <string name="website_summary">http://mahdi-rom.androidfilesharing.com\nFind all latest Mahdi-Rom news here</string>
+    <string name="website_summary">http://mahdi-rom.com\nFind all latest Mahdi-Rom news here</string>
     <string name="irc_title">Mahdi</string>
     <string name="irc_summary">Join our IRC channel!\nChat with the Mahdi-Rom Team and other users</string>
     <string name="donate_title">Donate</string>
