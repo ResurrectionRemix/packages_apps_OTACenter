@@ -41,6 +41,9 @@ local.properties
 *.user
 *.sln.docstates
 *.idea
+res/
+gen/
+out/
 
 # Build results
 
@@ -198,7 +201,9 @@ build/
 eggs/
 parts/
 var/
+
 sdist/
+
 develop-eggs/
 .installed.cfg
 
