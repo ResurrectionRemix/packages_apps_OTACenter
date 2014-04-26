@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2013 Mahdi-ROM
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+    <!-- MahdiOTA main strings -->
+    <string name="app_name">Ota-Центр</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="device_title">Устройство</string>
+    <string name="device_name_title">Имя:</string>
+    <string name="codename_title">Кодовое имя:</string>
+    <string name="version_title">Версия:</string>
+    <string name="file_name_title">Файл:</string>
+    <string name="curVer">Текущая версия</string>
+    <string name="ok">ОК</string>
+    <string name="title_update">Обновить</string>
+    <string name="device_info_title">Информация об устройства</string>
+    <string name="up_to_date_title">У вас установлена самая новая версия</string>
+    <string name="no_data_title">Нет подключения к сети</string>
+    <string name="error_reading_title">Невозможно прочесть данные MahdiOTA</string>
+    <string name="update_file_title">Обновить:</string>
+    <string name="reboot">Готово! Теперь перезагрузите устройство.</string>
+    <string name="reboot_ok">Перезагрузить</string>
+    <string name="reboot_cancel">Не перезагружать</string>
+
+    <!-- MahdiOTA settings -->
+    <string name="settings_title">Настройки OTA</string>
+    <string name="update_interval_title">Интервал автопроверки обновлений</string>
+    <string name="update_interval_summary">Задать интервал автопроверки обновлений</string>
+    <string name="update_interval_day">Каждые 24 часа</string>
+    <string name="update_interval_half_day">Каждые 12 часов</string>
+    <string name="update_interval_hour">Каждый час</string>
+    <string name="update_interval_disable">Отключить</string>
+
+    <!-- MahdiOTA error messages -->
+    <string name="system_prop_error">Невозможно прочесть системные свойства</string>
+    <string name="bad_url">Невозможно получить доступ к скачиванию.\nПожалуйста, свяжитесь с куратором Mahdi-Rom для вашего устройства!</string>
+    <string name="menu_update">Поиск обновлений</string>
+    <string name="toast_text">Поиск обновлений прошивки, пожалуйста, подождите</string>
+    <string name="toast_no_data_text">Нет подключения к сети. Пожалуйста, подключитесь</string>
+
+    <!-- MahdiOTA shortcut fragment -->
+    <string name="short_cut_release_title">Прошивка</string>
+    <string name="short_cut_changelog_title">Список изменений</string>
+    <string name="short_cut_changelog_summary_update_available">Важно!!! Внимательно прочтите список изменений и инструкций по установке</string>
+    <string name="short_cut_download_summary_update_available">Найдено обновление прошивки Mahdi-Rom. Скачать здесь!</string>
+     <string name="short_cut_changelog_summary">Показывать список обновлений и инструкции по установке</string>
+    <string name="short_cut_additional_title">Дополнительно</string>
+    <string name="short_cut_faq_title">ЧаВО</string>
+    <string name="short_cut_faq_summary">Показать FAQ</string>
+    <string name="short_cut_news_title">Новости</string>
+    <string name="short_cut_news_summary">Прочитать о последних новостях Mahdi-Rom</string>
+    <string name="short_cut_download_title">Скачать Mahdi-Rom</string>
+    <string name="short_cut_download_uptodate_summary">Скачать Mahdi-ROM</string>
+    <string name="short_cut_download_gapps_title">Скачать gapps</string>
+    <string name="short_cut_download_gapps_summary">Скачать PA Gapps packages</string>
+
+    <!-- MahdiOTA update checker -->
+    <string name="notification_message">Доступно обновление прошивки Mahdi-ROM</string>
+
+    <!-- MahdiOTA About -->
+    <string name="about_ota">OTA-Центр позволяет легко изменять\n свою прошивку!</string>
+    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for Mahdi-ROM</string>
+    <string name="about_version">OTA-Центр 1.0</string>
+    <string name="about_contact">Свяжитесь с нами по адресу Mahdi.Rom@gmail.com</string>
+    <string name="about_contact_text">Расскажите нам свои впечатления\nили дайте знать о баге или проблеме</string>
+    <string name="about_license">Открытые лицензии</string>
+    <string name="about_license_text">OTA-Центр:</string>
+    <string name="menu_sizer">Системные приложения</string>
+
+    <!-- MahdiSizer  -->
+    <string name="listsystem">Список</string>
+    <string name="sizer_title">Системные приложения</string>
+    <string name="caution">Внимание!</string>
+    <string name="sizer_message_startup">Эта программа разрешает удалять системные приложения. Используйте с осторожностью и удаляйте только то, что можно удалить без последствий.</string>
+    <string name="cancel">Отмена</string>
+    <string name="sizer_message_delete">Вы точно хотите удалить это/эти приложение(-ия)?</string>
+    <string name="sizer_message_delete_multi_one">Вы точно хотите удалить выбранное приложение?</string>
+    <string name="sizer_message_delete_multi">Вы точно хотите удалить выбранные приложения?</string>
+    <string name="btn_delete">Удалить выделенные приложения!</string>
+    <string name="delete_progress_title">Удаление</string>
+    <string name="delete_progress">Выбранные файлы удаляются, пожалуйста, подождите</string>
+    <string name="delete_success">Удалено</string>
+    <string name="delete_fail">Невозможно удалить</string>
+    <string name="btn_profile">Профиль</string>
+    <string name="sizer_message_sdnowrite">Невозможна запись на SD-карту.</string>
+    <string name="sizer_message_sdnoread">Невозможно чтение с SD-карты.</string>
+    <string name="sizer_message_filesuccess">Профиль создан.</string>
+    <string name="sizer_message_filefail">Невозможно создать профиль.</string>
+    <string name="sizer_message_noselect">Ничего не выбрано.</string>
+    <string name="ota_title">OTA-Центр</string>
+
+    <!-- About -->
+    <string name="about_title">Mahdi</string>
+    <string name="devs">Разработчик</string>
+    <string name="website_title">Страница Mahdi</string>
+    <string name="website_summary">http://mahdi-rom.com\nВсе последние новости про Mahdi-Rom здесь</string>
+    <string name="irc_title">Mahdi</string>
+    <string name="irc_summary">Заходите в нашу IRC!\nОбщайтесь с командой Mahdi-Rom и другими пользователями</string>
+    <string name="donate_title">Пожертвования</string>
+    <string name="donate_summary">Пожертвовать Mahdi786</string>
+    <string name="source_title">Исходники Mahdi</string>
+    <string name="source_summary">Mahdi-Rom полностью открыт.\nИсходники на github.com/mahdi-rom</string>
+    <string name="no_irc">Приложение MahdiIRC не найдено.</string>
+    <string name="center_summary"><b>OTA-Центр</b> включает утилиты и данные, чтобы сделать работу с прошивкой Mahdi-Rom еще лучше. В числе возможностей: автоматическое обновление до последней версии ROM с помощью <b>OTA-Центра</b>.</string>
+    <string name="bugreport">Сообщить об ошибке</string>
+    <string name="bugreport_summary">Создать отчет об ошибке.</string>
+    <string name="report_infosuccess">Создан системный отчет, отправьте его команде Mahdi-Rom, прикрепив к отчету об ошибке. Zip-архив с системным отчетом находится на SD-карте в директории \"Mahdi\".</string>
+    <string name="report_infofail">Ошибка создания отчета, попробуйте еще раз.</string>
+
+</resources>
