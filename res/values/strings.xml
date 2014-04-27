@@ -68,12 +68,12 @@
     <string name="short_cut_download_gapps_title">Download gapps</string>
     <string name="short_cut_download_gapps_summary">Download PA Gapps packages</string>
 
-    <string name="download_url">http://mahdi-rom.com</string>
+    <string name="download_url">http://download.mahdi-rom.com/</string>
     <string name="changelog_url">http://mahdi-rom.com/ota/changelogsimple.txt</string>
     <string name="faq_url">http://mahdi-rom.com</string>
     <string name="news_url">http://otaslim.slimroms.net/news.htm</string>
-    <string name="gapps_url">http://bit.ly/ISA2tT</string>
-    <string name="gapps_url_kitkat">http://bit.ly/ISA2tT</string>
+    <string name="gapps_url">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
+    <string name="gapps_url_kitkat">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
 
     <!-- MahdiOTA update checker -->    
     <string name="xml_url">http://mahdi-rom.com/ota/ota_kitkat.xml.php</string>
