@@ -66,7 +66,7 @@
     <string name="short_cut_download_title">Download Mahdi-Rom</string>
     <string name="short_cut_download_uptodate_summary">Download Mahdi-ROM</string>
     <string name="short_cut_download_gapps_title">Download gapps</string>
-    <string name="short_cut_download_gapps_summary">Download PA Gapps packages</string>
+    <string name="short_cut_download_gapps_summary">Download Slim Gapps packages</string>
 
     <string name="download_url">http://download.mahdi-rom.com/</string>
     <string name="changelog_url">http://mahdi-rom.com/ota/changelogsimple.txt</string>
