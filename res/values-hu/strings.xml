@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2013 Mahdi-ROM
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+    <!-- MahdiOTA main strings -->
+    <string name="app_name">OTAKözpont</string>
+    <string name="menu_settings">Beállítások</string>
+    <string name="device_title">Eszköz</string>
+    <string name="device_name_title">Név:</string>
+    <string name="codename_title">Kódnév:</string>
+    <string name="version_title">Verzió:</string>
+    <string name="file_name_title">Fájl:</string>
+    <string name="curVer">Jelenlegi verzió</string>
+    <string name="ok">OK</string>
+    <string name="title_update">Frissítés</string>
+    <string name="device_info_title">Eszköz információ</string>
+    <string name="up_to_date_title">A rendszer naprakész</string>
+    <string name="no_data_title">Nincs elérhető adatkapcsolat</string>
+    <string name="error_reading_title">Nem olvasható az OTAKözpont tulajdonság</string>
+    <string name="update_file_title">Frissítés:</string>
+    <string name="reboot">Minden kész! Indítsd újra a készüléket.</string>
+    <string name="reboot_ok">Újra indítás most</string>
+    <string name="reboot_cancel">Ne induljon újra</string>
+
+    <!-- MahdiOTA settings -->
+    <string name="settings_title">OTA Beállítások</string>
+    <string name="update_interval_title">Automatikus frissítés ellenőrzés időköz</string>
+    <string name="update_interval_summary">Állitsd be az automaikus frissítés keresés időközét</string>
+    <string name="update_interval_day">24 óránként</string>
+    <string name="update_interval_half_day">12 óránként</string>
+    <string name="update_interval_hour">Óránként</string>
+    <string name="update_interval_disable">Letiltás</string>
+
+    <!-- MahdiOTA error messages -->
+    <string name="system_prop_error">Rendszer tulajdonsága nem olvasható</string>
+    <string name="bad_url">Nem érhető el letöltés.\nKérjük értesítse a Mahdi eszköz üzembentartóját!</string>
+    <string name="menu_update">Frissítések keresése most</string>
+    <string name="toast_text">ROM frissítések keresése...</string>
+    <string name="toast_no_data_text">Az adatkapcsolat nem elérhető, kérem kapcsolja be</string>
+
+    <!-- MahdiOTA shortcut fragment -->
+    <string name="short_cut_release_title">ROM-mal kapcsolatos</string>
+    <string name="short_cut_changelog_title">Változtatások</string>
+    <string name="short_cut_changelog_summary_update_available">Fontos!!! Figyelmesen olvassa el a változtatásokat és a telepítési útmutatót</string>
+    <string name="short_cut_download_summary_update_available">Új Mahdi ROM érhető el. Letöltés itt!</string>
+    <string name="short_cut_changelog_summary">Változtatások és telepítési útmutató megtekintése</string>
+    <string name="short_cut_additional_title">Továbbiak</string>
+    <string name="short_cut_faq_title">GYIK</string>
+    <string name="short_cut_faq_summary">Hamarosan</string>
+    <string name="short_cut_news_title">Hírek</string>
+    <string name="short_cut_news_summary">Legújabb Mahdi hírek</string>
+    <string name="short_cut_download_title">Mahdi letöltése</string>
+    <string name="short_cut_download_uptodate_summary">Mahdi ROM letöltése</string>
+    <string name="short_cut_download_gapps_title">Google Apps letöltése</string>
+    <string name="short_cut_download_gapps_summary">PA Gapps csomagok</string>
+
+    <string name="download_url">http://mahdi-rom.com</string>
+    <string name="changelog_url">http://mahdi-rom.com/ota/changelogsimple.txt</string>
+    <string name="faq_url">http://mahdi-rom.com</string>
+    <string name="news_url">http://otaslim.slimroms.net/news.htm</string>
+    <string name="gapps_url">http://bit.ly/ISA2tT</string>
+    <string name="gapps_url_kitkat">http://bit.ly/ISA2tT</string>
+
+    <!-- MahdiOTA update checker -->    
+    <string name="xml_url">http://mahdi-rom.com/ota/ota_kitkat.xml.php</string>
+    <string name="xml_url_kitkat">http://mahdi-rom.com/ota/ota_kitkat.xml.php</string>
+    <string name="notification_message">Mahdi-ROM frissítés elérhető</string>
+
+    <!-- MahdiOTA About -->
+    <string name="about_home_url"><a href="http://mahdi-rom.com/">Mahdi-ROM</a></string>
+    <string name="about_ota">OTAKözpont segítségével könnyen kezelhető a ROM!</string>
+    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for Mahdi-ROM</string>
+    <string name="about_version">OTAKözpont 1.0</string>
+    <string name="about_contact">Kapcsolat velünk Mahdi.Rom@gmail.com</string>
+    <string name="about_contact_text">Mond el nekünk, hogy mit gondolsz\nvagy milyen hibád, problémád van.</string>
+    <string name="about_license">Nyílt forrású licenszek</string>
+    <string name="about_license_text">OTAKözpont alkalmazás:</string>
+    <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
+    <string name="menu_sizer">Rendszer alkalmazások</string>
+
+    <!-- MahdiSizer  -->
+    <string name="listsystem">lista</string>
+    <string name="sizer_title">Rendszer alkalmazások</string>
+    <string name="caution">Vigyázat!</string>
+    <string name="sizer_message_startup">Ezzel az eszközzel törölheti a rendszer szintű programokat. Kérjük, óvatosan használja és csak olyan applikációkat töröljön, amelyek biztonsággal eltávolíthatók.</string>
+    <string name="cancel">Mégsem</string>
+    <string name="sizer_message_delete">Biztosan törölni akarja ezt az applikációt?</string>
+    <string name="sizer_message_delete_multi_one">Biztos törölni akarod a kiválasztott alkalmazást?</string>
+    <string name="sizer_message_delete_multi">Biztos törölni akarod a kiválasztott alkalmazásokat?</string>
+    <string name="btn_delete">Kijelölt applikációk törlése most!</string>
+    <string name="delete_progress_title">Törlés</string>
+    <string name="delete_progress">Kiválasztott fájlok törölve lesznek, kérünk várj.</string>
+    <string name="delete_success">Törölve</string>
+    <string name="delete_fail">Törlés sikertelen</string>
+    <string name="btn_profile">Profil</string>
+    <string name="sizer_message_sdnowrite">Nem írható az SD kártya.</string>
+    <string name="sizer_message_sdnoread">Nem olvasható az SD kártya.</string>
+    <string name="sizer_message_filesuccess">Profil létrehozva.</string>
+    <string name="sizer_message_filefail">A profil létrehozása nem sikerült.</string>
+    <string name="sizer_message_noselect">Semmi sincs kiválasztva.</string>
+    <string name="ota_title">Frissítés</string>
+
+    <!-- About -->
+    <string name="about_title">Mahdi</string>
+    <string name="devs">Fejlesztő</string>
+    <string name="website_title">Mahdi Weboldal</string>
+    <string name="website_summary">http://mahdi-rom.com\nItt keresd a  Mahdi-Rom újdonságokat</string>
+    <string name="irc_title">Mahdi</string>
+    <string name="irc_summary">Gyere az IRC-re!\nBeszélgess a Mahdi-Rom Csapattal és felhasználókkal</string>
+    <string name="donate_title">Támogatás</string>
+    <string name="donate_summary">Támogasd Mahdi786-ot</string>
+    <string name="source_title">Mahdi Forrás</string>
+    <string name="source_summary">Mahdi-Rom teljesen nyílt forrású.\nForrás: github.com/mahdi-rom</string>
+    <string name="no_irc">MahdiIRC alkalmazás nem található.</string>
+    <string name="center_summary"><b>OTAKözpont</b> eszközök &amp; információk melyek segítenek jobban élvezni a Mahdi-Rom-ot. Automatikus frissítés az újabb ROM verzióra a <b>OTAKözpont</b>.</string>
+    <string name="bugreport">Hibajelentés</string>
+    <string name="bugreport_summary">Teljes hibajelentés készítése.</string>
+    <string name="report_infosuccess">Rendszerjelentés készítése, hibajelentés csatolása a SlimRoms Csapatnak! Zip fájlban találod az SD kártya \"Slim\" könyvtárában.</string>
+    <string name="report_infofail">Sikertelen hibajelentés készítés, próbáld újra.</string>
+
+</resources>
