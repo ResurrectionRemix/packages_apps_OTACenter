@@ -76,8 +76,8 @@
     <string name="gapps_url_kitkat">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
 
     <!-- MahdiOTA update checker -->    
-    <string name="xml_url">http://mahdi-rom.com/ota/ota_kitkat.xml.php</string>
-    <string name="xml_url_kitkat">http://mahdi-rom.com/ota/ota_kitkat.xml.php</string>
+    <string name="xml_url">http://mahdi-rom.com/ota/ota_kitkat.xml</string>
+    <string name="xml_url_kitkat">http://mahdi-rom.com/ota/ota_kitkat.xml</string>
     <string name="notification_message">Mahdi-ROM update available</string>
 
     <!-- MahdiOTA About -->
