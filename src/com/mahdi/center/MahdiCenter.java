@@ -109,7 +109,7 @@ ActionBar.TabListener{
         public int getCount() {
             // Show 3 total pages.
             //Disable sizer here
-            return 3;
+            return 2;
         }
 
         @Override

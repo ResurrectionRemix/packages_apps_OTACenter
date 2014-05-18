@@ -84,7 +84,7 @@
     <string name="about_home_url"><a href="http://mahdi-rom.com/">Mahdi-ROM</a></string>
     <string name="about_ota">OTACenter allows you to easily manage\n your ROM!</string>
     <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for Mahdi-ROM</string>
-    <string name="about_version">OTACenter 1.0</string>
+    <string name="about_version">OTACenter 2.0</string>
     <string name="about_contact">Contact us at Mahdi.Rom@gmail.com</string>
     <string name="about_contact_text">Tell us what you think\nor let us know about a bug or problem</string>
     <string name="about_license">Open source licenses</string>
