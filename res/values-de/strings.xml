@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright (C) 2014 Mahdi-ROM
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+-->
+
+<resources>
+    <!-- MahdiOTA main strings -->
+    <string name="app_name">OTACenter</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="device_title">Gerät</string>
+    <string name="device_name_title">Name:</string>
+    <string name="codename_title">Codename:</string>
+    <string name="version_title">Version:</string>
+    <string name="file_name_title">Datei:</string>
+    <string name="curVer">Aktuelle Version</string>
+    <string name="ok">OK</string>
+    <string name="title_update">Update</string>
+    <string name="device_info_title">Geräteinformationen</string>
+    <string name="up_to_date_title">System ist aktuell</string>
+    <string name="no_data_title">Keine Datenverbindung verfügbar</string>
+    <string name="error_reading_title">MahdiOTA Eigenschaften können nicht gelesen werden</string>
+    <string name="update_file_title">Update:</string>
+    <string name="reboot">Fertig! Gerät neu starten.</string>
+    <string name="reboot_ok">Neustart</string>
+    <string name="reboot_cancel">Später</string>
+
+    <!-- MahdiOTA settings -->
+    <string name="settings_title">OTA Einstellungen</string>
+    <string name="update_interval_title">Automatischer Aktualisierungsintervall</string>
+    <string name="update_interval_summary">Aktualisierungsintervall</string>
+    <string name="update_interval_day">Alle 24 Stunden</string>
+    <string name="update_interval_half_day">Alle 12 Stunden</string>
+    <string name="update_interval_hour">Jede Stunde</string>
+    <string name="update_interval_disable">Deaktiviert</string>
+
+    <!-- MahdiOTA error messages -->
+    <string name="system_prop_error">Systemeigenschaften können nicht gelesen werden</string>
+    <string name="bad_url">Downloadbereich nicht verfügbar. \nBitte den Entwickler informieren!</string>
+    <string name="menu_update">Jetzt nach Updates suchen</string>
+    <string name="toast_text">Suche nach ROM-Updates, bitte warten.</string>
+    <string name="toast_no_data_text">Keine Datenverbindung - bitte einschalten.</string>
+
+    <!-- MahdiOTA shortcut fragment -->
+    <string name="short_cut_release_title">ROM relevant</string>
+    <string name="short_cut_changelog_title">Changelog</string>
+    <string name="short_cut_changelog_summary_update_available">Wichtig!!! Den Changelog und die Installationsanleitung bitte aufmerksam lesen.</string>
+    <string name="short_cut_download_summary_update_available">Mahdi-Rom Update verfügbar. Jetzt herunterladen!</string>
+    <string name="short_cut_changelog_summary">Changelog und Installationsanleitung anzeigen</string>
+    <string name="short_cut_additional_title">Weiteres</string>
+    <string name="short_cut_faq_title">FAQ</string>
+    <string name="short_cut_faq_summary">In Kürze!</string>
+    <string name="short_cut_news_title">Neuigkeiten</string>
+    <string name="short_cut_news_summary">Mahdi-News</string>
+    <string name="short_cut_download_title">Download Mahdi-Rom</string>
+    <string name="short_cut_download_uptodate_summary">Download Mahdi-ROM</string>
+    <string name="short_cut_download_gapps_title">Download Gapps</string>
+    <string name="short_cut_download_gapps_summary">Download der Slim Gapps</string>
+
+    <string name="download_url">http://download.mahdi-rom.com/</string>
+    <string name="changelog_url">http://mahdi-rom.com/ota/changelogsimple.txt</string>
+    <string name="faq_url">http://mahdi-rom.com</string>
+    <string name="news_url">http://otaslim.slimroms.net/news.htm</string>
+    <string name="gapps_url">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
+    <string name="gapps_url_kitkat">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
+
+    <!-- MahdiOTA update checker -->
+    <string name="xml_url">http://mahdi-rom.com/ota/ota_kitkat.xml</string>
+    <string name="xml_url_kitkat">http://mahdi-rom.com/ota/ota_kitkat.xml</string>
+    <string name="notification_message">Mahdi-ROM - Update verfügbar</string>
+
+    <!-- MahdiOTA About -->
+    <string name="about_home_url"><a href="http://mahdi-rom.com/">Mahdi-ROM</a></string>
+    <string name="about_ota">Das OTACenter erlaubt das einfache verwalten\n deiner ROM!</string>
+    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifiziert für Mahdi-ROM</string>
+    <string name="about_version">OTACenter 2.0</string>
+    <string name="about_contact">Kontaktiere uns unter Mahdi.Rom@gmail.com</string>
+    <string name="about_contact_text">Sag uns deine Meinung\noder melde Bugs und Probleme</string>
+    <string name="about_license">Open Source Lizenzen</string>
+    <string name="about_license_text">OTACenter App:</string>
+    <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
+    <string name="menu_sizer">System Apps</string>
+
+    <!-- MahdiSizer -->
+    <string name="listsystem">Liste</string>
+    <string name="sizer_title">System Apps</string>
+    <string name="caution">Achtung!</string>
+    <string name="sizer_message_startup">Dieses Tool ermöglicht das Löschen von System-Apps. Bitte nur Apps löschen die auch wirklich sicher entfernt werden können.</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="sizer_message_delete">Diese App wirklich löschen?</string>
+    <string name="sizer_message_delete_multi_one">Sicher dass die ausgewähle App gelöscht werden soll?</string>
+    <string name="sizer_message_delete_multi">Sicher dass die ausgewählen Apps gelöscht werden sollen?</string>
+    <string name="btn_delete">Ausgewählte Apps jetzt löschen!</string>
+    <string name="delete_progress_title">Lösche</string>
+    <string name="delete_progress">Ausgewählte Apps werden gelöscht, bitte warten.</string>
+    <string name="delete_success">Gelöscht</string>
+    <string name="delete_fail">Löschen nicht möglich</string>
+    <string name="btn_profile">Profile</string>
+    <string name="sizer_message_sdnowrite">Schreiben auf SD Karte fehlgeschlagen.</string>
+    <string name="sizer_message_sdnoread">Lesen der SD Karte fehlgeschlagen.</string>
+    <string name="sizer_message_filesuccess">Profil wurde erstellt.</string>
+    <string name="sizer_message_filefail">Profil konnte nicht erstellt werden.</string>
+    <string name="sizer_message_noselect">Keine Auswahl.</string>
+    <string name="ota_title">Updater</string>
+
+    <!-- About -->
+    <string name="about_title">Mahdi</string>
+    <string name="devs">Entwickler</string>
+    <string name="website_title">Mahdi Website</string>
+    <string name="website_summary">http://mahdi-rom.com\nAlle Neuigkeiten zu Mahdi-Rom</string>
+    <string name="irc_title">Mahdi</string>
+    <string name="irc_summary">Besuche unseren IRC Kanal!\nChatte mit dem Mahdi-Rom Team und anderen Nutzern</string>
+    <string name="donate_title">Spenden</string>
+    <string name="donate_summary">Spende an Mahdi786</string>
+    <string name="source_title">Mahdi Quellcode</string>
+    <string name="source_summary">Mahdi-Rom ist vollständig Open Source.\nQuellcode auf github.com/mahdi-rom</string>
+    <string name="no_irc">MahdiIRC App nicht gefunden.</string>
+    <string name="center_summary"><b>OTACenter</b> provides tools &amp; information to help make your experience with Mahdi-Rom even better. Upgrade automatically to the newest version of our ROM with <b>OTACenter</b>.</string>
+    <string name="bugreport">Bugreport</string>
+    <string name="bugreport_summary">Bugreport erstellen.</string>
+    <string name="report_infosuccess">Erstellt einen kompletten Systemreport zum anhängen an den Bugreport! Die Zip-Datei befindet sich auf der SD-Karte im Verzeichnis \"Mahdi\".</string>
+    <string name="report_infofail">Erstellen des Bugreports fehlgeschlagen, bitte erneut versuchen.</string>
+</resources>
