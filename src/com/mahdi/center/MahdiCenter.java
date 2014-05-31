@@ -117,9 +117,9 @@ ActionBar.TabListener{
             Locale l = Locale.getDefault();
             switch (position) {
             case 0:
-                return getString(R.string.about_title).toUpperCase(l);
-            case 1:
                 return getString(R.string.ota_title).toUpperCase(l);
+            case 1:
+                return getString(R.string.about_title).toUpperCase(l);
             case 2:
                 return getString(R.string.sizer_title).toUpperCase(l);
             }
@@ -129,9 +129,9 @@ ActionBar.TabListener{
         public android.support.v4.app.Fragment getItem(int page) {
             switch (page) {
             case 0:
-                return new AboutMahdi();
-            case 1:
                 return new MahdiOTA();
+            case 1:
+                return new AboutMahdi();
             case 2:
                 return new MahdiSizer();
             }
@@ -155,9 +155,9 @@ ActionBar.TabListener{
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
                 return true;
-        } else if (resId == R.id.ab_about) {
-                Intent intentAbout = new Intent(this, About.class);
-                startActivity(intentAbout);
+        } else if (resId == R.id.slimOta) {
+                Intent intentOta = new Intent(this, About.class);
+                startActivity(intentOta);
                 return true;
         } else {
                 return super.onOptionsItemSelected(item);

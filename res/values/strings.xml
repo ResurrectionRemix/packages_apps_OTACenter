@@ -16,7 +16,7 @@
 -->
 
 <resources>
-    <!-- MahdiOTA main strings -->
+    <!-- Main strings -->
     <string name="app_name">OTACenter</string>
     <string name="menu_settings">Settings</string>
     <string name="device_title">Device</string>
@@ -30,13 +30,13 @@
     <string name="device_info_title">Device Information</string>
     <string name="up_to_date_title">Your system is up to date</string>
     <string name="no_data_title">No data connection available</string>
-    <string name="error_reading_title">Cannot read MahdiOTA properties</string>
+    <string name="error_reading_title">Cannot read properties</string>
     <string name="update_file_title">Update:</string>
     <string name="reboot">All done! Reboot your device now.</string>
     <string name="reboot_ok">Reboot now</string>
     <string name="reboot_cancel">Don\'t reboot</string>
 
-    <!-- MahdiOTA settings -->
+    <!-- Settings -->
     <string name="settings_title">OTA Settings</string>    
     <string name="update_interval_title">Automatic update check interval</string>
     <string name="update_interval_summary">Set automatic update check interval</string>
@@ -45,42 +45,59 @@
     <string name="update_interval_hour">Every hour</string>
     <string name="update_interval_disable">Disable</string>
 
-    <!-- MahdiOTA error messages -->
+    <!-- Error messages -->
     <string name="system_prop_error">Cannot read system properties</string>
     <string name="bad_url">Unable to get to download area.\nPlease inform your Mahdi device maintainer!</string>
     <string name="menu_update">Look for Updates now</string>
     <string name="toast_text">Looking for ROM updates, please wait.</string>
     <string name="toast_no_data_text">No data connection. Please turn on</string>
 
-    <!-- MahdiOTA shortcut fragment -->
+    <!-- Shortcut fragment -->
     <string name="short_cut_release_title">ROM related</string>
     <string name="short_cut_changelog_title">Changelog</string>
     <string name="short_cut_changelog_summary_update_available">Important!!! Read changelog and install instructions carefully</string>
-    <string name="short_cut_download_summary_update_available">New Mahdi-Rom update available. Download here!</string>
+    <string name="short_cut_download_summary_update_available">New Rom update available. Visit XDA thread to download!</string>
     <string name="short_cut_changelog_summary">Show changelogs and install instructions</string>
     <string name="short_cut_additional_title">Additional</string>
     <string name="short_cut_faq_title">FAQ</string>
     <string name="short_cut_faq_summary">Coming Soon!</string>
     <string name="short_cut_news_title">News</string>
     <string name="short_cut_news_summary">Read about latest Mahdi news</string>
-    <string name="short_cut_download_title">Download Mahdi-Rom</string>
+    <string name="short_cut_download_title">Download</string>
     <string name="short_cut_download_uptodate_summary">Download Mahdi-ROM</string>
-    <string name="short_cut_download_gapps_title">Download gapps</string>
+    <string name="short_cut_download_gapps_title">Gapps</string>
     <string name="short_cut_download_gapps_summary">Download Slim Gapps packages</string>
 
-    <string name="download_url">http://download.mahdi-rom.com/</string>
-    <string name="changelog_url">http://mahdi-rom.com/ota/changelogsimple.txt</string>
-    <string name="faq_url">http://mahdi-rom.com</string>
-    <string name="news_url">http://otaslim.slimroms.net/news.htm</string>
+    <!-- URL's -->
+    <string name="download_url">http://forum.xda-developers.com</string>
+    <string name="changelog_url">http://mirror.mahdi-rom.com/ota/changelogsimple.txt</string>
     <string name="gapps_url">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
     <string name="gapps_url_kitkat">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
 
-    <!-- MahdiOTA update checker -->    
-    <string name="xml_url">http://mahdi-rom.com/ota/ota_kitkat.xml</string>
-    <string name="xml_url_kitkat">http://mahdi-rom.com/ota/ota_kitkat.xml</string>
-    <string name="notification_message">Mahdi-ROM update available</string>
+    <!-- Update checker -->    
+    <string name="xml_url">http://mirror.mahdi-rom.com/ota/ota_kitkat.xml</string>
+    <string name="xml_url_kitkat">http://mirror.mahdi-rom.com/ota/ota_kitkat.xml</string>
+    <string name="notification_message">ROM update available</string>
 
-    <!-- MahdiOTA About -->
+    <!-- About -->
+    <string name="googleplus_title">Google+</string>
+    <string name="googleplus_summary">Visit the Google+ community</string>
+    <string name="xda_title">XDA</string>
+    <string name="xda_summary">Visit the XDA thread</string>
+    <string name="about_title">About</string>
+    <string name="devs">Developer</string>
+    <string name="website_title">Website</string>
+    <string name="website_summary">http://mirror.mahdi-rom.com\nFind all latest Mahdi-Rom news here</string>
+    <string name="donate_title">Donate</string>
+    <string name="donate_summary">Donate to Mahdi786</string>
+    <string name="source_title">Source</string>
+    <string name="source_summary">Mahdi-Rom is fully open source.\nSource at github.com/mahdi-rom</string>
+    <string name="center_summary"><b>OTACenter</b> provides tools &amp; information to help make your experience with Mahdi-Rom even better. Upgrade to the newest version of our ROM with <b>OTACenter</b>.</string>
+    <string name="bugreport_title">Bugreport</string>
+    <string name="bugreport_summary">Create a complete Bugreport.</string>
+    <string name="report_infosuccess">Created Systemreport, provide it to Mahdi-Rom by attaching it to your Bugreport! You can find the Zip file on your SD-Card in a directory called \"Mahdi\".</string>
+    <string name="report_infofail">Failed to create Bugreport, please try again.</string>
+
     <string name="about_home_url"><a href="http://mahdi-rom.com/">Mahdi-ROM</a></string>
     <string name="about_ota">OTACenter allows you to easily manage\n your ROM!</string>
     <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for Mahdi-ROM</string>
@@ -90,7 +107,6 @@
     <string name="about_license">Open source licenses</string>
     <string name="about_license_text">OTACenter app:</string>
     <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
-    <string name="menu_sizer">System Apps</string>
 
     <!-- MahdiSizer  -->
     <string name="listsystem">list</string>
@@ -113,23 +129,4 @@
     <string name="sizer_message_filefail">Failed to create profile.</string>
     <string name="sizer_message_noselect">Nothing selected.</string>
     <string name="ota_title">Updater</string>
-
-    <!-- About -->
-    <string name="about_title">Mahdi</string>
-    <string name="devs">Developer</string>
-    <string name="website_title">Mahdi Website</string>
-    <string name="website_summary">http://mahdi-rom.com\nFind all latest Mahdi-Rom news here</string>
-    <string name="irc_title">Mahdi</string>
-    <string name="irc_summary">Join our IRC channel!\nChat with the Mahdi-Rom Team and other users</string>
-    <string name="donate_title">Donate</string>
-    <string name="donate_summary">Donate to Mahdi786</string>
-    <string name="source_title">Mahdi Source</string>
-    <string name="source_summary">Mahdi-Rom is fully open source.\nSource at github.com/mahdi-rom</string>
-    <string name="no_irc">MahdiIRC App not found.</string>
-    <string name="center_summary"><b>OTACenter</b> provides tools &amp; information to help make your experience with Mahdi-Rom even better. Upgrade automatically to the newest version of our ROM with <b>OTACenter</b>.</string>
-    <string name="bugreport">Bugreport</string>
-    <string name="bugreport_summary">Create a complete Bugreport.</string>
-    <string name="report_infosuccess">Created Systemreport, provide it to Mahdi-Rom by attaching it to your Bugreport! You can find the Zip file on your SD-Card in a directory called \"Mahdi\".</string>
-    <string name="report_infofail">Failed to create Bugreport, please try again.</string>
-
 </resources>
