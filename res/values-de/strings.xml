@@ -87,12 +87,12 @@
     <string name="about_title">Über</string>
     <string name="devs">Entwickler</string>
     <string name="website_title">Website</string>
-    <string name="website_summary">http://mirror.mahdi-rom.com\nAlle Neuigkeiten zu Mahdi-Rom</string>    <string name="donate_title">Spenden</string>
+    <string name="website_summary">http://mirror.mahdi-rom.com\nAlle Neuigkeiten zu Mahdi-Rom</string>
     <string name="donate_title">Spenden</string>
     <string name="donate_summary">Spende an Mahdi786</string>
     <string name="source_title">Quellcode</string>
     <string name="source_summary">Mahdi-Rom ist vollständig Open Source.\nQuellcode auf github.com/mahdi-rom</string>
-    <string name="center_summary"><b>OTACenter</b> bietet Werkzeuge & Informationen um den Gebrauch des Mahdi-Rom zu verbessern. Lade die neueste Version mit <b>OTACenter</b>.</string>
+    <string name="center_summary"><b>OTACenter</b> bietet Werkzeuge &amp; Informationen um den Gebrauch des Mahdi-Rom zu verbessern. Lade die neueste Version mit <b>OTACenter</b>.</string>
     <string name="bugreport">Bugreport</string>
     <string name="bugreport_summary">Bugreport erstellen.</string>
     <string name="report_infosuccess">Erstellt einen kompletten Systemreport zum anhängen an den Bugreport! Die Zip-Datei befindet sich auf der SD-Karte im Verzeichnis \"Mahdi\".</string>
