@@ -173,9 +173,9 @@ public class MahdiOTA extends Fragment implements OnSharedPreferenceChangeListen
         }
 
         mDeviceOut.setText(getString(R.string.device_name_title) + " " + mStrDevice);
-        mCurVerOut.setText(getString(R.string.version_title) + " " + mStrCurVer);
         mCodenameOut.setText(getString(R.string.codename_title) + " " + mStrCodename);
-        mCurFileOut.setText(getString(R.string.file_name_title) + " " + "v" + mStrCurFile);
+        mCurVerOut.setText(getString(R.string.version_title) + " " + mStrCurVer);
+        mCurFileOut.setText(getString(R.string.file_name_title) + " " + " " + mStrCurFile);
 
         SharedPreferences prefs = this.getActivity().getSharedPreferences("UpdateChecker", 0);
         String updateFile = prefs.getString("Filename", "");

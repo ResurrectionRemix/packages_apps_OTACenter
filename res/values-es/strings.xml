@@ -67,21 +67,9 @@
     <string name="short_cut_download_uptodate_summary">Descarga Mahdi-ROM</string>
     <string name="short_cut_download_gapps_title">Descarga gapps</string>
     <string name="short_cut_download_gapps_summary">Descarga PA Gapps</string>
-
-    <string name="download_url">http://mahdi-rom.com</string>
-    <string name="changelog_url">http://mahdi-rom.com/ota/changelogsimple.txt</string>
-    <string name="faq_url">http://mahdi-rom.com</string>
-    <string name="news_url">http://otaslim.slimroms.net/news.htm</string>
-    <string name="gapps_url">http://bit.ly/ISA2tT</string>
-    <string name="gapps_url_kitkat">http://bit.ly/ISA2tT</string>
-
-    <!-- MahdiOTA update checker -->    
-    <string name="xml_url">http://mahdi-rom.com/ota/ota_kitkat.xml.php</string>
-    <string name="xml_url_kitkat">http://mahdi-rom.com/ota/ota_kitkat.xml.php</string>
     <string name="notification_message">Actualización Mahdi-ROM disponible</string>
 
     <!-- MahdiOTA About -->
-    <string name="about_home_url"><a href="http://mahdi-rom.com/">Mahdi-ROM</a></string>
     <string name="about_ota">OTACenter te permite manejar fácilmente\n tu ROM!</string>
     <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modificado por Mahdi-ROM</string>
     <string name="about_version">OTACenter 1.0</string>

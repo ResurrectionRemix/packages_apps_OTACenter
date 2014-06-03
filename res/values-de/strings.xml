@@ -67,16 +67,6 @@
     <string name="short_cut_download_uptodate_summary">Download Mahdi-ROM</string>
     <string name="short_cut_download_gapps_title">Gapps</string>
     <string name="short_cut_download_gapps_summary">Download der Slim Gapps</string>
-
-    <!-- URL's -->
-    <string name="download_url">http://forum.xda-developers.com</string>
-    <string name="changelog_url">http://mirror.mahdi-rom.com/ota/changelogsimple.txt</string>
-    <string name="gapps_url">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
-    <string name="gapps_url_kitkat">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
-
-    <!-- Update checker -->
-    <string name="xml_url">http://mirror.mahdi-rom.com/ota/ota_kitkat.xml</string>
-    <string name="xml_url_kitkat">http://mirror.mahdi-rom.com/ota/ota_kitkat.xml</string>
     <string name="notification_message">Systemupdate verfügbar</string>
 
     <!-- About -->

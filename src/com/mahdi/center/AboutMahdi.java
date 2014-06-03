@@ -50,7 +50,7 @@ public class AboutMahdi extends Fragment{
             } else if (v == mGoogleplus) {
                 launchUrl("https://plus.google.com/u/0/communities/116540622179206449806");
             } else if (v == mXda) {
-                launchUrl(getString(R.string.download_url));
+                launchUrl(getString(R.string.xda_url));
             } else if (v == mSource) {
                 launchUrl("http://github.com/Mahdi-rom");
             } else if (v == mDonate) {

@@ -132,12 +132,8 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
             if (strDevice == null || CurVer == null) return null;
             String newUpdateUrl = null;
             String newFileName = null;
-            URL url = null;
-            if (CurVer != null && CurVer.contains("4.4")) {
-                url = new URL(mContext.getString(R.string.xml_url_kitkat));
-            } else {
-                url = new URL(mContext.getString(R.string.xml_url));
-            }
+            URL url = new URL(mContext.getString(R.string.xml_url_kitkat));
+
             urlConnection = (HttpURLConnection) url.openConnection();
             BufferedReader in = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
             XmlPullParserFactory factory = XmlPullParserFactory.newInstance();

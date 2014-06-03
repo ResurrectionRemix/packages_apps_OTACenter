@@ -99,7 +99,7 @@ public class MahdiLinks extends Fragment {
             if (v == mDownload) {
                 if (mStrFileURLNew != null
                         && mStrFileURLNew != "") {
-                    launchUrl(getString(R.string.download_url));
+                    launchUrl(mStrFileURLNew);
                 } else {
                     launchUrl(getString(R.string.download_url));
                 }
@@ -160,7 +160,7 @@ public class MahdiLinks extends Fragment {
             String strLine;
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
-                if (line[0].equals("ro.modversion")) {
+                if (line[0].equals("mahdi.ota.version")) {
                     mStrCurFile = line[1];
                 }
             }
@@ -187,13 +187,13 @@ public class MahdiLinks extends Fragment {
 
     public void updateView() {
         if (!mStrFileNameNew.equals("") && !(mStrFileNameNew.compareToIgnoreCase(mStrCurFile)<=0)) {
-            mChangelogTitle.setTextColor(Color.WHITE);
-            mChangelogSummary.setTextColor(Color.WHITE);
-            mDownloadTitle.setTextColor(Color.WHITE);
-            mDownloadSummary.setTextColor(Color.WHITE);
+            mDownloadTitle.setTextColor(Color.GREEN);
+            mDownloadSummary.setTextColor(Color.GREEN);
+            mChangelogTitle.setTextColor(Color.GREEN);
+            mChangelogSummary.setTextColor(Color.GREEN);
 
-            mChangelogSummary.setText(getString(R.string.short_cut_changelog_summary_update_available));
             mDownloadSummary.setText(getString(R.string.short_cut_download_summary_update_available));
+            mChangelogSummary.setText(getString(R.string.short_cut_changelog_summary_update_available));
         }
     }
 

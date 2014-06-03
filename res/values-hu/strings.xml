@@ -67,17 +67,6 @@
     <string name="short_cut_download_uptodate_summary">Mahdi ROM letöltése</string>
     <string name="short_cut_download_gapps_title">Google Apps letöltése</string>
     <string name="short_cut_download_gapps_summary">PA Gapps csomagok</string>
-
-    <string name="download_url">http://mahdi-rom.com</string>
-    <string name="changelog_url">http://mahdi-rom.com/ota/changelogsimple.txt</string>
-    <string name="faq_url">http://mahdi-rom.com</string>
-    <string name="news_url">http://otaslim.slimroms.net/news.htm</string>
-    <string name="gapps_url">http://bit.ly/ISA2tT</string>
-    <string name="gapps_url_kitkat">http://bit.ly/ISA2tT</string>
-
-    <!-- MahdiOTA update checker -->    
-    <string name="xml_url">http://mahdi-rom.com/ota/ota_kitkat.xml.php</string>
-    <string name="xml_url_kitkat">http://mahdi-rom.com/ota/ota_kitkat.xml.php</string>
     <string name="notification_message">Mahdi-ROM frissítés elérhető</string>
 
     <!-- MahdiOTA About -->
