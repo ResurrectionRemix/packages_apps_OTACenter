@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2014 Mahdi-ROM
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+* Copyright (C) 2013-2014 Mahdi-ROM
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
 -->
 
 <resources>
@@ -35,7 +35,7 @@
   <string name="reboot">Όλα καλά! Επανεκκινήστε την συσκευή σας.</string>
   <string name="reboot_ok">Επανεκκίνηση τώρα</string>
   <string name="reboot_cancel">Ακύρωση επανεκκίνησης</string>
-
+  
   <!-- Settings -->
   <string name="settings_title">Ρυθμίσεις ενημερώσεων</string>
   <string name="update_interval_title">Χρονικό διάστημα ελέγχου ενημερώσεων</string>
@@ -44,14 +44,14 @@
   <string name="update_interval_half_day">Κάθε 12 ώρες</string>
   <string name="update_interval_hour">Κάθε ώρα</string>
   <string name="update_interval_disable">Ανενεργό</string>
-
+  
   <!-- Error messages -->
   <string name="system_prop_error">Δεν μπορούν να διαβαστούν οι ιδιότητες συστήματος</string>
   <string name="bad_url">Δεν υπάρχει πρόσβαση στην σελίδα ενημερώσεων.\nΠαρακαλώ ενημερώστε τον Mahdi διαχειριστή της συσκευής σας που!</string>
   <string name="menu_update">Έλεγχος για ενημερώσεις τώρα</string>
   <string name="toast_text">Αναζήτηση για ενημερώσεις της ROM, παρακαλώ περιμένετε.</string>
   <string name="toast_no_data_text">Δεν υπάρχει σύνδεση δικτύου. Παρακαλώ ανοίξτε το ίντερνετ</string>
-
+  
   <!-- Shortcut fragment -->
   <string name="short_cut_release_title">Σχετικά με την ROM</string>
   <string name="short_cut_changelog_title">Αλλαγές και προσθήκες </string>
@@ -67,7 +67,7 @@
   <string name="short_cut_download_uptodate_summary">Λήψη Mahdi-ROM</string>
   <string name="short_cut_download_gapps_title">Gapps</string>
   <string name="short_cut_download_gapps_summary">Λήψη πακέτου Slim Gapps </string>
-
+  
   <!-- About -->
   <string name="googleplus_title">Google+</string>
   <string name="googleplus_summary">Επισκεφτείτε την κοινότητα Google+</string>
@@ -81,15 +81,13 @@
   <string name="donate_summary">Δωρεά στον Mahdi786</string>
   <string name="source_title">Κώδικας</string>
   <string name="source_summary">Η Mahdi-Rom είναι ανοικτού κώδικα.\nΚώδικας στο github.com/mahdi-rom</string>
-  <string name="center_summary">
-    <b>OTACenter</b>Παρέχει τα εργαλεία και τις πληροφορίες για να κάνει την εμπειρία σας με την Mahdi-Rom ακόμα καλύτερη. Αναβαθμίστε στην νεότερη έκδοση της ROM με <b>OTACenter</b>.</string>
+  <string name="center_summary"><b>OTACenter</b>Παρέχει τα εργαλεία και τις πληροφορίες για να κάνει την εμπειρία σας με την Mahdi-Rom ακόμα καλύτερη. Αναβαθμίστε στην νεότερη έκδοση της ROM με <b>OTACenter</b>.</string>
   <string name="bugreport_title">Αναφορά σφαλμάτων</string>
   <string name="bugreport_summary">Δημιουργήστε μια ολοκληρωμένη αναφορά σφάλματος</string>
   <string name="report_infosuccess">Αναφορά σφάλματος δημιουργήθηκε, αποστείλτε την επισηνάπτοντας την σαν αναφορά σφάλματος. Θα βρείτε το αρχείο zip στην SD κάρτα σας στον φάκελο \"Mahdi\".</string>
   <string name="report_infofail">Αποτυχία δημιουργίας αναφοράς σφάλματος, παρακαλώ ξαναπροσπαθήστε</string>
-  <string name="about_home_url">
-    <a href="http://mahdi-rom.com/">Mahdi-ROM</a>
-  </string>
+  
+  <string name="about_home_url"><a href="http://mahdi-rom.com/">Mahdi-ROM</a></string>
   <string name="about_ota">Το κέντρο ενημερώσεων σας επιτρέπει να διαχειρίζεστε την \n ROM σας!</string>
   <string name="about_copyright">\u00A9 Πνευματικά δικαιώματα Slimroms 2013 Τροποποιημένη απο Mahdi-ROM</string>
   <string name="about_version">Κέντρο ενημερώσεων 2.0</string>
@@ -97,10 +95,8 @@
   <string name="about_contact_text">Πείτε μας τι σκέφτεστε ή ενημερώστε μας προβλήματα ή bugs.</string>
   <string name="about_license">Άδειες ανοικτού κώδικα</string>
   <string name="about_license_text">Κέντρο ενημερώσεων app:</string>
-  <string name="about_license_url">
-    <a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a>
-  </string>
-
+  <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
+  
   <!-- MahdiSizer -->
   <string name="listsystem">Λίστα</string>
   <string name="sizer_title">Εφαρμογές συστήματος</string>
