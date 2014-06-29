@@ -69,7 +69,7 @@
     <string name="short_cut_download_gapps_summary">Download Slim Gapps packages</string>
 
     <!-- URL's -->
-    <string name="download_url">http://mirror.mahdi-rom.com/</string>
+    <string name="download_url">http://files.mahdi-rom.com/</string>
     <string name="changelog_url">http://mirror.mahdi-rom.com/ota/changelogsimple.txt</string>
     <string name="xda_url">http://forum.xda-developers.com/usercp.php</string>
     <string name="gapps_url">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
