@@ -70,14 +70,14 @@
 
     <!-- URL's -->
     <string name="download_url">http://files.mahdi-rom.com/</string>
-    <string name="changelog_url">http://mirror.mahdi-rom.com/ota/changelogsimple.txt</string>
+    <string name="changelog_url">http://files.mahdi-rom.com/ota/changelogsimple.txt</string>
     <string name="xda_url">http://forum.xda-developers.com/usercp.php</string>
     <string name="gapps_url">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
     <string name="gapps_url_kitkat">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
 
     <!-- Update checker -->    
-    <string name="xml_url">http://mirror.mahdi-rom.com/ota/ota_kitkat.xml</string>
-    <string name="xml_url_kitkat">http://mirror.mahdi-rom.com/ota/ota_kitkat.xml</string>
+    <string name="xml_url">http://files.mahdi-rom.com/ota/ota_kitkat.xml</string>
+    <string name="xml_url_kitkat">http://files.mahdi-rom.com/ota/ota_kitkat.xml</string>
     <string name="notification_message">ROM update available</string>
 
     <!-- About -->
@@ -88,7 +88,7 @@
     <string name="about_title">About</string>
     <string name="devs">Developer</string>
     <string name="website_title">Website</string>
-    <string name="website_summary">http://mirror.mahdi-rom.com\nFind all latest Mahdi-Rom news here</string>
+    <string name="website_summary">http://files.mahdi-rom.com\nFind all latest Mahdi-Rom news here</string>
     <string name="donate_title">Donate</string>
     <string name="donate_summary">Donate to Mahdi786</string>
     <string name="source_title">Source</string>

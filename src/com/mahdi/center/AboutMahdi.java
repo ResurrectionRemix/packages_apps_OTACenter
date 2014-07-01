@@ -46,7 +46,7 @@ public class AboutMahdi extends Fragment{
         @Override
         public void onClick(View v) {
             if (v == mWebsite) {
-                launchUrl("http://mirror.mahdi-rom.com/");
+                launchUrl("http://files.mahdi-rom.com/");
             } else if (v == mGoogleplus) {
                 launchUrl("https://plus.google.com/u/0/communities/116540622179206449806");
             } else if (v == mXda) {
