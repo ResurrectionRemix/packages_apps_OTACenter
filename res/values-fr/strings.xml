@@ -26,7 +26,7 @@
 <string name="curVer">Version courante</string>
 <string name="ok">OK</string>
 <string name="title_update">mis à jour:</string>
-<string name="device_info_title">Information sur l'appareil:</string>
+<string name="device_info_title">Information sur l\'appareil:</string>
 <string name="up_to_date_title">Votre systèm est à jour</string>
 <string name="no_data_title">Pas de connexion de données</string>
 <string name="error_reading_title">Ne peux pas lire les propriétés</string>
