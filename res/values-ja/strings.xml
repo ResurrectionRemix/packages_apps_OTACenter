@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2013 Mahdi-ROM
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+    <!-- Main strings -->
+    <string name="app_name">OTAセンター</string>
+    <string name="menu_settings">設定</string>
+    <string name="device_title">デバイス</string>
+    <string name="device_name_title">名前:</string>
+    <string name="codename_title">コードネーム:</string>
+    <string name="version_title">バージョン:</string>
+    <string name="file_name_title">ファイル:</string>
+    <string name="curVer">現在のバージョン</string>
+    <string name="ok">OK</string>
+    <string name="title_update">更新</string>
+    <string name="device_info_title">デバイス情報</string>
+    <string name="up_to_date_title">お使いのシステムは最新です</string>
+    <string name="no_data_title">利用可能なデータ接続がありません</string>
+    <string name="error_reading_title">プロパティを読み込みできません</string>
+    <string name="update_file_title">更新:</string>
+    <string name="reboot">ぜべて完了! 今すぐデバイスを再起動してください.</string>
+    <string name="reboot_ok">すぐに再起動</string>
+    <string name="reboot_cancel">再起動しない</string>
+
+    <!-- Settings -->
+    <string name="settings_title">OTA設定</string>    
+    <string name="update_interval_title">自動更新チェック間隔</string>
+    <string name="update_interval_summary">自動で更新を確認する間隔を設定する</string>
+    <string name="update_interval_day">24時間毎</string>
+    <string name="update_interval_half_day">12時間毎</string>
+    <string name="update_interval_hour">時間毎</string>
+    <string name="update_interval_disable">無効</string>
+
+    <!-- Error messages -->
+    <string name="system_prop_error">システムプロパティを読み込みできません</string>
+    <string name="bad_url">ダウンロードエリアを取得することができませんでした。\nMahdiのデバイスメンテナにお知らせください。!</string>
+    <string name="menu_update">今すぐ更新を確認</string>
+    <string name="toast_text">ROMの更新を確認しています。少々お待ちください。</string>
+    <string name="toast_no_data_text">データ接続がありません。データ通信をオンにしてください。</string>
+
+    <!-- Shortcut fragment -->
+    <string name="short_cut_release_title">ROM関連</string>
+    <string name="short_cut_changelog_title">更新履歴</string>
+    <string name="short_cut_changelog_summary_update_available">重要事項!更新履歴を確認して指示通り慎重にインストールしてください。</string>
+    <string name="short_cut_download_summary_update_available">新しいバージョンが利用可能です。タップしてダウンロード!</string>
+    <string name="short_cut_changelog_summary">更新履歴の表示とインストールの指示</string>
+    <string name="short_cut_additional_title">追加</string>
+    <string name="short_cut_faq_title">FAQ</string>
+    <string name="short_cut_faq_summary">Coming Soon!</string>
+    <string name="short_cut_news_title">ニュース</string>
+    <string name="short_cut_news_summary">Mahdiに関する最新ニュースを読む</string>
+    <string name="short_cut_download_title">ダウンロード</string>
+    <string name="short_cut_download_uptodate_summary">最新バージョンのダウンロード</string>
+    <string name="short_cut_download_gapps_title">Gapps</string>
+    <string name="short_cut_download_gapps_summary">Slim Gappsパッケージのダウンロード</string>
+
+    <!-- URL's -->
+    <string name="download_url">http://files.mahdi-rom.com/</string>
+    <string name="changelog_url">http://files.mahdi-rom.com/ota/changelogsimple.txt</string>
+    <string name="xda_url">http://forum.xda-developers.com/usercp.php</string>
+    <string name="gapps_url">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
+    <string name="gapps_url_kitkat">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
+
+    <!-- Update checker -->    
+    <string name="xml_url">http://files.mahdi-rom.com/ota/ota_kitkat.xml</string>
+    <string name="xml_url_kitkat">http://files.mahdi-rom.com/ota/ota_kitkat.xml</string>
+    <string name="notification_message">ROMの更新があります</string>
+
+    <!-- About -->
+    <string name="googleplus_title">Google+</string>
+    <string name="googleplus_summary">Google+コミュニティを訪問する</string>
+    <string name="xda_title">XDA</string>
+    <string name="xda_summary">XDAスレッドを訪問する</string>
+    <string name="about_title">Mahdiについて</string>
+    <string name="devs">開発者</string>
+    <string name="website_title">ウェブサイト</string>
+    <string name="website_summary">http://files.mahdi-rom.com\nここに全てのMahdiの最新ニュースが掲載されています</string>
+    <string name="donate_title">寄付</string>
+    <string name="donate_summary">Mahdi786に寄付する</string>
+    <string name="source_title">ソース</string>
+    <string name="source_summary">Mahdi Romはオープンソースです\github.com/mahdi-romにてソースを確認できます</string>
+    <string name="center_summary"><b>OTAセンター</b>はMahdi-Romでのより良い経験を手助けするためにツールと情報を提供します。<b>OTAセンター</b>はROMを最新バージョンにアップグレードします。</string>
+    <string name="bugreport_title">バグレポート</string>
+    <string name="bugreport_summary">完全なバグレポートを作成する</string>
+    <string name="report_infosuccess">作成されたシステムレポートはバグレポートに添付されてMahdi-Romに提供されます。あなたはSDカード上の\"Mahdi\".というディレクトリ内にZipファイルを確認することができます。</string>
+    <string name="report_infofail">バグレポートの作成に失敗しました。再施行してください。</string>
+
+    <string name="about_home_url"><a href="http://mahdi-rom.com/">Mahdi-ROM</a></string>
+    <string name="about_ota">OTAセンターを利用すると容易にROMを管理することができます!</string>
+    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for Mahdi-ROM</string>
+    <string name="about_version">OTAセンター 2.0</string>
+    <string name="about_contact">メール:Mahdi.Rom@gmail.com</string>
+    <string name="about_contact_text">意見を聞かせてください\nバグや問題をお知らせください</string>
+    <string name="about_license">オープンソースライセンス</string>
+    <string name="about_license_text">OTAセンターアプリ:</string>
+    <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
+
+    <!-- MahdiSizer  -->
+    <string name="listsystem">リスト</string>
+    <string name="sizer_title">システムアプリ</string>
+    <string name="caution">注意!</string>
+    <string name="sizer_message_startup">このツールはシステムアプリを削除することができます。細心の注意を払い、削除しても安全であると分かっているアプリにのみ使用してください。</string>
+    <string name="cancel">キャンセル</string>
+    <string name="sizer_message_delete">このアプリを削除してもよろしいですか?</string>
+    <string name="sizer_message_delete_multi_one">選択したアプリを削除してもよろしいですか?</string>
+    <string name="sizer_message_delete_multi">選択したアプリを削除してもよろしいですか?</string>
+    <string name="btn_delete">選択したアプリを削除!</string>
+    <string name="delete_progress_title">削除中</string>
+    <string name="delete_progress">選択したファイルの削除中です。少々お待ちください。/string>
+    <string name="delete_success">削除しました</string>
+    <string name="delete_fail">削除できません</string>
+    <string name="btn_profile">プロファイル</string>
+    <string name="sizer_message_sdnowrite">SDカードに書き込めません</string>
+    <string name="sizer_message_sdnoread">SDカードを読み取れません</string>
+    <string name="sizer_message_filesuccess">プロファイルを作成しました</string>
+    <string name="sizer_message_filefail">プロファイルの作成に失敗しました</string>
+    <string name="sizer_message_noselect">選択されていません</string>
+    <string name="ota_title">更新</string>
+</resources>
