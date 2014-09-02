@@ -68,6 +68,9 @@
     <string name="short_cut_download_gapps_title">Gapps</string>
     <string name="short_cut_download_gapps_summary">Slim Gappsパッケージのダウンロード</string>
 
+    <!-- Update checker -->    
+    <string name="notification_message">ROMの更新があります</string>
+
     <!-- About -->
     <string name="googleplus_title">Google+</string>
     <string name="googleplus_summary">Google+コミュニティを訪問する</string>
@@ -80,20 +83,19 @@
     <string name="donate_title">寄付</string>
     <string name="donate_summary">Mahdi786に寄付する</string>
     <string name="source_title">ソース</string>
-    <string name="source_summary">Mahdi Romはオープンソースです\github.com/mahdi-romにてソースを確認できます</string>
+    <string name="source_summary">Mahdi Romはオープンソースです\ngithub.com/mahdi-romにてソースを確認できます</string>
     <string name="center_summary"><b>OTAセンター</b>はMahdi-Romでのより良い経験を手助けするためにツールと情報を提供します。<b>OTAセンター</b>はROMを最新バージョンにアップグレードします。</string>
     <string name="bugreport_title">バグレポート</string>
     <string name="bugreport_summary">完全なバグレポートを作成する</string>
-    <string name="report_infosuccess">作成されたシステムレポートはバグレポートに添付されてMahdi-Romに提供されます。あなたはSDカード上の\"Mahdi\".というディレクトリ内にZipファイルを確認することができます。</string>
+    <string name="report_infosuccess">作成されたシステムレポートはバグレポートに添付されてMahdi-Romに提供されます。あなたはSDカード上の\"Mahdi\"というディレクトリ内にZipファイルを確認することができます。</string>
     <string name="report_infofail">バグレポートの作成に失敗しました。再施行してください。</string>
+
     <string name="about_ota">OTAセンターを利用すると容易にROMを管理することができます!</string>
-    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for Mahdi-ROM</string>
     <string name="about_version">OTAセンター 2.0</string>
     <string name="about_contact">メール:Mahdi.Rom@gmail.com</string>
     <string name="about_contact_text">意見を聞かせてください\nバグや問題をお知らせください</string>
     <string name="about_license">オープンソースライセンス</string>
     <string name="about_license_text">OTAセンターアプリ:</string>
-    <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
 
     <!-- MahdiSizer  -->
     <string name="listsystem">リスト</string>
