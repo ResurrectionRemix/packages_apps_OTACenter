@@ -86,8 +86,6 @@
     <string name="bugreport_summary">完全なバグレポートを作成する</string>
     <string name="report_infosuccess">作成されたシステムレポートはバグレポートに添付されてMahdi-Romに提供されます。あなたはSDカード上の\"Mahdi\".というディレクトリ内にZipファイルを確認することができます。</string>
     <string name="report_infofail">バグレポートの作成に失敗しました。再施行してください。</string>
-
-    <string name="about_home_url"><a href="http://mahdi-rom.com/">Mahdi-ROM</a></string>
     <string name="about_ota">OTAセンターを利用すると容易にROMを管理することができます!</string>
     <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for Mahdi-ROM</string>
     <string name="about_version">OTAセンター 2.0</string>
@@ -108,7 +106,7 @@
     <string name="sizer_message_delete_multi">選択したアプリを削除してもよろしいですか?</string>
     <string name="btn_delete">選択したアプリを削除!</string>
     <string name="delete_progress_title">削除中</string>
-    <string name="delete_progress">選択したファイルの削除中です。少々お待ちください。/string>
+    <string name="delete_progress">選択したファイルの削除中です。少々お待ちください。</string>
     <string name="delete_success">削除しました</string>
     <string name="delete_fail">削除できません</string>
     <string name="btn_profile">プロファイル</string>
