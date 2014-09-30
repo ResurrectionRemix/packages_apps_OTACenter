@@ -23,6 +23,8 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
 import android.preference.PreferenceActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import com.mahdi.ota.updater.UpdateListener;
 import com.mahdi.ota.R;
@@ -42,6 +44,7 @@ public class Settings extends PreferenceActivity implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         addPreferencesFromResource(R.xml.mahdi_ota_settings);
 
@@ -52,7 +55,18 @@ public class Settings extends PreferenceActivity implements
         mUpdateInterval.setSummary(mUpdateInterval.getEntry());
         mUpdateInterval.setOnPreferenceChangeListener(this);     
         
-     }
+    }
+
+     @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        // Respond to the action bar's Up/Home button
+        case android.R.id.home:
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mUpdateInterval) {

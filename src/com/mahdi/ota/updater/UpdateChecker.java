@@ -226,7 +226,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
             .setContentTitle(mContext.getString(R.string.title_update))
             .setContentText(mContext.getString(R.string.notification_message))
             .setSmallIcon(R.drawable.ic_notification_ota)
-            .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.ic_ota));
+            .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.app_icon));
 
         Intent intent = new Intent(mContext, MahdiCenter.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

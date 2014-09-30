@@ -150,17 +150,9 @@ ActionBar.TabListener{
     public boolean onOptionsItemSelected(MenuItem item) {
         int resId = item.getItemId();
         if (resId == android.R.id.home) {
-                // app icon in action bar clicked; go home
-                Intent intent = new Intent(android.provider.Settings.ACTION_SETTINGS);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
-                return true;
-        } else if (resId == R.id.slimOta) {
-                Intent intentOta = new Intent(this, About.class);
-                startActivity(intentOta);
-                return true;
-        } else {
-                return super.onOptionsItemSelected(item);
+            finish();
+            return true;
         }
+        return super.onOptionsItemSelected(item);
     }
 }
