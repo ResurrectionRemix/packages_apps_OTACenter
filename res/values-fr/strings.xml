@@ -28,7 +28,7 @@
     <string name="ok">OK</string>
     <string name="title_update">mis à jour:</string>
     <string name="device_info_title">Information sur l\'appareil:</string>
-    <string name="up_to_date_title">Votre systèm est à jour</string>
+    <string name="up_to_date_title">Votre système est à jour</string>
     <string name="no_data_title">Pas de connexion de données</string>
     <string name="error_reading_title">Ne peux pas lire les propriétés</string>
     <string name="update_file_title">Mis à jour :</string>
@@ -76,7 +76,7 @@
     <string name="about_title">À propos</string>
     <string name="devs">Développeur</string>
     <string name="website_title">Site Web</string>
-    <string name="website_summary">http://files.mahdi-rom.com\nFind toutes les dernières nouvelles de Mahdi-Rom</string>
+    <string name="website_summary">http://files.mahdi-rom.com\nVoir toutes les dernières nouvelles de Mahdi-Rom</string>
     <string name="donate_title">Faire un don</string>
     <string name="donate_summary">Faire un don à Mahdi786</string>
     <string name="source_title">Source</string>
