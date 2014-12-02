@@ -17,20 +17,16 @@
  *
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
 
-    <string-array name="entries_update_interval">
-        <item>@string/update_interval_day</item>
-        <item>@string/update_interval_half_day</item>
-        <item>@string/update_interval_hour</item>
-        <item>@string/update_interval_disable</item>
-    </string-array>
+    <ListPreference
+        android:key="update_interval"
+        android:dialogTitle="@string/update_interval_title"
+        android:title="@string/update_interval_title"
+        android:summary="@string/update_interval_summary"
+        android:entries="@array/entries_update_interval"
+        android:entryValues="@array/values_update_interval" />
 
-    <string-array name="values_update_interval" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
-</resources>
+</PreferenceScreen>

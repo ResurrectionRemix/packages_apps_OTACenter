@@ -11,20 +11,18 @@
  *  LICENSE   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  *
  *  AUTHORS:     fronti90, mnazim, tchaari, kufikugel
- *  DESCRIPTION: MahdiCenter: manage your ROM
+ *  DESCRIPTION: OTACenter: manage your ROM
  *
  *=========================================================================
  *
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mahdi.ota"
+    package="com.euphoria.ota"
     android:versionCode="1"
     android:versionName="1.2" >
 
-    <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="17" />
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -36,34 +34,30 @@
     <application
         android:allowBackup="true"
         android:label="@string/app_name"
-        android:theme="@style/Theme.Main"
+        android:theme="@style/AppTheme"
         android:icon="@drawable/app_icon"
         android:launchMode="singleTask">
         <activity
-            android:name="com.mahdi.center.MahdiCenter"
+            android:name="com.euphoria.center.OTACenter"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.mahdi.ota.MahdiOTA"
+            android:name="com.euphoria.ota.EuphoriaOTA"
             android:label="@string/ota_title"
-            android:parentActivityName="com.mahdi.center.MahdiCenter" >
+            android:parentActivityName="com.euphoria.center.OTACenter" >
         </activity>
         <activity
-            android:name="com.mahdi.sizer.MahdiSizer"
-            android:label="@string/sizer_title"
-            android:parentActivityName="com.mahdi.center.MahdiCenter" >
-        </activity>
-        <activity
-            android:name="com.mahdi.center.AboutMahdi"
+            android:name="com.euphoria.center.AboutEuphoria"
             android:label="@string/about_title"
-            android:parentActivityName="com.mahdi.center.MahdiCenter" >
+            android:parentActivityName="com.euphoria.center.OTACenter" >
         </activity>
 
-        <service android:name="com.mahdi.ota.updater.UpdateService" />
+        <service android:name="com.euphoria.ota.updater.UpdateService" />
 
         <receiver android:name="com.commonsware.cwac.wakeful.AlarmReceiver" >
             <intent-filter>
@@ -75,15 +69,15 @@
                 android:resource="@xml/wakeful" />
         </receiver>
         <receiver
-            android:name="com.mahdi.ota.updater.ConnectivityReceiver"
+            android:name="com.euphoria.ota.updater.ConnectivityReceiver"
             android:enabled="false" >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
 
-        <activity android:name="com.mahdi.ota.settings.Settings" />
-        <activity android:name="com.mahdi.ota.settings.About" />
+        <activity android:name="com.euphoria.ota.settings.Settings" />
+        <activity android:name="com.euphoria.ota.settings.About" />
     </application>
 
 </manifest>

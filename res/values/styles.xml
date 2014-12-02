@@ -1,39 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
- *=========================================================================
- *
- *  PROJECT:  SlimRoms
- *            Team Slimroms (http://www.slimroms.net)
- *
- *  COPYRIGHT Copyright (C) 2013 Slimroms http://www.slimroms.net
- *            All rights reserved
- *
- *  LICENSE   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
- *
- *  AUTHORS:     fronti90, mnazim, tchaari, kufikugel
- *  DESCRIPTION: MahdiOTA keeps our rom up to date
- *
- *=========================================================================
- *
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
 -->
 
 <resources>
-    <style name="OTABaseTheme" parent="android:Theme.Holo">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+    <!-- inherit from the material theme -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+      <!-- Used by the ActionBar -->
+      <item name="android:colorPrimary">@color/theme_primary</item>
+      <!-- Used by the StatusBar -->
+      <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
+      <!-- Used by controls, e.g. CheckBox, ProgressBar, etc. -->
+      <item name="android:colorAccent">@color/theme_accent</item>
     </style>
 
-    <!-- MahdiOTA theme. -->
-    <style name="OTA" parent="OTABaseTheme">
-         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-    </style>
-    <style name="Theme.Main" parent="@android:style/Theme.Holo">
-        <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
-    </style>
     <style name="Medium" parent="@android:style/TextAppearance.Medium">
         <item name="android:textStyle">normal</item>
     </style>
- </resources>
+</resources>

@@ -11,10 +11,14 @@
  *  LICENSE   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  *
  *  AUTHORS:     fronti90, mnazim, tchaari, kufikugel
- *  DESCRIPTION: MahdiOTA keeps our rom up to date
+ *  DESCRIPTION: OTACenter: manage your ROM
  *
  *=========================================================================
  *
 -->
-
-<WakefulIntentService listener="com.euphoria.ota.updater.UpdateListener" />
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" />

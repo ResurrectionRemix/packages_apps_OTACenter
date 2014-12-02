@@ -1,3 +1,3 @@
-packages_apps_Mahdi-Center
+packages_apps_OTACenter
 ==========================
-Mahdi-ROM OTA App
+Euphoria-OS OTA App
