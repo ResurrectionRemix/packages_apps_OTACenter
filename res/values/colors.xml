@@ -18,7 +18,7 @@
     <!-- Palette colors referenced by top-level themes. -->
     <color name="theme_primary">#ff263238</color>
     <color name="theme_primary_dark">#ff21272b</color>
-    <color name="theme_accent">#ff000000</color>
+    <color name="theme_accent">#ff009688</color>
 
     <color name="floating_action_button_icon_color">#ffffff</color>
 

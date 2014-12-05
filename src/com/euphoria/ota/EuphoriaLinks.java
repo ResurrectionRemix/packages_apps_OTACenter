@@ -131,10 +131,8 @@ public class EuphoriaLinks extends Fragment {
 
     public void updateView() {
         if (!mStrFileNameNew.equals("") && !(mStrFileNameNew.compareToIgnoreCase(mStrCurFile)<=0)) {
-            mDownloadTitle.setTextColor(Color.GREEN);
-            mDownloadSummary.setTextColor(Color.GREEN);
-            mChangelogTitle.setTextColor(Color.GREEN);
-            mChangelogSummary.setTextColor(Color.GREEN);
+            mDownloadSummary.setTextColor(0xff009688);
+            mChangelogSummary.setTextColor(0xff009688);
 
             mDownloadSummary.setText(getString(R.string.short_cut_download_summary_update_available));
             mChangelogSummary.setText(getString(R.string.short_cut_changelog_summary_update_available));

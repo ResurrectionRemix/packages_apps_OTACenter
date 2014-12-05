@@ -49,7 +49,6 @@ public class EuphoriaOTA extends Fragment implements OnSharedPreferenceChangeLis
     private static final int ID_CURRENT_VERSION = R.id.curVer;
     private static final int ID_CURRENT_FILE = R.id.curFile;
     private static final int ID_UPDATE_FILE = R.id.upToDate;
-    private static final int ID_STATUS_IMAGE = R.id.updateIcon;
 
     private static final String LAST_INTERVAL = "lastInterval";
 
@@ -58,7 +57,6 @@ public class EuphoriaOTA extends Fragment implements OnSharedPreferenceChangeLis
     private TextView mCurVerOut;
     private TextView mCurFileOut;
     private TextView mUpdateFile;
-    private ImageView mStatusIcon;
 
     private String mStrDevice;
     private String mStrCodename;
@@ -80,7 +78,6 @@ public class EuphoriaOTA extends Fragment implements OnSharedPreferenceChangeLis
         mCurVerOut = (TextView) getView().findViewById(ID_CURRENT_VERSION);
         mCurFileOut = (TextView) getView().findViewById(ID_CURRENT_FILE);
         mUpdateFile = (TextView) getView().findViewById(ID_UPDATE_FILE);
-        mStatusIcon = (ImageView) getView().findViewById(ID_STATUS_IMAGE);
         View actionButton = getView().findViewById(R.id.floating_action_button);
         actionButton.setOnClickListener(mComposeClickHandler);
 
@@ -178,16 +175,12 @@ public class EuphoriaOTA extends Fragment implements OnSharedPreferenceChangeLis
 
         if (!UpdateChecker.connectivityAvailable(getActivity())) {
             mStrUpToDate = getString(R.string.no_data_title);
-            mStatusIcon.setImageResource(R.drawable.ic_no_data);
         } else if (updateFile.equals("")) {
             mStrUpToDate = getString(R.string.error_reading_title);
-            mStatusIcon.setImageResource(R.drawable.ic_no_data);
         } else if (updateFile.compareToIgnoreCase(mStrCurVer)<=0) {
-            mUpdateFile.setTextColor(Color.GREEN);
+            mUpdateFile.setTextColor(0xff009688);
             mStrUpToDate = getString(R.string.up_to_date_title);
-            mStatusIcon.setImageResource(R.drawable.ic_uptodate);
         } else {
-            mStatusIcon.setImageResource(R.drawable.ic_need_update);
             mStrUpToDate = updateFile;
         }
 

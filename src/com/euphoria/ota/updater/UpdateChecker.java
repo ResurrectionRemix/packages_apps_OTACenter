@@ -147,32 +147,32 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
             while (eventType != XmlPullParser.END_DOCUMENT) {
              if(eventType == XmlPullParser.START_DOCUMENT) {
                  if (mNoLog == false) Log.d(TAG, "Start document");
-             } else if(eventType == XmlPullParser.START_TAG) {
+             } else if (eventType == XmlPullParser.START_TAG) {
                  if (xpp.getName().equalsIgnoreCase(strDevice)) tagMatchesDevice = true;
                  else if (tagMatchesDevice && xpp.getName().equalsIgnoreCase("Filename")) inFileName = true;
                  else if (tagMatchesDevice && xpp.getName().equalsIgnoreCase("DownloadUrl")) inDownloadURL = true;
-             } else if(eventType == XmlPullParser.END_TAG) {
+             } else if (eventType == XmlPullParser.END_TAG) {
                  if (xpp.getName().equalsIgnoreCase(strDevice)) {
                      tagMatchesDevice = false;
                      break;
                  }
                  else if (tagMatchesDevice && xpp.getName().equalsIgnoreCase("Filename")) inFileName = false;
                  else if (tagMatchesDevice && xpp.getName().equalsIgnoreCase("DownloadUrl")) inDownloadURL = false;
-             } else if(eventType == XmlPullParser.TEXT) {
+             } else if (eventType == XmlPullParser.TEXT) {
                  if (tagMatchesDevice && inFileName) {
                     String tempFileName = xpp.getText().trim();
                     String versionOnServer = "";
                     try {
-                        versionOnServer = tempFileName.split("\\-")[2];
-                        putDataInprefs(mContext, "Filename",versionOnServer);
+                        versionOnServer = tempFileName.split("\\-")[4];
+                        putDataInprefs(mContext, "Filename", versionOnServer);
                         if (versionOnServer.compareToIgnoreCase(CurVer)>0) newFileName = tempFileName;
                     } catch (Exception invalidFileName) {
                         Log.e(TAG, "File Name from server is invalid : "+tempFileName);
                     }
-                 }else if (tagMatchesDevice && inDownloadURL) {
+                 } else if (tagMatchesDevice && inDownloadURL) {
                     String tempDownloadURL = xpp.getText().trim();
                     putDataInprefs(mContext, "DownloadUrl",tempDownloadURL);
-                    if (newFileName!=null) newUpdateUrl = tempDownloadURL;
+                    if (newFileName != null) newUpdateUrl = tempDownloadURL;
                  }
              }
              eventType = xpp.next();
@@ -182,7 +182,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
             Log.e(TAG, "error while connecting to server", e);
             return null;
         } finally {
-            if (urlConnection !=null) urlConnection.disconnect();
+            if (urlConnection != null) urlConnection.disconnect();
         }
     }
 

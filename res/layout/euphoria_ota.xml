@@ -100,15 +100,6 @@
                 android:layout_toRightOf="@id/upToDateTitle"
                 android:ellipsize="end"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
-
-            <ImageView
-                android:id="@+id/updateIcon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="18dp"
-                android:src="@drawable/ic_uptodate" />
         </RelativeLayout>
 
         <TextView
@@ -134,18 +125,6 @@
             <include layout="@layout/floating_action_button" />
 
         </RelativeLayout>
-
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-        </GridLayout>
-
-        <TextView
-            android:id="@+id/line3"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="16dp"
-            android:gravity="center_horizontal" />
 
     </LinearLayout>
 

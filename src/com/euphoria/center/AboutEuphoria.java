@@ -55,11 +55,9 @@ public class AboutEuphoria extends Fragment{
     private final int STARTUP_DIALOG = 1;
     protected ArrayAdapter<String> adapter;
 
-    private LinearLayout mWebsite;
     private LinearLayout mGoogleplus;
     private LinearLayout mXda;
     private LinearLayout mSource;
-    private LinearLayout mDonate;
     private LinearLayout mReport;
     private String mStrDevice;
     private boolean su = false;
@@ -85,14 +83,10 @@ public class AboutEuphoria extends Fragment{
     private final View.OnClickListener mActionLayouts = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            if (v == mWebsite) {
-                launchUrl("http://files.euphoria-os.co.uk/");
-            } else if (v == mGoogleplus) {
-                launchUrl("https://plus.google.com/u/0/communities/116540622179206449806");
+            if (v == mGoogleplus) {
+                launchUrl("https://plus.google.com/u/0/communities/116795582851167273031");
             } else if (v == mXda) {
                 launchUrl(getString(R.string.xda_url));
-            } else if (v == mDonate) {
-                launchUrl("http://forum.xda-developers.com/donatetome.php?u=4593553");
             } else if (v == mSource) {
                 launchUrl("http://github.com/Euphoria-OS");
             } else if (v == mReport) {
@@ -106,8 +100,6 @@ public class AboutEuphoria extends Fragment{
         super.onActivityCreated(savedInstanceState);
 
         //set LinearLayouts and onClickListeners
-        mWebsite = (LinearLayout) getView().findViewById(R.id.website);
-        mWebsite.setOnClickListener(mActionLayouts);
 
         mGoogleplus = (LinearLayout) getView().findViewById(R.id.googleplus);
         mGoogleplus.setOnClickListener(mActionLayouts);
@@ -115,27 +107,11 @@ public class AboutEuphoria extends Fragment{
         mXda = (LinearLayout) getView().findViewById(R.id.xda);
         mXda.setOnClickListener(mActionLayouts);
 
-        mDonate = (LinearLayout) getView().findViewById(R.id.donate);
-        mDonate.setOnClickListener(mActionLayouts);
-
         mSource = (LinearLayout) getView().findViewById(R.id.source);
         mSource.setOnClickListener(mActionLayouts);
 
         mReport = (LinearLayout) getView().findViewById(R.id.bugreport);
         mReport.setOnClickListener(mActionLayouts);
-        showSuperuserRequest();
-        //request su
-        try {
-            if (!su){
-                superUser = Runtime.getRuntime().exec("su");
-                ds = new DataOutputStream(superUser.getOutputStream());
-                ds.writeBytes("mount -o remount,rw /system" + "\n");
-                ds.flush();
-                su = true;
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     private void launchUrl(String url) {
@@ -176,36 +152,6 @@ public class AboutEuphoria extends Fragment{
             mExternalStorageAvailable = 0;
         }
         return mExternalStorageAvailable;
-    }
-
-    private void showSuperuserRequest() {
-        if (this.getUserVisibleHint() && adapter != null && startup) {
-            showDialog(STARTUP_DIALOG, null, adapter, 0);
-            startup = false;
-        }
-    }
-
-    private void showDialog(int id, final String item,
-            final ArrayAdapter<String> adapter, int itemCounter) {
-        // startup dialog
-        final AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());
-
-        if (id == STARTUP_DIALOG) {
-            // create warning dialog
-            alert.setMessage(R.string.sizer_message_startup)
-                    .setTitle(R.string.caution)
-                    .setCancelable(true)
-                    .setPositiveButton(R.string.ok,
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog,
-                                        int id) {
-                                    // action for ok
-                                    dialog.cancel();
-                                }
-                            });
-        }
-        // show warning dialog
-        alert.show();
     }
 
     //bugreport
