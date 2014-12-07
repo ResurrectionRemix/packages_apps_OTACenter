@@ -17,7 +17,7 @@
 
 <resources>
     <!-- Main strings -->
-    <string name="app_name">OTACenter</string>
+    <string name="app_name">OTA Center</string>
     <string name="menu_settings">Settings</string>
     <string name="device_title">Device</string>
     <string name="device_name_title">Name:</string>
@@ -50,14 +50,14 @@
     <string name="system_prop_error">Cannot read system properties</string>
     <string name="bad_url">Unable to get to download area.\nPlease inform your device maintainer!</string>
     <string name="menu_update">Look for Updates now</string>
-    <string name="toast_text">Looking for ROM updates, please wait.</string>
+    <string name="toast_text">Looking for updates, please wait.</string>
     <string name="toast_no_data_text">No data connection. Please turn on</string>
 
     <!-- Shortcut fragment -->
     <string name="short_cut_release_title">ROM related</string>
     <string name="short_cut_changelog_title">Changelog</string>
-    <string name="short_cut_changelog_summary_update_available">Important!!! Read changelog and install instructions carefully</string>
-    <string name="short_cut_download_summary_update_available">New Rom update available, click to download!</string>
+    <string name="short_cut_changelog_summary_update_available">Important!!! Read changelog carefully</string>
+    <string name="short_cut_download_summary_update_available">New update available, click to download!</string>
     <string name="short_cut_changelog_summary">View the changelog</string>
     <string name="short_cut_additional_title">Additional</string>
     <string name="short_cut_faq_title">FAQ</string>
@@ -95,8 +95,8 @@
     <string name="source_summary">github.com/euphoria-os</string>
     <string name="center_summary"><b>OTACenter</b> provides tools &amp; information to help make your experience with Euphoria-OS even better. Upgrade to the newest version of our ROM with <b>OTACenter</b>.</string>
     <string name="bugreport_title">Bugreport</string>
-    <string name="bugreport_summary">Create a complete Bugreport.</string>
-    <string name="report_infosuccess">Created Systemreport, provide it to Euphoria-OS by attaching it to your Bugreport! You can find the Zip file on your SD-Card in a directory called \"BugReport\".</string>
+    <string name="bugreport_summary">Create a complete bugreport</string>
+    <string name="report_infosuccess">Created a system report, provide it to Euphoria-OS. You can find the Zip file on your SD-Card in a directory called \"BugReport\".</string>
     <string name="report_infofail">Failed to create Bugreport, please try again.</string>
 
     <string name="about_home_url"><a href="http://mahdi-rom.com/">Euphoria-OS</a></string>

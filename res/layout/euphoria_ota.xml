@@ -18,7 +18,7 @@
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/slimOta"
+    android:id="@+id/euphoriaOta"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
@@ -40,39 +40,44 @@
                 android:id="@+id/deviceTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dip"
+                android:layout_marginTop="6dip"
                 android:text="@string/device_title"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                android:textColor="?android:attr/textColorPrimary" />
 
             <TextView
                 android:id="@+id/deviceName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/deviceTitle"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
 
             <TextView
                 android:id="@+id/deviceCodename"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/deviceName"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
 
             <TextView
                 android:id="@+id/curVerTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/deviceCodename"
-                android:layout_marginTop="8dip"
+                android:layout_marginTop="6dip"
                 android:text="@string/curVer"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                android:textColor="?android:attr/textColorPrimary" />
 
             <TextView
                 android:id="@+id/curVer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/curVerTitle"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
 
             <TextView
                 android:id="@+id/curFile"
@@ -80,40 +85,44 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/curVer"
                 android:ellipsize="end"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
 
             <TextView
                 android:id="@+id/upToDateTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/curFile"
-                android:layout_marginTop="8dip"
+                android:layout_marginTop="6dip"
                 android:text="@string/update_file_title"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                android:textColor="?android:attr/textColorPrimary" />
 
             <TextView
                 android:id="@+id/upToDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/curFile"
-                android:layout_marginTop="8dip"
+                android:layout_marginTop="6dip"
                 android:layout_toRightOf="@id/upToDateTitle"
                 android:ellipsize="end"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
+
         </RelativeLayout>
 
         <TextView
             android:id="@+id/line"
             style="?android:attr/listSeparatorTextViewStyle"
             android:layout_width="match_parent"
-            android:layout_height="16dp"
+            android:layout_height="20dp"
             android:gravity="center_horizontal" />
 
         <TextView
             android:id="@+id/line2"
             style="?android:attr/listSeparatorTextViewStyle"
             android:layout_width="match_parent"
-            android:layout_height="3dp"
+            android:layout_height="5dp"
             android:gravity="center_horizontal" />
 
         <RelativeLayout

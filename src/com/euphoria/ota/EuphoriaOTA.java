@@ -29,7 +29,7 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import android.preference.PreferenceFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,7 +42,7 @@ import com.euphoria.ota.updater.UpdateListener;
 import com.euphoria.ota.settings.Settings;
 import com.commonsware.cwac.wakeful.WakefulIntentService;
 
-public class EuphoriaOTA extends Fragment implements OnSharedPreferenceChangeListener {
+public class EuphoriaOTA extends PreferenceFragment implements OnSharedPreferenceChangeListener {
 
     private static final int ID_DEVICE_NAME = R.id.deviceName;
     private static final int ID_DEVICE_CODE_NAME = R.id.deviceCodename;
@@ -178,8 +178,8 @@ public class EuphoriaOTA extends Fragment implements OnSharedPreferenceChangeLis
         } else if (updateFile.equals("")) {
             mStrUpToDate = getString(R.string.error_reading_title);
         } else if (updateFile.compareToIgnoreCase(mStrCurVer)<=0) {
-            mUpdateFile.setTextColor(0xff009688);
             mStrUpToDate = getString(R.string.up_to_date_title);
+            mUpdateFile.setTextColor(0xff009688);
         } else {
             mStrUpToDate = updateFile;
         }

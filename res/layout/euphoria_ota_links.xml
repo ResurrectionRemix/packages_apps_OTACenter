@@ -23,7 +23,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_margin="3dp"
         android:showDividers="beginning" >
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -44,9 +43,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="4dp"
-                    android:paddingLeft="5dp"
+                    android:paddingLeft="18dp"
                     android:text="@string/short_cut_download_title"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                    android:textColor="?android:attr/textColorPrimary" />
 
                 </LinearLayout>
 
@@ -54,17 +54,25 @@
                 android:id="@+id/short_cut_download_summary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingLeft="23dp"
                 android:text="@string/short_cut_download_uptodate_summary"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/line"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:gravity="center_horizontal" />
 
         <TextView
             android:id="@+id/line2"
             style="?android:attr/listSeparatorTextViewStyle"
             android:layout_width="match_parent"
-            android:layout_height="8dp"
+            android:layout_height="3dp"
             android:gravity="center_horizontal" />
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -85,9 +93,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="4dp"
-                    android:paddingLeft="5dp"
+                    android:paddingLeft="18dp"
                     android:text="@string/short_cut_changelog_title"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                    android:textColor="?android:attr/textColorPrimary" />
 
             </LinearLayout>
 
@@ -95,17 +104,25 @@
                 android:id="@+id/short_cut_changelog_summary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingLeft="23dp"
                 android:text="@string/short_cut_changelog_summary"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
 
         </LinearLayout>
 
         <TextView
-            android:id="@+id/line3"
+            android:id="@+id/line"
             style="?android:attr/listSeparatorTextViewStyle"
             android:layout_width="match_parent"
-            android:layout_height="8dp"
+            android:layout_height="16dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/line2"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
             android:gravity="center_horizontal" />
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -125,21 +142,233 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="4dp"
-                    android:paddingLeft="5dp"
+                    android:paddingLeft="18dp"
                     android:text="@string/short_cut_download_gapps_title"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                    android:textColor="?android:attr/textColorPrimary" />
 
             </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingLeft="23dp"
                 android:text="@string/short_cut_download_gapps_summary"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/line"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/line2"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/googleplus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true" >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/short_cut_changelog_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="18dp"
+                    android:text="@string/googleplus_title"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                    android:textColor="?android:attr/textColorPrimary" />
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/short_cut_changelog_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="23dp"
+                android:text="@string/googleplus_summary"
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
+
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/line"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/line2"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/xda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true" >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/short_cut_changelog_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="18dp"
+                    android:text="@string/xda_title"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                    android:textColor="?android:attr/textColorPrimary" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/short_cut_changelog_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="23dp"
+                android:text="@string/xda_summary"
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/line"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/line2"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true" >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="18dp"
+                    android:text="@string/source_title"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                    android:textColor="?android:attr/textColorPrimary" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="23dp"
+                android:text="@string/source_summary"
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/line"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/line2"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/bugreport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true" >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="18dp"
+                    android:text="@string/bugreport_title"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                    android:textColor="?android:attr/textColorPrimary" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="23dp"
+                android:text="@string/bugreport_summary"
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/line"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/line2"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
 
 </ScrollView>

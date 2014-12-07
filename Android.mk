@@ -9,6 +9,4 @@ LOCAL_PACKAGE_NAME := OTACenter
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
-LOCAL_STATIC_JAVA_LIBRARIES := android-support-v4
-
 include $(BUILD_PACKAGE)
