@@ -40,7 +40,7 @@
                 android:id="@+id/deviceTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="6dip"
+                android:layout_marginTop="8dip"
                 android:text="@string/device_title"
                 android:textAppearance="@android:style/TextAppearance.Material.Subhead"
                 android:textColor="?android:attr/textColorPrimary" />
@@ -66,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/deviceCodename"
-                android:layout_marginTop="6dip"
+                android:layout_marginTop="8dip"
                 android:text="@string/curVer"
                 android:textAppearance="@android:style/TextAppearance.Material.Subhead"
                 android:textColor="?android:attr/textColorPrimary" />
@@ -93,7 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/curFile"
-                android:layout_marginTop="6dip"
+                android:layout_marginTop="8dip"
                 android:text="@string/update_file_title"
                 android:textAppearance="@android:style/TextAppearance.Material.Subhead"
                 android:textColor="?android:attr/textColorPrimary" />
@@ -103,10 +103,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/curFile"
-                android:layout_marginTop="6dip"
+                android:layout_marginTop="8dip"
                 android:layout_toRightOf="@id/upToDateTitle"
                 android:ellipsize="end"
-                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textAppearance="@android:style/TextAppearance.Material.Subhead"
                 android:textColor="?android:attr/textColorSecondary" />
 
         </RelativeLayout>
