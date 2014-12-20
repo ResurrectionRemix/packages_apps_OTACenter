@@ -77,7 +77,7 @@
     <string name="gapps_url_kitkat">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
 
     <!-- Update checker -->
-    <string name="xml_url_kitkat">https://www.dropbox.com/s/1tde9d2uglcp7kk/ota_file.xml?raw=1</string>
+    <string name="xml_url_kitkat">http://euphoria-os.ninja/ota/ota_file.xml</string>
     <string name="notification_message">ROM update available</string>
 
     <!-- About -->
