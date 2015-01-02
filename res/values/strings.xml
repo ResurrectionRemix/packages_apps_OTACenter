@@ -70,14 +70,14 @@
     <string name="short_cut_download_gapps_summary">Download latest Gapps package</string>
 
     <!-- URL's -->
-    <string name="download_url">https://www.androidfilehost.com/?w=devices&amp;uid=23329332407589188</string>
+    <string name="download_url">http://fs1.androidfilesharing.com/ota/changelog.txt</string>
     <string name="changelog_url">https://www.dropbox.com/s/0g1irlpvt0bt0ja/changelogsimple.txt?raw=1</string>
     <string name="xda_url">http://forum.xda-developers.com/usercp.php</string>
     <string name="gapps_url">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
     <string name="gapps_url_kitkat">http://slimroms.net/index.php/downloads/dlsearch/viewcategory/1150-addons4-4</string>
 
     <!-- Update checker -->
-    <string name="xml_url_kitkat">http://euphoria-os.ninja/ota/ota_file.xml</string>
+    <string name="xml_url_kitkat">http://fs1.androidfilesharing.com/ota/ota_file.xml</string>
     <string name="notification_message">ROM update available</string>
 
     <!-- About -->
