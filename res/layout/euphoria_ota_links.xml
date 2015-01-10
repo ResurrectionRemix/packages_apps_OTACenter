@@ -17,13 +17,18 @@
 -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:fillViewport="false" >
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:showDividers="beginning"
         android:orientation="vertical"
-        android:showDividers="beginning" >
+        android:padding="0dp
+        "
+        android:background="@android:color/white">
+
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/short_cut_download"
@@ -31,18 +36,19 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
+            android:clickable="true">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" >
+                android:layout_height="wrap_content">
+
+
 
                 <TextView
                     android:id="@+id/short_cut_download_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
+                    android:paddingTop="14dp"
                     android:paddingLeft="18dp"
                     android:text="@string/short_cut_download_title"
                     android:textAppearance="@android:style/TextAppearance.Material.Subhead"
@@ -53,27 +59,18 @@
             <TextView
                 android:id="@+id/short_cut_download_summary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:paddingLeft="23dp"
+                android:layout_height="30dp"
                 android:text="@string/short_cut_download_uptodate_summary"
                 android:textAppearance="@android:style/TextAppearance.Material.Body1"
                 android:textColor="?android:attr/textColorSecondary" />
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/line"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="16dp"
-            android:gravity="center_horizontal" />
-
-        <TextView
-            android:id="@+id/line2"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:gravity="center_horizontal" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/short_cut_changelog"
@@ -81,7 +78,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
+            android:clickable="true">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
@@ -92,18 +89,19 @@
                     android:id="@+id/short_cut_changelog_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
+                    android:paddingTop="14dp"
                     android:paddingLeft="18dp"
                     android:text="@string/short_cut_changelog_title"
                     android:textAppearance="@android:style/TextAppearance.Material.Subhead"
-                    android:textColor="?android:attr/textColorPrimary" />
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:clickable="false" />
 
             </LinearLayout>
 
             <TextView
                 android:id="@+id/short_cut_changelog_summary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:paddingLeft="23dp"
                 android:text="@string/short_cut_changelog_summary"
                 android:textAppearance="@android:style/TextAppearance.Material.Body1"
@@ -111,19 +109,10 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/line"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="16dp"
-            android:gravity="center_horizontal" />
-
-        <TextView
-            android:id="@+id/line2"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:gravity="center_horizontal" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/short_cut_download_gapps"
@@ -131,7 +120,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
+            android:clickable="true">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
@@ -141,7 +130,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
+                    android:paddingTop="14dp"
                     android:paddingLeft="18dp"
                     android:text="@string/short_cut_download_gapps_title"
                     android:textAppearance="@android:style/TextAppearance.Material.Subhead"
@@ -151,7 +140,7 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:paddingLeft="23dp"
                 android:text="@string/short_cut_download_gapps_summary"
                 android:textAppearance="@android:style/TextAppearance.Material.Body1"
@@ -159,19 +148,10 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/line"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="16dp"
-            android:gravity="center_horizontal" />
-
-        <TextView
-            android:id="@+id/line2"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:gravity="center_horizontal" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/googleplus"
@@ -179,7 +159,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
+            android:clickable="true">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
@@ -190,7 +170,7 @@
                     android:id="@+id/short_cut_changelog_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
+                    android:paddingTop="14dp"
                     android:paddingLeft="18dp"
                     android:text="@string/googleplus_title"
                     android:textAppearance="@android:style/TextAppearance.Material.Subhead"
@@ -201,7 +181,7 @@
             <TextView
                 android:id="@+id/short_cut_changelog_summary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:paddingLeft="23dp"
                 android:text="@string/googleplus_summary"
                 android:textAppearance="@android:style/TextAppearance.Material.Body1"
@@ -209,19 +189,10 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/line"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="16dp"
-            android:gravity="center_horizontal" />
-
-        <TextView
-            android:id="@+id/line2"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:gravity="center_horizontal" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/xda"
@@ -229,7 +200,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
+            android:clickable="true">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
@@ -240,7 +211,7 @@
                     android:id="@+id/short_cut_changelog_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
+                    android:paddingTop="14dp"
                     android:paddingLeft="18dp"
                     android:text="@string/xda_title"
                     android:textAppearance="@android:style/TextAppearance.Material.Subhead"
@@ -251,7 +222,7 @@
             <TextView
                 android:id="@+id/short_cut_changelog_summary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:paddingLeft="23dp"
                 android:text="@string/xda_summary"
                 android:textAppearance="@android:style/TextAppearance.Material.Body1"
@@ -259,19 +230,10 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/line"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="16dp"
-            android:gravity="center_horizontal" />
-
-        <TextView
-            android:id="@+id/line2"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:gravity="center_horizontal" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/source"
@@ -279,7 +241,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
+            android:clickable="true">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
@@ -289,7 +251,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
+                    android:paddingTop="14dp"
                     android:paddingLeft="18dp"
                     android:text="@string/source_title"
                     android:textAppearance="@android:style/TextAppearance.Material.Subhead"
@@ -299,7 +261,7 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:paddingLeft="23dp"
                 android:text="@string/source_summary"
                 android:textAppearance="@android:style/TextAppearance.Material.Body1"
@@ -307,19 +269,10 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/line"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="16dp"
-            android:gravity="center_horizontal" />
-
-        <TextView
-            android:id="@+id/line2"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:gravity="center_horizontal" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/bugreport"
@@ -327,7 +280,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="?android:attr/selectableItemBackground"
-            android:clickable="true" >
+            android:clickable="true">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
@@ -337,7 +290,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="4dp"
+                    android:paddingTop="14dp"
                     android:paddingLeft="18dp"
                     android:text="@string/bugreport_title"
                     android:textAppearance="@android:style/TextAppearance.Material.Subhead"
@@ -347,27 +300,13 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:paddingLeft="23dp"
-                android:text="@string/bugreport_summary"
+                android:text="@string/source_summary"
                 android:textAppearance="@android:style/TextAppearance.Material.Body1"
                 android:textColor="?android:attr/textColorSecondary" />
 
         </LinearLayout>
-
-        <TextView
-            android:id="@+id/line"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="16dp"
-            android:gravity="center_horizontal" />
-
-        <TextView
-            android:id="@+id/line2"
-            style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:gravity="center_horizontal" />
 
     </LinearLayout>
 
