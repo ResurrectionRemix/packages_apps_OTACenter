@@ -28,6 +28,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.view.LayoutInflater;
@@ -162,6 +163,9 @@ public class EuphoriaOTA extends PreferenceFragment implements OnSharedPreferenc
                     Toast.LENGTH_LONG).show();
             e.printStackTrace();
         }
+
+        if(mStrCodename == null){ mStrCodename = Build.DEVICE; }
+        if(mStrDevice == null){ mStrDevice = Build.MODEL; }
 
         mDeviceOut.setText(getString(R.string.device_name_title) + " " + mStrDevice);
         mCodenameOut.setText(getString(R.string.codename_title) + " " + mStrCodename);

@@ -108,6 +108,8 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
                     strDevice = line[1].trim();
                 } else if (line[0].equalsIgnoreCase("eos.ota.version")) {
                     CurVer = line[1].trim();
+                } else if (strDevice == null && line[0].equalsIgnoreCase("ro.eos.device")){
+                    strDevice = line[1].trim();
                 }
             }
             br.close();
