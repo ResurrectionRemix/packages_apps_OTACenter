@@ -73,8 +73,8 @@
     <string name="download_url">http://euphoria-os.ninja</string>
     <string name="changelog_url">http://fs1.androidfilesharing.com/ota/changelog.txt</string>
     <string name="xda_url">http://forum.xda-developers.com/usercp.php</string>
-    <string name="gapps_url">http://forum.xda-developers.com/paranoid-android/general/gapps-official-to-date-pa-google-apps-t2943900</string>
-    <string name="gapps_url_kitkat">http://forum.xda-developers.com/paranoid-android/general/gapps-official-to-date-pa-google-apps-t2943900</string>
+    <string name="gapps_url">http://goo.gl/4gG3MH</string>
+    <string name="gapps_url_kitkat">http://goo.gl/KGcni2</string>
 
     <!-- Update checker -->
     <string name="xml_url_kitkat">http://fs1.androidfilesharing.com/ota/ota_file.xml</string>
