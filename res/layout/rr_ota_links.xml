@@ -194,47 +194,6 @@
             android:background="@color/divider_color"/>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/xda"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="?android:attr/selectableItemBackground"
-            android:clickable="true">
-
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" >
-
-                <TextView
-                    android:id="@+id/short_cut_changelog_title"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="14dp"
-                    android:paddingLeft="18dp"
-                    android:text="@string/xda_title"
-                    android:textAppearance="@android:style/TextAppearance.Material.Subhead"
-                    android:textColor="?android:attr/textColorPrimary" />
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/short_cut_changelog_summary"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:paddingLeft="23dp"
-                android:text="@string/xda_summary"
-                android:textAppearance="@android:style/TextAppearance.Material.Body1"
-                android:textColor="?android:attr/textColorSecondary" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1dp"
-            android:background="@color/divider_color"/>
-
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/source"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -18,7 +18,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.euphoria.ota"
+    package="com.rr.ota"
     android:versionCode="1"
     android:versionName="1.2" >
 
@@ -38,7 +38,7 @@
         android:icon="@drawable/app_icon"
         android:launchMode="singleTask">
         <activity
-            android:name="com.euphoria.center.OTACenter"
+            android:name="com.rr.center.OTACenter"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name" >
             <intent-filter>
@@ -46,17 +46,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.euphoria.ota.EuphoriaOTA"
+            android:name="com.rr.ota.RROTA"
             android:label="@string/ota_title"
-            android:parentActivityName="com.euphoria.center.OTACenter" >
+            android:parentActivityName="com.rr.center.OTACenter" >
         </activity>
         <activity
-            android:name="com.euphoria.center.AboutEuphoria"
+            android:name="com.rr.center.AboutRR"
             android:label="@string/about_title"
-            android:parentActivityName="com.euphoria.center.OTACenter" >
+            android:parentActivityName="com.rr.center.OTACenter" >
         </activity>
 
-        <service android:name="com.euphoria.ota.updater.UpdateService" />
+        <service android:name="com.rr.ota.updater.UpdateService" />
 
         <receiver android:name="com.commonsware.cwac.wakeful.AlarmReceiver" >
             <intent-filter>
@@ -68,15 +68,15 @@
                 android:resource="@xml/wakeful" />
         </receiver>
         <receiver
-            android:name="com.euphoria.ota.updater.ConnectivityReceiver"
+            android:name="com.rr.ota.updater.ConnectivityReceiver"
             android:enabled="false" >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
 
-        <activity android:name="com.euphoria.ota.settings.Settings" />
-        <activity android:name="com.euphoria.ota.settings.About" />
+        <activity android:name="com.rr.ota.settings.Settings" />
+        <activity android:name="com.rr.ota.settings.About" />
     </application>
 
 </manifest>

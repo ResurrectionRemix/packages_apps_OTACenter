@@ -14,9 +14,9 @@
  *=========================================================================
  */
 
-package com.euphoria.ota;
+package com.rr.ota;
 
-import com.euphoria.ota.R;
+import com.rr.ota.R;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -55,13 +55,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class EuphoriaLinks extends Fragment {
+public class RRLinks extends Fragment {
 
     private LinearLayout mDownload;
     private LinearLayout mChangelog;
     private LinearLayout mDownloadGapps;
     private LinearLayout mGoogleplus;
-    private LinearLayout mXda;
     private LinearLayout mSource;
     private LinearLayout mReport;
 
@@ -95,7 +94,7 @@ public class EuphoriaLinks extends Fragment {
     byte[] buf = new byte[1024];
 
     public View onCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.euphoria_ota_links, container, false);
+        View view = inflater.inflate(R.layout.rr_ota_links, container, false);
         return view;
     }
 
@@ -112,18 +111,11 @@ public class EuphoriaLinks extends Fragment {
             } else if (v == mChangelog) {
                 launchUrl(getString(R.string.changelog_url));
             } else if (v == mDownloadGapps) {
-                if (mStrCurFile != null
-                    && mStrCurFile.contains("4.4")) {
-                    launchUrl(getString(R.string.gapps_url_kitkat));
-                } else {
-                    launchUrl(getString(R.string.gapps_url));
-                }
+                launchUrl(getString(R.string.gapps_url));
             } else if (v == mGoogleplus) {
-                launchUrl("https://plus.google.com/u/0/communities/116795582851167273031");
-            } else if (v == mXda) {
-                launchUrl(getString(R.string.xda_url));
+                launchUrl("https://plus.google.com/u/0/communities/109352646351468373340");
             } else if (v == mSource) {
-                launchUrl("http://github.com/Euphoria-OS");
+                launchUrl("http://github.com/ResurrectionRemix");
             } else if (v == mReport) {
                 bugreport();
             }
@@ -152,9 +144,6 @@ public class EuphoriaLinks extends Fragment {
         mGoogleplus = (LinearLayout) getView().findViewById(R.id.googleplus);
         mGoogleplus.setOnClickListener(mActionLayouts);
 
-        mXda = (LinearLayout) getView().findViewById(R.id.xda);
-        mXda.setOnClickListener(mActionLayouts);
-
         mSource = (LinearLayout) getView().findViewById(R.id.source);
         mSource.setOnClickListener(mActionLayouts);
 
@@ -168,7 +157,7 @@ public class EuphoriaLinks extends Fragment {
             String strLine;
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
-                if (line[0].equals("eos.ota.version")) {
+                if (line[0].equals("rr.ota.version")) {
                     mStrCurFile = line[1];
                 }
             }

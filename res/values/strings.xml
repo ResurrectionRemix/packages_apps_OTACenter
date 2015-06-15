@@ -70,21 +70,17 @@
     <string name="short_cut_download_gapps_summary">Download latest Gapps package</string>
 
     <!-- URL's -->
-    <string name="download_url">http://euphoria-os.ninja</string>
-    <string name="changelog_url">http://fs1.androidfilesharing.com/ota/changelog.txt</string>
-    <string name="xda_url">http://forum.xda-developers.com/usercp.php</string>
-    <string name="gapps_url">http://goo.gl/4gG3MH</string>
-    <string name="gapps_url_kitkat">http://goo.gl/KGcni2</string>
+    <string name="download_url">http://forum.resurrectionremix.com/index.php?topic=2037</string>
+    <string name="changelog_url">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/lollipop5.1/CHANGELOG.mkdn</string>
+    <string name="gapps_url">http://fitsnugly.euroskank.com/?rom=banks&amp;device=gapps</string>
 
     <!-- Update checker -->
-    <string name="xml_url_kitkat">http://fs1.androidfilesharing.com/ota/ota_file.xml</string>
+    <string name="xml_url">http://resurrectionremix-devices.github.io/ota.xml</string>
     <string name="notification_message">ROM update available</string>
 
     <!-- About -->
     <string name="googleplus_title">Google+</string>
     <string name="googleplus_summary">Visit the Google+ community</string>
-    <string name="xda_title">XDA</string>
-    <string name="xda_summary">Visit the XDA thread</string>
     <string name="about_title">About</string>
     <string name="devs">Developer</string>
     <string name="website_title">Website</string>
@@ -92,16 +88,16 @@
     <string name="donate_title">Donate</string>
     <string name="donate_summary">Donate</string>
     <string name="source_title">Source</string>
-    <string name="source_summary">github.com/euphoria-os</string>
-    <string name="center_summary"><b>OTACenter</b> provides tools &amp; information to help make your experience with Euphoria-OS even better. Upgrade to the newest version of our ROM with <b>OTACenter</b>.</string>
+    <string name="source_summary">github.com/ResurrectionRemix</string>
+    <string name="center_summary"><b>OTACenter</b> provides tools &amp; information to help make your experience with ResurrectionRemix even better. Upgrade to the newest version of our ROM with <b>OTACenter</b>.</string>
     <string name="bugreport_title">Bugreport</string>
     <string name="bugreport_summary">Create a complete bugreport</string>
-    <string name="report_infosuccess">Created a system report, provide it to Euphoria-OS. You can find the Zip file on your SD-Card in a directory called \"BugReport\".</string>
+    <string name="report_infosuccess">Created a system report, provide it to ResurrectionRemix. You can find the Zip file on your SD-Card in a directory called \"BugReport\".</string>
     <string name="report_infofail">Failed to create Bugreport, please try again.</string>
 
-    <string name="about_home_url"><a href="http://mahdi-rom.com/">Euphoria-OS</a></string>
+    <string name="about_home_url"><a href="http://resurrectionremix.com/">ResurrectionRemix Website</a></string>
     <string name="about_ota">OTACenter allows you to easily manage\n your ROM!</string>
-    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for Euphoria-OS</string>
+    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for ResurrectionRemix</string>
     <string name="about_version">OTACenter 2.0</string>
     <string name="about_contact">Contact us at Mahdi.Rom@gmail.com</string>
     <string name="about_contact_text">Tell us what you think\nor let us know about a bug or problem</string>

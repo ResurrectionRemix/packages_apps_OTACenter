@@ -14,7 +14,7 @@
  *=========================================================================
  */
 
-package com.euphoria.ota.updater;
+package com.rr.ota.updater;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;

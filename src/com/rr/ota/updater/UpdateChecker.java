@@ -14,7 +14,7 @@
  *=========================================================================
  */
 
-package com.euphoria.ota.updater;
+package com.rr.ota.updater;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -42,8 +42,8 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import com.euphoria.center.OTACenter;
-import com.euphoria.ota.R;
+import com.rr.center.OTACenter;
+import com.rr.ota.R;
 
 public class UpdateChecker extends AsyncTask<Context, Integer, String> {
     private static final String TAG = "UpdateChecker";
@@ -106,9 +106,9 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
                 String[] line = strLine.split("=");
                 if (line[0].equalsIgnoreCase("ro.product.device")) {
                     strDevice = line[1].trim();
-                } else if (line[0].equalsIgnoreCase("eos.ota.version")) {
+                } else if (line[0].equalsIgnoreCase("rr.ota.version")) {
                     CurVer = line[1].trim();
-                } else if (strDevice == null && line[0].equalsIgnoreCase("ro.eos.device")){
+                } else if (strDevice == null && line[0].equalsIgnoreCase("ro.cm.device")){
                     strDevice = line[1].trim();
                 }
             }
@@ -134,7 +134,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
             if (strDevice == null || CurVer == null) return null;
             String newUpdateUrl = null;
             String newFileName = null;
-            URL url = new URL(mContext.getString(R.string.xml_url_kitkat));
+            URL url = new URL(mContext.getString(R.string.xml_url));
 
             urlConnection = (HttpURLConnection) url.openConnection();
             BufferedReader in = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
@@ -165,7 +165,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
                     String tempFileName = xpp.getText().trim();
                     String versionOnServer = "";
                     try {
-                        versionOnServer = tempFileName.split("\\-")[5];
+                        versionOnServer = tempFileName.split("\\-")[4];
                         putDataInprefs(mContext, "Filename", versionOnServer);
                         if (versionOnServer.compareToIgnoreCase(CurVer)>0) newFileName = tempFileName;
                     } catch (Exception invalidFileName) {

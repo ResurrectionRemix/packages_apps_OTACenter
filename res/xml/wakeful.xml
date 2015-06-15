@@ -17,4 +17,4 @@
  *
 -->
 
-<WakefulIntentService listener="com.euphoria.ota.updater.UpdateListener" />
+<WakefulIntentService listener="com.rr.ota.updater.UpdateListener" />

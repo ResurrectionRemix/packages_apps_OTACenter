@@ -25,7 +25,7 @@
     tools:context=".MainActivity" >
 
     <RelativeLayout
-        android:id="@+id/euphoriaOta"
+        android:id="@+id/RROta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
     </RelativeLayout>
