@@ -72,7 +72,7 @@
     <!-- URL's -->
     <string name="download_url">http://forum.resurrectionremix.com/index.php?topic=2037</string>
     <string name="changelog_url">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/lollipop5.1/CHANGELOG.mkdn</string>
-    <string name="gapps_url">http://fitsnugly.euroskank.com/?rom=banks&amp;device=gapps</string>
+    <string name="gapps_url">https://github.com/cgapps/vendor_google/blob/builds/arm64/gapps-5.1-2015-06-02-15-20.zip?raw=true</string>
 
     <!-- Update checker -->
     <string name="xml_url">http://resurrectionremix-devices.github.io/ota.xml</string>
@@ -99,7 +99,7 @@
     <string name="about_ota">OTACenter allows you to easily manage\n your ROM!</string>
     <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for ResurrectionRemix</string>
     <string name="about_version">OTACenter 2.0</string>
-    <string name="about_contact">Contact us at Mahdi.Rom@gmail.com</string>
+    <string name="about_contact">Contact us</string>
     <string name="about_contact_text">Tell us what you think\nor let us know about a bug or problem</string>
     <string name="about_license">Open source licenses</string>
     <string name="about_license_text">OTACenter app:</string>
