@@ -56,7 +56,7 @@
     <!-- Shortcut fragment -->
     <string name="short_cut_release_title">ROM related</string>
     <string name="short_cut_changelog_title">Changelog</string>
-    <string name="short_cut_changelog_summary_update_available">Important!!! Read changelog carefully</string>
+    <string name="short_cut_changelog_summary_update_available">Read recent changelog</string>
     <string name="short_cut_download_summary_update_available">New update available, click to download!</string>
     <string name="short_cut_changelog_summary">View the changelog</string>
     <string name="short_cut_additional_title">Additional</string>
