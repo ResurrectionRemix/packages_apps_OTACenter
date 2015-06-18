@@ -165,7 +165,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
                     String tempFileName = xpp.getText().trim();
                     String versionOnServer = "";
                     try {
-                        versionOnServer = tempFileName.split("\\-")[4];
+                        versionOnServer = tempFileName.split("\\-")[2];
                         putDataInprefs(mContext, "Filename", versionOnServer);
                         if (versionOnServer.compareToIgnoreCase(CurVer)>0) newFileName = tempFileName;
                     } catch (Exception invalidFileName) {
