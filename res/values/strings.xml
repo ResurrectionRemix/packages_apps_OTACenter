@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2013 Mahdi-ROM
+ * Copyright (C) 2015 Resurrection Remix
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -75,7 +75,7 @@
     <string name="gapps_url">https://github.com/cgapps/vendor_google/blob/builds/arm64/gapps-5.1-2015-06-02-15-20.zip?raw=true</string>
 
     <!-- Update checker -->
-    <string name="xml_url">http://resurrectionremix-devices.github.io/ota.xml</string>
+    <string name="xml_url">http://resurrectionremix-ota-server.github.io/ota.xml</string>
     <string name="notification_message">ROM update available</string>
 
     <!-- About -->
