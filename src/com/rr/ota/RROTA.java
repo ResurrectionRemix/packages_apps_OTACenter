@@ -153,7 +153,7 @@ public class RROTA extends PreferenceFragment implements OnSharedPreferenceChang
                     mStrCurVer = line[1];
                 } else if (line[0].equalsIgnoreCase("ro.product.model")) {
                     mStrDevice = line[1];
-                } else if (line[0].equalsIgnoreCase("ro.modversion")) {
+                } else if (line[0].equalsIgnoreCase("ro.cm.display.version")) {
                     mStrCurFile = line[1];
                 }
             }
