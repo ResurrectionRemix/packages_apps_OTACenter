@@ -148,7 +148,12 @@ public class RROTA extends PreferenceFragment implements OnSharedPreferenceChang
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
                 if (line[0].equalsIgnoreCase("ro.product.device")) {
-                    mStrCodename = line[1];
+                    String tempName = line[1];
+		    int index_=tempName.indexOf('_');
+		    if(index_ != -1)
+			mStrCodename=tempName.substring(0,index_);
+		    else
+			mStrCodename=tempName;
                 } else if (line[0].equalsIgnoreCase("rr.ota.version")) {
                     mStrCurVer = line[1];
                 } else if (line[0].equalsIgnoreCase("ro.product.model")) {
