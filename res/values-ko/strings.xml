@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2015 Resurrection Remix
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+    <!-- Main strings -->
+    <string name="app_name">OTA 센터</string>
+    <string name="menu_settings">설정</string>
+    <string name="device_title">기기</string>
+    <string name="device_name_title">이름:</string>
+    <string name="codename_title">코드네임:</string>
+    <string name="version_title">버전:</string>
+    <string name="file_name_title">파일이름:</string>
+    <string name="curVer">현재 버전</string>
+    <string name="ok">확인</string>
+    <string name="title_update">업데이트</string>
+    <string name="device_info_title">기기 정보</string>
+    <string name="up_to_date_title">최신 버전을 사용 중입니다</string>
+    <string name="no_data_title">인터넷에 연결되지 않음</string>
+    <string name="error_reading_title">정보를 읽을 수 없습니다</string>
+    <string name="update_file_title">업데이트:</string>
+    <string name="reboot">업데이트 완료! 지금 기기를 재시작 할까요?</string>
+    <string name="reboot_ok">지금 재시작</string>
+    <string name="reboot_cancel">재시작 안함</string>
+    <string name="refresh_button">새로고침</string>
+
+    <!-- Settings -->
+    <string name="settings_title">OTA 설정</string>    
+    <string name="update_interval_title">업데이트 자동 확인 간격</string>
+    <string name="update_interval_summary">업데이트 자동 확인 간격을 설정합니다</string>
+    <string name="update_interval_day">24시간 마다</string>
+    <string name="update_interval_half_day">12시간 마다</string>
+    <string name="update_interval_hour">매시간 마다</string>
+    <string name="update_interval_disable">사용 안함</string>
+
+    <!-- Error messages -->
+    <string name="system_prop_error">시스템 정보를 읽을 수 없습니다</string>
+    <string name="bad_url">다운로드 정보가 잘못되었습니다.\n기기 관리자에게 문의하세요!</string>
+    <string name="menu_update">업데이트 확인 중...</string>
+    <string name="toast_text">업데이트 확인 중, 잠시만 기다리세요.</string>
+    <string name="toast_no_data_text">인터넷에 연결되지 않았습니다.</string>
+
+    <!-- Shortcut fragment -->
+    <string name="short_cut_release_title">ROM 관련 정보</string>
+    <string name="short_cut_changelog_title">변경점</string>
+    <string name="short_cut_changelog_summary_update_available">최근 변경점을 확인합니다</string>
+    <string name="short_cut_download_summary_update_available">새 업데이트가 존재합니다. 클릭해서 다운로드 하세요!</string>
+    <string name="short_cut_changelog_summary">변경점 보기</string>
+    <string name="short_cut_additional_title">추가 정보</string>
+    <string name="short_cut_faq_title">FAQ</string>
+    <string name="short_cut_faq_summary">곧 추가됩니다!</string>
+    <string name="short_cut_news_title">소식</string>
+    <string name="short_cut_news_summary">최신 소식을 확인합니다</string>
+    <string name="short_cut_download_title">다운로드</string>
+    <string name="short_cut_download_uptodate_summary">최신 버전을 다운로드 합니다</string>
+    <string name="short_cut_download_gapps_title">Gapps</string>
+    <string name="short_cut_download_gapps_summary">최신 Gapps 패키지를 다운르도 합니다</string>
+
+    <!-- Update checker -->
+    <string name="notification_message">ROM 업데이트가 존재합니다</string>
+
+    <!-- About -->
+    <string name="googleplus_title">Google+</string>
+    <string name="googleplus_summary">Google+ 커뮤니티에 방문합니다</string>
+    <string name="about_title">이 ROM에 대해서</string>
+    <string name="devs">개발자</string>
+    <string name="website_title">웹사이트</string>
+    <string name="website_summary">최신 소식을 여기서 확인하세요</string>
+    <string name="donate_title">기부</string>
+    <string name="donate_summary">당신의 기부를 기다립니다</string>
+    <string name="source_title">소스</string>
+    <string name="source_summary">github.com/ResurrectionRemix</string>
+    <string name="center_summary"><b>OTA센터</b>는 ResurrectionRemix를 사용하는데 유용한 도구와 정보를 제공합니다. <b>OTA센터</b>를 통해 최신 버전으로 업데이트 하세요.</string>
+    <string name="bugreport_title">버그리포트</string>
+    <string name="bugreport_summary">오류보고서를 작성합니다</string>
+    <string name="report_infosuccess">시스템 보고서를 생성했습니다. SD카드의 \"BugReport\"라는 이름의 폴더 안에 있는 Zip 파일을 ResurrectionRemix에 보내주세요.</string>
+    <string name="report_infofail">오류보고서 작성에 실패했습니다, 다시 시도해주세요.</string>
+
+    <string name="about_home_url"><a href="http://resurrectionremix.com/">ResurrectionRemix 웹사이트</a></string>
+    <string name="about_ota">OTA센터는 ROM을 쉽게 관리할 수 있도록 도와줍니다!</string>
+    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for ResurrectionRemix</string>
+    <string name="about_version">OTACenter 2.0</string>
+    <string name="about_contact">RR에 연락하기</string>
+    <string name="about_contact_text">당신의 의견을 전달하거나\n오류와 문제에 대해 알려주세요</string>
+    <string name="about_license">오픈소스 라이센스</string>
+    <string name="about_license_text">OTACenter 앱:</string>
+    <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
+
+    <!-- Sizer  -->
+    <string name="listsystem">목록</string>
+    <string name="sizer_title">시스템 앱</string>
+    <string name="caution">주의!</string>
+    <string name="sizer_message_startup">이 도구는 시스템 앱을 삭제하도록 도와줍니다. 주의해서 사용하고 삭제해도 안전한 앱만 삭제하세요.</string>
+    <string name="cancel">취소</string>
+    <string name="sizer_message_delete">이 앱을 삭제할까요?</string>
+    <string name="sizer_message_delete_multi_one">선택된 앱을 삭제할까요?</string>
+    <string name="sizer_message_delete_multi">다중선택된 앱을 삭제할까요?</string>
+    <string name="btn_delete">선택된 앱을 삭제합니다!</string>
+    <string name="delete_progress_title">삭제중</string>
+    <string name="delete_progress">선택된 파일을 삭제중입니다, 기다려주세요.</string>
+    <string name="delete_success">삭제됨</string>
+    <string name="delete_fail">삭제 할 수 없음</string>
+    <string name="btn_profile">프로필</string>
+    <string name="sizer_message_sdnowrite">SD카드에 쓸 수 없습니다.</string>
+    <string name="sizer_message_sdnoread">SD카드를 읽을 수 없습니다.</string>
+    <string name="sizer_message_filesuccess">프로필이 작성되었습니다.</string>
+    <string name="sizer_message_filefail">프로필 작성에 실패했습니다.</string>
+    <string name="sizer_message_noselect">선택된 항목이 없습니다.</string>
+    <string name="ota_title">업데이터</string>
+</resources>
