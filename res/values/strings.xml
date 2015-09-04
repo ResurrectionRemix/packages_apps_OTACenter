@@ -17,7 +17,7 @@
 
 <resources>
     <!-- Main strings -->
-    <string name="app_name">OTA Center</string>
+    <string name="app_name"><b>Updates</b></string>
     <string name="menu_settings">Settings</string>
     <string name="device_title">Device</string>
     <string name="device_name_title">Name:</string>

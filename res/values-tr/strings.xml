@@ -17,7 +17,7 @@
 
 <resources>
     <!-- Main strings -->
-    <string name="app_name">OTA Merkezi</string>
+    <string name="app_name"><b>Güncellemeler</b></string>
     <string name="menu_settings">Ayarlar</string>
     <string name="device_title">Cihaz</string>
     <string name="device_name_title">Adı:</string>
