@@ -89,6 +89,7 @@
     <string name="donate_summary">Bağış</string>
     <string name="source_title">Kaynak</string>
     <string name="source_summary">github.com/ResurrectionRemix</string>
+    <string name="center_summary"><b>OTAMerkezi</b> ResurrectionRemix ile deneyim daha iyi hale getirmek için araçlar &amp; bilgi sağlar. Bizim ROM yeni sürümü <b>OTACenter</b> ile yükseltilir.</string>
     <string name="bugreport_title">Hata raporu</string>
     <string name="bugreport_summary">Tam bir hata raporu oluşturma</string>
     <string name="report_infosuccess"><string name="report_infofail">Bir sistem raporu düzenlendi, ResurrectionRemix bunu sağlayacak. SD-Kart dizininde \"Hata raporları\" adında Zip dosyasını bulabilirsiniz.</string></string>
