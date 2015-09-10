@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2015 Resurrection Remix
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+    <!-- Main strings -->
+    <string name="app_name"><b>Centre OTA</b></string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="device_title">Appareil</string>
+    <string name="device_name_title">Nom :</string>
+    <string name="codename_title">Nom de code :</string>
+    <string name="version_title">Version :</string>
+    <string name="file_name_title">Fichier :</string>
+    <string name="curVer">Version actuelle</string>
+    <string name="ok">OK</string>
+    <string name="title_update">Mise à jour</string>
+    <string name="device_info_title">Information de l\'appareil</string>
+    <string name="up_to_date_title">Votre système est à jour</string>
+    <string name="no_data_title">Aucune connexion de données disponible</string>
+    <string name="error_reading_title">Vous ne pouvez pas lire les propriétés</string>
+    <string name="update_file_title">Mise à jour :</string>
+    <string name="reboot">Tout est fait! Redémarrez votre appareil maintenant.</string>
+    <string name="reboot_ok">Redémarrez maintenant</string>
+    <string name="reboot_cancel">Ne pas redémarrer</string>
+    <string name="refresh_button">Rafraîchir</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Configuration OTA</string>    
+    <string name="update_interval_title">Intervalle de vérification de mise à jour automatique</string>
+    <string name="update_interval_summary">Définir l\'intervalle de vérification de mise à jour automatique</string>
+    <string name="update_interval_day">Toutes les 24 heures</string>
+    <string name="update_interval_half_day">Toutes les 12 heures</string>
+    <string name="update_interval_hour">Toutes les heures</string>
+    <string name="update_interval_disable">Désactivée</string>
+
+    <!-- Error messages -->
+    <string name="system_prop_error">Impossible de lire les propriétés du système</string>
+
+    <string name="bad_url">Impossible d\'obtenir la zone de téléchargement.\nVeuillez informez le responsable de l\'appareil !</string>
+
+    <string name="menu_update">Rechercher les mises à jour maintenant</string>
+    <string name="toast_text">Recherche des mises à jour, veuillez patienter.</string>
+    <string name="toast_no_data_text">Aucune connexion de données. Veuillez l\'allumer</string>
+
+    <!-- Shortcut fragment -->
+    <string name="short_cut_release_title">Associé à la Rom</string>
+    <string name="short_cut_changelog_title">Journal des changements</string>
+    <string name="short_cut_changelog_summary_update_available">Important !!! Lire attentivement le journal des changements</string>
+    <string name="short_cut_download_summary_update_available">Nouvelle mise à jour disponible, cliquez ici pour la télécharger !</string>
+    <string name="short_cut_changelog_summary">Voir journal des changements</string>
+    <string name="short_cut_additional_title">Supplémentaire</string>
+    <string name="short_cut_faq_title">FAQ</string>
+    <string name="short_cut_faq_summary">Prochainement !</string>
+    <string name="short_cut_news_title">Nouvelles</string>
+    <string name="short_cut_news_summary">Lire les dernières nouvelles</string>
+    <string name="short_cut_download_title">Téléchargements</string>
+    <string name="short_cut_download_uptodate_summary">Télécharger la dernière version</string>
+    <string name="short_cut_download_gapps_title">Gapps</string>
+    <string name="short_cut_download_gapps_summary">Télécharger les dernières Gapps</string>
+
+    <!-- URL's -->
+    <string name="download_url">http://forum.resurrectionremix.com/index.php?topic=2037</string>
+    <string name="changelog_url">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/lollipop5.1/CHANGELOG.mkdn</string>
+
+    <string name="gapps_url">https://github.com/cgapps/vendor_google/blob/builds/arm64/gapps-5.1-2015-06-02-15-20.zip?raw=true</string>
+
+    <!-- Update checker -->
+    <string name="xml_url">http://resurrectionremix-ota-server.github.io/ota.xml</string>
+    <string name="notification_message">Mise à jour de la ROM disponible</string>
+
+    <!-- About -->
+    <string name="googleplus_title">Google+</string>
+    <string name="googleplus_summary">Visiter la communauté Google+</string>
+    <string name="about_title">À propos</string>
+    <string name="devs">Développeur</string>
+    <string name="website_title">Site web</string>
+    <string name="website_summary">Trouvez ici toutes les dernières nouvelles</string>
+    <string name="donate_title">Faire un don</string>
+    <string name="donate_summary">Faire un don</string>
+    <string name="source_title">Source</string>
+    <string name="source_summary">github.com/ResurrectionRemix</string>
+    <string name="center_summary"><b>OTA Center</b> fournit des outils et informations pour aider à rendre votre expérience avec Resurrection Remix encore meilleure. Mettez vous à niveau vers la dernière version de notre ROM avec le <b>Centre OTA</b>.</string>
+
+    <string name="bugreport_title">Rapport de bug</string>
+    <string name="bugreport_summary">Créer un rapport complet de bug</string>
+    <string name="report_infosuccess">Crée un rapport système, le fournir à Resurrection Remix. Vous pouvez trouver le fichier Zip sur votre carte SD dans un répertoire appelé \"BugReport\".</string>
+
+    <string name="report_infofail">Echec de la création du rapport de bug, veuillez essayer à nouveau.</string>
+
+    <string name="about_home_url"><a href="http://resurrectionremix.com/">Site Resurrection Remix</a></string>
+    <string name="about_ota">Le centre OTA vous permet de gérer facilement\n votre Rom !</string>
+    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifié pour Resurrection Remix</string>
+    <string name="about_version">OTACenter 2.0</string>
+    <string name="about_contact">Contactez-nous</string>
+    <string name="about_contact_text">Dites-nous ce que vous pensez\nou nous informer d\'un bug ou d\'un problème</string>
+    <string name="about_license">Licence open source</string>
+    <string name="about_license_text">OTACenter app:</string>
+    <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
+
+    <!-- Sizer  -->
+    <string name="listsystem">liste</string>
+    <string name="sizer_title">Applications système</string>
+    <string name="caution">Mise en garde !</string>
+
+    <string name="sizer_message_startup">Cet outil vous permet de supprimer des applications système. À utiliser avec prudence et seulement supprimer des applications que vous connaissez.</string>
+
+    <string name="cancel">Annuler</string>
+    <string name="sizer_message_delete">Êtes-vous sûr de vouloir supprimer cette application ?</string>
+    <string name="sizer_message_delete_multi_one">Etes-vous sûr que vous voulez supprimer l\'application sélectionnée ?</string>
+    <string name="sizer_message_delete_multi">Êtes-vous sûr de vouloir supprimer les applications sélectionnées ?</string>
+    <string name="btn_delete">Supprimer des applications sélectionnées maintenant !</string>
+    <string name="delete_progress_title">Suppression</string>
+    <string name="delete_progress">Les fichiers sélectionnés sont mis à jour, veuillez patienter.</string>
+    <string name="delete_success">Supprimé</string>
+    <string name="delete_fail">Impossible de supprimer</string>
+    <string name="btn_profile">Profil</string>
+    <string name="sizer_message_sdnowrite">Impossible d\'écrire sur la carte SD.</string>
+    <string name="sizer_message_sdnoread">Impossible de lire sur carte SD.</string>
+    <string name="sizer_message_filesuccess">Crée un profil.</string>
+    <string name="sizer_message_filefail">Impossible de créer un profil.</string>
+    <string name="sizer_message_noselect">Rien de sélectionné.</string>
+    <string name="ota_title">Mise à jour</string>
+</resources>
