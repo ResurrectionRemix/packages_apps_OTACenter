@@ -183,7 +183,7 @@ public class RROTA extends PreferenceFragment implements OnSharedPreferenceChang
             mStrUpToDate = getString(R.string.error_reading_title);
         } else if (updateFile.compareToIgnoreCase(mStrCurVer)<=0) {
             mStrUpToDate = getString(R.string.up_to_date_title);
-            mUpdateFile.setTextColor(0x2196F3);
+            mUpdateFile.setTextColor(0xff9E9E9E);
         } else {
             mStrUpToDate = updateFile;
         }
