@@ -106,12 +106,12 @@ public class RRLinks extends Fragment {
                         && mStrFileURLNew != "") {
                     launchUrl(mStrFileURLNew);
                 } else {
-                    launchUrl(getString(R.string.download_url));
+                    launchUrl(getString(R.string.rr_download_url));
                 }
             } else if (v == mChangelog) {
-                launchUrl(getString(R.string.changelog_url));
+                launchUrl(getString(R.string.rr_changelog_url));
             } else if (v == mDownloadGapps) {
-                launchUrl(getString(R.string.gapps_url));
+                launchUrl(getString(R.string.rr_gapps_url));
             } else if (v == mGoogleplus) {
                 launchUrl("https://plus.google.com/u/0/communities/109352646351468373340");
             } else if (v == mSource) {
