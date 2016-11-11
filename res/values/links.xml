@@ -16,7 +16,7 @@
 -->
 <resources>
     <!-- URL's -->
-    <string name="rr_download_url">http://forum.resurrectionremix.com/index.php?topic=2037</string>
+    <string name="rr_download_url">https://basketbuild.com/devs/resurrectionremix</string>
     <string name="rr_changelog_url">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/lollipop5.1/CHANGELOG.mkdn</string>
-    <string name="rr_gapps_url">https://github.com/cgapps/vendor_google/blob/builds/arm/gapps-5.1-arm-2015-07-17-13-29.zip?raw=true</string>
+    <string name="rr_gapps_url">http://opengapps.org/</string>
 </resources>
